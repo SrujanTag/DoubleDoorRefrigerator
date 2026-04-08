@@ -12,7 +12,8 @@ const Icons = {
   Plus: () => <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>,
   Heart: ({ fill }) => <svg width="20" height="20" viewBox="0 0 24 24" fill={fill} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>,
   X: () => <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>,
-  Sparkles: () => <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18"/><path d="M3 12h18"/><path d="m18.36 5.64-12.72 12.72"/><path d="m5.64 5.64 12.72 12.72"/></svg>
+  Sparkles: () => <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18"/><path d="M3 12h18"/><path d="m18.36 5.64-12.72 12.72"/><path d="m5.64 5.64 12.72 12.72"/></svg>,
+  ArrowLeft: () => <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
 };
 
 const Header = ({ setShowAuth, navigateTo, wishlist, setWishlist }) => {
@@ -150,6 +151,14 @@ const ProductCard = ({ product, compareList, setCompareList, wishlist, setWishli
           {product.isNew && <span className="badge-new">New product / </span>}
           <h3 className="product-title">{product.title}</h3>
           <p className="product-subtitle">{product.subtitle}</p>
+          {product.scores && product.scores.Overall && (
+            <div style={{ marginTop: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <div style={{ background: 'var(--primary)', color: 'white', padding: '0.2rem 0.5rem', borderRadius: '4px', fontSize: '0.8rem', fontWeight: 'bold' }}>
+                {product.scores.Overall}
+              </div>
+              <span style={{ fontSize: '0.8rem', color: '#6b7280' }}>CompareXscore</span>
+            </div>
+          )}
         </div>
       </div>
       <div className="card-actions">
@@ -304,14 +313,45 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
               <h3 className="heading-md">{product.title}</h3>
               <p className="product-subtitle" style={{marginBottom: '1.5rem'}}>{product.category}</p>
 
+              <h4 className="heading-sm" style={{marginTop: '1.5rem', marginBottom: '0.5rem'}}>Scores</h4>
+              {product.scores && (
+                <div style={{marginBottom: '1.5rem'}}>
+                  <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '0.5rem', fontWeight: 'bold'}}>
+                    <span>Overall</span>
+                    <span style={{color: 'var(--primary)'}}>{product.scores.Overall}</span>
+                  </div>
+                  {Object.entries(product.scores).filter(([k]) => k !== 'Overall').map(([key, value]) => (
+                    <div key={key} style={{display: 'flex', justifyContent: 'space-between', fontSize: '0.875rem', marginBottom: '0.2rem'}}>
+                      <span>{key}</span>
+                      <span>{value}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              <h4 className="heading-sm" style={{marginTop: '1.5rem', marginBottom: '0.5rem'}}>Specifications</h4>
               <dl className="feature-list">
-                {Object.entries(product.features).map(([key, value]) => (
+                {Object.entries(product.specifications || product.features).map(([key, value]) => (
                   <React.Fragment key={key}>
                     <dt>{key}</dt>
                     <dd>{value}</dd>
                   </React.Fragment>
                 ))}
               </dl>
+
+              {product.benchmarks && (
+                <>
+                  <h4 className="heading-sm" style={{marginTop: '1.5rem', marginBottom: '0.5rem'}}>User Benchmarks</h4>
+                  <dl className="feature-list">
+                    {Object.entries(product.benchmarks).map(([key, value]) => (
+                      <React.Fragment key={key}>
+                        <dt>{key}</dt>
+                        <dd>{value}</dd>
+                      </React.Fragment>
+                    ))}
+                  </dl>
+                </>
+              )}
             </div>
           ))}
         </div>
@@ -360,46 +400,166 @@ const ProductDetail = ({ productId, navigateTo }) => {
 
   if (!product) return <div>Product Not Found</div>;
 
+  const avgRating = product.ratingStats?.avg || "0.0";
+  const ratingCounts = product.ratingStats || {total: 0, 5: 0, 4: 0, 3: 0, 2: 0, 1: 0};
+
   return (
     <div>
-      <section className="hero" style={{ padding: '8rem 2rem 4rem' }}>
-        <div className="hero-content">
-          <div className="link-action" style={{marginBottom: '1rem', cursor: 'pointer', color: 'white'}} onClick={() => navigateTo('category', product.category)}>← Back to {product.category}</div>
-          <h1 className="heading-lg">{product.title}</h1>
-          <p className="hero-subtitle">{product.category}</p>
+      <section className="hero" style={{ padding: '6rem 2rem 2rem', position: 'relative' }}>
+        <div style={{ position: 'absolute', top: '5.5rem', left: '2rem', zIndex: 10 }}>
+          <div style={{ cursor: 'pointer', color: 'white', display: 'inline-block', transition: 'transform 0.2s', padding: '0.5rem 0' }} onClick={() => navigateTo('category', product.category)} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+            <Icons.ArrowLeft />
+          </div>
         </div>
         <WaveDivider />
       </section>
 
-      <section className="products-section">
-        <div className="compare-grid">
-          <div style={{gridColumn: 'span 1'}}>
+      <section className="products-section" style={{ paddingTop: '0', marginTop: '-4rem', position: 'relative', zIndex: 20 }}>
+        {/* Image Left, Name Center/Right with 2-lines small text below */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '3rem', marginBottom: '3rem', background: 'white', padding: '2rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+          <div style={{ flex: '0 0 250px' }}>
             {product.image ? (
-              <img src={product.image} alt={product.title} className="compare-img" style={{maxWidth: '100%', aspectRatio: 'auto'}} />
+              <img src={product.image} alt={product.title} style={{maxWidth: '100%', height: 'auto', borderRadius: '8px', objectFit: 'contain'}} />
             ) : (
-              <div style={{background: '#f3f4f6', height: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px'}}>
+              <div style={{background: '#f3f4f6', height: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px'}}>
                 <span style={{color: '#9ca3af'}}>Image Placeholder</span>
               </div>
             )}
           </div>
-          <div style={{gridColumn: 'span 2'}}>
-            <div className="ai-summary">
-              <div className="ai-summary-header"><Icons.Sparkles /> AI Review Summary</div>
-              <p>{generateAISummary(product)}</p>
-            </div>
+          <div style={{ flex: '1', display: 'flex', flexDirection: 'column', paddingRight: '2rem' }}>
+            <h1 className="heading-xl" style={{ margin: 0, color: '#111827' }}>{product.title}</h1>
+            <p style={{fontSize: '0.85rem', color: '#6b7280', lineHeight: '1.5', marginTop: '0.5rem', maxWidth: '600px'}}>
+              {product.subtitle}. This {product.category.toLowerCase()} is highly documented emphasizing pure performance. <br/>
+              CompareX aggregate data confirms it stands out for long-term usage and robust feature inclusion.
+            </p>
+          </div>
+        </div>
 
-            <div className="reviews-section">
-              <h3 className="heading-md" style={{marginBottom: '1rem'}}>User Reviews ({product.reviews?.length || 0})</h3>
-              {product.reviews?.map((r, i) => (
-                <div key={i} className="review-card">
-                  <div className="review-header">
-                    <strong>{r.user}</strong>
-                    <span>{'★'.repeat(r.rating)}{'☆'.repeat(5-r.rating)}</span>
-                  </div>
-                  <p>{r.comment}</p>
+        {/* Specifications */}
+        {product.specifications && (
+          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>Specifications</h3>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1.5rem' }}>
+              {Object.entries(product.specifications).map(([key, value]) => (
+                <div key={key} style={{ background: '#f9fafb', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
+                  <div style={{ color: '#6b7280', fontSize: '0.875rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{key}</div>
+                  <div style={{ fontWeight: '600', color: '#111827', fontSize: '1.1rem' }}>{value}</div>
                 </div>
               ))}
             </div>
+          </div>
+        )}
+
+        {/* CompareXscore */}
+        {product.scores && (
+          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+            <h3 className="heading-lg" style={{marginBottom: '2rem'}}>CompareXscore</h3>
+            <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '3rem', alignItems: 'center' }}>
+              <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                <div style={{width: '140px', height: '140px', borderRadius: '50%', border: '10px solid var(--primary)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                  <span style={{ fontSize: '3rem', fontWeight: 'bold', color: '#111827', lineHeight: '1' }}>{product.scores.Overall}</span>
+                  <span style={{ fontSize: '0.9rem', color: '#6b7280' }}>out of 100</span>
+                </div>
+                <div style={{marginTop: '1rem', fontWeight: '600', color: '#4b5563'}}>Overall Score</div>
+              </div>
+              
+              <div>
+                {Object.entries(product.scores).filter(([k]) => k !== 'Overall').map(([key, value]) => (
+                  <div key={key} style={{marginBottom: '1rem'}}>
+                    <div style={{display: 'flex', justifyContent: 'space-between', fontSize: '1rem', marginBottom: '0.3rem'}}>
+                      <span style={{fontWeight: '500', color: '#374151'}}>{key}</span>
+                      <span style={{fontWeight: 'bold', color: 'var(--primary)'}}>{value}/100</span>
+                    </div>
+                    <div style={{height: '10px', background: '#e5e7eb', borderRadius: '5px', overflow: 'hidden'}}>
+                      <div style={{height: '100%', width: value + '%', background: 'var(--primary)', borderRadius: '5px'}}></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* User Benchmarks */}
+        {product.benchmarks && (
+          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', border: '2px solid #f3f4f6' }}>
+            <h3 className="heading-lg" style={{marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem'}}><Icons.Sparkles /> User Benchmarks</h3>
+            <p style={{color: '#6b7280', marginBottom: '2rem'}}>Aggregated real-life benchmarks and metrics calculated using community hardware reporting.</p>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
+              {Object.entries(product.benchmarks).map(([key, value]) => (
+                <div key={key} style={{ background: '#111827', color: 'white', padding: '1.5rem', borderRadius: '8px' }}>
+                  <div style={{ color: '#9ca3af', fontSize: '0.875rem', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{key}</div>
+                  <div style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>{value}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Buy Links */}
+        {product.prices && (
+          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>Where to buy</h3>
+            <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem'}}>
+              {Object.entries(product.prices).map(([store, details]) => (
+                <a href={details.link} target="_blank" rel="noopener noreferrer" key={store} style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem', border: '1px solid #e5e7eb', borderRadius: '8px', textDecoration: 'none', color: 'inherit', background: '#f9fafb', transition: 'all 0.2s'}}>
+                  <span style={{textTransform: 'capitalize', fontWeight: '600', fontSize: '1.1rem'}}>{store}</span>
+                  <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
+                    <span style={{fontWeight: '900', color: 'var(--primary)', fontSize: '1.2rem'}}>{details.price}</span>
+                    <Icons.Globe />
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {/* Ratings Summary */}
+        <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+           <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>User Ratings Summary</h3>
+           <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '3rem', alignItems: 'center' }}>
+             <div style={{ textAlign: 'center' }}>
+               <div style={{ fontSize: '4rem', fontWeight: 'bold', color: '#111827', lineHeight: '1' }}>{avgRating}</div>
+               <div style={{ color: '#fbbf24', fontSize: '1.5rem', margin: '0.5rem 0' }}>{'★'.repeat(Math.round(avgRating))}{'☆'.repeat(5-Math.round(avgRating))}</div>
+               <div style={{ color: '#6b7280' }}>Based on {ratingCounts.total.toLocaleString()} ratings</div>
+             </div>
+             <div>
+               {[5, 4, 3, 2, 1].map(stars => {
+                 const count = ratingCounts[stars];
+                 const pct = ratingCounts.total > 0 ? (count / ratingCounts.total) * 100 : 0;
+                 return (
+                   <div key={stars} style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '0.5rem' }}>
+                     <div style={{ width: '60px', color: '#4b5563', fontWeight: '500' }}>{stars} Stars</div>
+                     <div style={{ flex: '1', height: '12px', background: '#e5e7eb', borderRadius: '6px', overflow: 'hidden' }}>
+                       <div style={{ height: '100%', width: pct + '%', background: '#fbbf24', borderRadius: '6px' }}></div>
+                     </div>
+                     <div style={{ width: '60px', textAlign: 'right', color: '#6b7280', fontSize: '0.9rem' }}>{count.toLocaleString()}</div>
+                   </div>
+                 );
+               })}
+             </div>
+           </div>
+        </div>
+
+        {/* AI Summary */}
+        <div className="ai-summary" style={{ marginBottom: '2rem' }}>
+          <div className="ai-summary-header"><Icons.Sparkles /> AI Review Summary</div>
+          <p style={{fontSize: '1.1rem', lineHeight: '1.6'}}>{generateAISummary(product)}</p>
+        </div>
+
+        {/* Latest Reviews */}
+        <div className="reviews-section">
+          <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>Latest Reviews</h3>
+          <div style={{display: 'flex', flexDirection: 'column', gap: '1rem'}}>
+            {product.reviews?.slice(0, 4).map((r, i) => (
+              <div key={i} className="review-card" style={{padding: '1.5rem'}}>
+                <div className="review-header" style={{marginBottom: '1rem'}}>
+                  <strong style={{fontSize: '1.1rem'}}>{r.user}</strong>
+                  <span style={{color: '#fbbf24', fontSize: '1.1rem'}}>{'★'.repeat(r.rating)}<span style={{color: '#e5e7eb'}}>{'★'.repeat(5-r.rating)}</span></span>
+                </div>
+                <p style={{fontSize: '1rem', lineHeight: '1.6', color: '#374151'}}>{r.comment}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
