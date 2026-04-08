@@ -15,13 +15,14 @@ const Icons = {
   Sparkles: () => <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18"/><path d="M3 12h18"/><path d="m18.36 5.64-12.72 12.72"/><path d="m5.64 5.64 12.72 12.72"/></svg>
 };
 
-const Header = ({ setShowAuth, navigateTo }) => {
+const Header = ({ setShowAuth, navigateTo, wishlist, setWishlist }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
     <header className="header">
       <div onClick={() => navigateTo('home')} className="header-logo" style={{cursor: 'pointer'}}>CompareX</div>
       <nav className="header-nav">
+        <div className="nav-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>HOME</div>
         <div 
           className="nav-link dropdown-container" 
           onMouseEnter={() => setDropdownOpen(true)}
@@ -46,6 +47,13 @@ const Header = ({ setShowAuth, navigateTo }) => {
         <div className="nav-link" style={{cursor:'pointer'}} onClick={() => navigateTo('category', 'TOOLS')}>TOOLS</div>
       </nav>
       <div className="header-actions">
+        <div 
+          style={{ cursor: 'pointer', position: 'relative' }} 
+          onClick={() => navigateTo('wishlist')}
+        >
+          <Icons.Heart fill={wishlist?.length > 0 ? "currentColor" : "none"} />
+          {wishlist?.length > 0 && <span style={{position:'absolute', top:-8, right:-8, background:'var(--secondary)', color:'white', fontSize:'0.7rem', fontWeight:'bold', padding:'2px 6px', borderRadius:'10px'}}>{wishlist.length}</span>}
+        </div>
         <div style={{ cursor: 'pointer' }}><Icons.Globe /></div>
         <div style={{ cursor: 'pointer' }} onClick={() => setShowAuth(true)}><Icons.User /></div>
       </div>
@@ -184,7 +192,7 @@ const Home = ({ compareList, setCompareList, wishlist, setWishlist, navigateTo }
     <div>
       <section className="hero">
         <div className="hero-content">
-          <h1 className="heading-xl">compare everything</h1>
+          <h1 className="heading-xl">Compare Everything</h1>
           <p className="hero-subtitle">Compare Hardware, Software, Tools, and much more</p>
           <div className="search-container">
             <input type="text" className="search-input" placeholder="Type here to compare" />
@@ -312,6 +320,41 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
   );
 };
 
+const WishlistPage = ({ wishlist, setWishlist, navigateTo, compareList, setCompareList }) => {
+  return (
+    <div>
+      <section className="hero" style={{ padding: '8rem 2rem 4rem' }}>
+        <div className="hero-content">
+          <h1 className="heading-xl">Your Wishlist</h1>
+          <p className="hero-subtitle">{wishlist.length} items saved</p>
+        </div>
+        <WaveDivider />
+      </section>
+
+      <section className="products-section">
+        {wishlist.length === 0 ? (
+          <div style={{ textAlign: 'center', padding: '4rem 0' }}>
+            <h2 className="heading-md" style={{ color: '#9ca3af' }}>Your wishlist is currently empty.</h2>
+            <button className="btn btn-primary" style={{marginTop: '2rem'}} onClick={() => navigateTo('home')}>Explore Products</button>
+          </div>
+        ) : (
+          <div className="product-grid">
+            {wishlist.map(product => (
+              <ProductCard 
+                key={product.id} 
+                product={product} 
+                compareList={compareList} setCompareList={setCompareList}
+                wishlist={wishlist} setWishlist={setWishlist}
+                navigateTo={navigateTo}
+              />
+            ))}
+          </div>
+        )}
+      </section>
+    </div>
+  );
+};
+
 const ProductDetail = ({ productId, navigateTo }) => {
   const product = productsData.find(p => p.id === productId);
 
@@ -412,7 +455,7 @@ const App = () => {
 
   return (
     <div className="app-container">
-      <Header setShowAuth={setShowAuth} navigateTo={navigateTo} />
+      <Header setShowAuth={setShowAuth} navigateTo={navigateTo} wishlist={wishlist} setWishlist={setWishlist} />
       
       <main className="main-content" style={{ paddingBottom: '100px' }}>
         {currentPage === 'home' && 
@@ -439,6 +482,13 @@ const App = () => {
         {currentPage === 'product' && 
           <ProductDetail 
             productId={currentParam} 
+            navigateTo={navigateTo}
+          />
+        }
+        {currentPage === 'wishlist' && 
+          <WishlistPage 
+            wishlist={wishlist} setWishlist={setWishlist} 
+            compareList={compareList} setCompareList={setCompareList}
             navigateTo={navigateTo}
           />
         }

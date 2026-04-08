@@ -1,6 +1,6 @@
 Set-Location $PSScriptRoot
-$Date = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+$msg = Read-Host "Enter commit message"
 git pull origin main
 git add .
-git commit -m "$Date"
+git commit -m "$msg"
 git push
