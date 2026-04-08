@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SpendWise 
 Smart Expense Tracking & Group Splitting App
 
@@ -15,4 +16,4 @@ Data Visualization: Interactive charts to see where your money goes.
 # The Team
 Team Lead: Srujan Tagalpallewar
 
-Members: Kartikey Chaudhary, Harsh Agrawal, Shambhavi Verma
+Members: Kartikey Chaudhary, Harsh Agrawal, Shambhavi Verma, Aviral Sonker
