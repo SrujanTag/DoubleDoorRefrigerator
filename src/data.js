@@ -39,42 +39,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Samsung%20990%20Pro+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Samsung%20990%20Pro",
+    "image": "https://logo.clearbit.com/samsung.com",
     "reviews": [
       {
-        "user": "User87761",
-        "rating": 5,
-        "comment": "Outstanding product! The Storage IO is top tier. I've also noticed great improvements in Storage IO. Highly recommend."
-      },
-      {
-        "user": "User68214",
+        "user": "User17362",
         "rating": 4,
-        "comment": "Very solid choice. The speed is definitely a plus. However, the boot times could be a bit better. Overall very happy."
+        "comment": "Very excellent choice. The boot times is definitely a plus. However, the cooling could be a bit better. Overall very happy."
       },
       {
-        "user": "User62180",
+        "user": "User84568",
+        "rating": 3,
+        "comment": "Good enough for the price, but fell short on cooling. Maybe look around before committing."
+      },
+      {
+        "user": "User59164",
         "rating": 4,
-        "comment": "Very incredible choice. The cooling is definitely a plus. However, the speed could be a bit better. Overall very happy."
+        "comment": "Very great choice. The cooling is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
       },
       {
-        "user": "User57421",
+        "user": "User83189",
         "rating": 5,
-        "comment": "Solid product! The Storage IO is top tier. I've also noticed great improvements in cooling. Highly recommend."
+        "comment": "Incredible product! The Storage IO is top tier. I've also noticed great improvements in speed. Highly recommend."
+      },
+      {
+        "user": "User62649",
+        "rating": 5,
+        "comment": "Solid product! The Storage IO is top tier. I've also noticed great improvements in speed. Highly recommend."
       }
     ],
     "benchmarks": {
-      "CDM Seq Read": "6998 MB/s",
-      "CDM Seq Write": "7595 MB/s",
-      "Random 4K Read": "1040K IOPS",
-      "Avg Load Temp": "68°C"
+      "CDM Seq Read": "7311 MB/s",
+      "CDM Seq Write": "6623 MB/s",
+      "Random 4K Read": "1010K IOPS",
+      "Avg Load Temp": "76°C"
     },
     "ratingStats": {
-      "1": 397,
-      "2": 56,
-      "3": 170,
-      "4": 568,
-      "5": 4490,
-      "total": 5681,
+      "1": 494,
+      "2": 70,
+      "3": 212,
+      "4": 708,
+      "5": 5596,
+      "total": 7080,
       "avg": "4.5"
     }
   },
@@ -117,42 +122,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=WD%20Black%20SN850X+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=WD%20Black%20SN850X",
+    "image": "https://logo.clearbit.com/westerndigital.com",
     "reviews": [
       {
-        "user": "User89716",
+        "user": "User57949",
         "rating": 5,
-        "comment": "Solid product! The file transfer times is top tier. I've also noticed great improvements in boot times. Highly recommend."
+        "comment": "Excellent product! The speed is top tier. I've also noticed great improvements in file transfer times. Highly recommend."
       },
       {
-        "user": "User50434",
+        "user": "User47346",
+        "rating": 2,
+        "comment": "Good enough for the price, but fell short on Storage IO. Maybe look around before committing."
+      },
+      {
+        "user": "User62749",
         "rating": 4,
-        "comment": "Very solid choice. The cooling is definitely a plus. However, the cooling could be a bit better. Overall very happy."
+        "comment": "Very fantastic choice. The cooling is definitely a plus. However, the Storage IO could be a bit better. Overall very happy."
       },
       {
-        "user": "User72126",
+        "user": "User82094",
         "rating": 4,
-        "comment": "Very excellent choice. The speed is definitely a plus. However, the Storage IO could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User43630",
-        "rating": 5,
-        "comment": "Excellent product! The boot times is top tier. I've also noticed great improvements in Storage IO. Highly recommend."
+        "comment": "Very great choice. The cooling is definitely a plus. However, the Storage IO could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "CDM Seq Read": "7939 MB/s",
-      "CDM Seq Write": "6311 MB/s",
-      "Random 4K Read": "1122K IOPS",
-      "Avg Load Temp": "69°C"
+      "CDM Seq Read": "7049 MB/s",
+      "CDM Seq Write": "6971 MB/s",
+      "Random 4K Read": "1093K IOPS",
+      "Avg Load Temp": "63°C"
     },
     "ratingStats": {
-      "1": 764,
-      "2": 97,
-      "3": 292,
-      "4": 976,
-      "5": 7633,
-      "total": 9762,
+      "1": 275,
+      "2": 35,
+      "3": 105,
+      "4": 350,
+      "5": 2740,
+      "total": 3505,
       "avg": "4.5"
     }
   },
@@ -195,52 +200,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20T700+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Crucial%20T700",
+    "image": "https://logo.clearbit.com/crucial.com",
     "reviews": [
       {
-        "user": "User64903",
-        "rating": 3,
-        "comment": "Okay for the price, but fell short on boot times. Maybe look around before committing."
-      },
-      {
-        "user": "User41911",
+        "user": "User88150",
         "rating": 4,
-        "comment": "Very incredible choice. The speed is definitely a plus. However, the Storage IO could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The boot times is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
       },
       {
-        "user": "User91651",
+        "user": "User59164",
         "rating": 4,
-        "comment": "Very brilliant choice. The speed is definitely a plus. However, the speed could be a bit better. Overall very happy."
+        "comment": "Very solid choice. The cooling is definitely a plus. However, the cooling could be a bit better. Overall very happy."
       },
       {
-        "user": "User49456",
+        "user": "User97658",
+        "rating": 4,
+        "comment": "Very fantastic choice. The cooling is definitely a plus. However, the boot times could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User92388",
         "rating": 5,
-        "comment": "Brilliant product! The cooling is top tier. I've also noticed great improvements in Storage IO. Highly recommend."
-      },
-      {
-        "user": "User82699",
-        "rating": 2,
-        "comment": "Decent for the price, but fell short on speed. Maybe look around before committing."
-      },
-      {
-        "user": "User38666",
-        "rating": 2,
-        "comment": "Decent for the price, but fell short on boot times. Maybe look around before committing."
+        "comment": "Fantastic product! The speed is top tier. I've also noticed great improvements in file transfer times. Highly recommend."
       }
     ],
     "benchmarks": {
-      "CDM Seq Read": "6612 MB/s",
-      "CDM Seq Write": "6935 MB/s",
-      "Random 4K Read": "909K IOPS",
-      "Avg Load Temp": "60°C"
+      "CDM Seq Read": "6622 MB/s",
+      "CDM Seq Write": "6476 MB/s",
+      "Random 4K Read": "964K IOPS",
+      "Avg Load Temp": "67°C"
     },
     "ratingStats": {
-      "1": 699,
-      "2": 47,
-      "3": 143,
-      "4": 477,
-      "5": 3410,
-      "total": 4776,
+      "1": 864,
+      "2": 59,
+      "3": 177,
+      "4": 590,
+      "5": 4219,
+      "total": 5909,
       "avg": "4.2"
     }
   },
@@ -283,52 +278,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Kingston%20KC3000+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Kingston%20KC3000",
+    "image": "https://logo.clearbit.com/kingston.com",
     "reviews": [
       {
-        "user": "User71807",
+        "user": "User22554",
+        "rating": 5,
+        "comment": "Incredible product! The cooling is top tier. I've also noticed great improvements in file transfer times. Highly recommend."
+      },
+      {
+        "user": "User97561",
+        "rating": 3,
+        "comment": "Decent for the price, but fell short on cooling. Maybe look around before committing."
+      },
+      {
+        "user": "User12855",
+        "rating": 5,
+        "comment": "Incredible product! The speed is top tier. I've also noticed great improvements in speed. Highly recommend."
+      },
+      {
+        "user": "User64851",
+        "rating": 5,
+        "comment": "Solid product! The Storage IO is top tier. I've also noticed great improvements in cooling. Highly recommend."
+      },
+      {
+        "user": "User66869",
         "rating": 4,
-        "comment": "Very incredible choice. The cooling is definitely a plus. However, the cooling could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User78503",
-        "rating": 5,
-        "comment": "Fantastic product! The cooling is top tier. I've also noticed great improvements in Storage IO. Highly recommend."
-      },
-      {
-        "user": "User65361",
-        "rating": 5,
-        "comment": "Outstanding product! The cooling is top tier. I've also noticed great improvements in cooling. Highly recommend."
-      },
-      {
-        "user": "User45052",
-        "rating": 2,
-        "comment": "Good enough for the price, but fell short on file transfer times. Maybe look around before committing."
-      },
-      {
-        "user": "User75052",
-        "rating": 4,
-        "comment": "Very brilliant choice. The boot times is definitely a plus. However, the Storage IO could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User20394",
-        "rating": 5,
-        "comment": "Great product! The speed is top tier. I've also noticed great improvements in file transfer times. Highly recommend."
+        "comment": "Very great choice. The speed is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "CDM Seq Read": "7165 MB/s",
+      "CDM Seq Read": "8210 MB/s",
       "CDM Seq Write": "6951 MB/s",
-      "Random 4K Read": "1092K IOPS",
-      "Avg Load Temp": "76°C"
+      "Random 4K Read": "995K IOPS",
+      "Avg Load Temp": "75°C"
     },
     "ratingStats": {
-      "1": 210,
-      "2": 30,
-      "3": 90,
-      "4": 300,
-      "5": 2375,
-      "total": 3005,
+      "1": 396,
+      "2": 56,
+      "3": 169,
+      "4": 566,
+      "5": 4476,
+      "total": 5663,
       "avg": "4.5"
     }
   },
@@ -371,47 +361,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Sabrent%20Rocket%204%20Plus+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Sabrent%20Rocket%204%20Plus",
+    "image": "https://logo.clearbit.com/sabrent.com",
     "reviews": [
       {
-        "user": "User26064",
-        "rating": 3,
-        "comment": "Average for the price, but fell short on boot times. Maybe look around before committing."
-      },
-      {
-        "user": "User17880",
+        "user": "User12868",
         "rating": 4,
-        "comment": "Very excellent choice. The speed is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
+        "comment": "Very solid choice. The file transfer times is definitely a plus. However, the speed could be a bit better. Overall very happy."
       },
       {
-        "user": "User56308",
-        "rating": 2,
-        "comment": "Acceptable for the price, but fell short on cooling. Maybe look around before committing."
+        "user": "User79425",
+        "rating": 4,
+        "comment": "Very fantastic choice. The file transfer times is definitely a plus. However, the cooling could be a bit better. Overall very happy."
       },
       {
-        "user": "User34925",
+        "user": "User84523",
         "rating": 5,
-        "comment": "Great product! The boot times is top tier. I've also noticed great improvements in boot times. Highly recommend."
+        "comment": "Incredible product! The speed is top tier. I've also noticed great improvements in cooling. Highly recommend."
       },
       {
-        "user": "User41269",
+        "user": "User64645",
         "rating": 5,
-        "comment": "Brilliant product! The boot times is top tier. I've also noticed great improvements in speed. Highly recommend."
+        "comment": "Great product! The speed is top tier. I've also noticed great improvements in cooling. Highly recommend."
+      },
+      {
+        "user": "User16809",
+        "rating": 3,
+        "comment": "Okay for the price, but fell short on Storage IO. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "CDM Seq Read": "7406 MB/s",
-      "CDM Seq Write": "6670 MB/s",
-      "Random 4K Read": "1014K IOPS",
-      "Avg Load Temp": "66°C"
+      "CDM Seq Read": "7896 MB/s",
+      "CDM Seq Write": "6865 MB/s",
+      "Random 4K Read": "1037K IOPS",
+      "Avg Load Temp": "69°C"
     },
     "ratingStats": {
-      "1": 964,
-      "2": 93,
-      "3": 279,
-      "4": 930,
-      "5": 7036,
-      "total": 9302,
+      "1": 542,
+      "2": 52,
+      "3": 156,
+      "4": 521,
+      "5": 3948,
+      "total": 5219,
       "avg": "4.4"
     }
   },
@@ -454,42 +444,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=TeamGroup%20MP34+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=TeamGroup%20MP34",
+    "image": "https://logo.clearbit.com/teamgroupinc.com",
     "reviews": [
       {
-        "user": "User40085",
-        "rating": 4,
-        "comment": "Very incredible choice. The cooling is definitely a plus. However, the boot times could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User70520",
+        "user": "User85401",
         "rating": 5,
-        "comment": "Great product! The file transfer times is top tier. I've also noticed great improvements in cooling. Highly recommend."
+        "comment": "Fantastic product! The speed is top tier. I've also noticed great improvements in Storage IO. Highly recommend."
       },
       {
-        "user": "User31331",
-        "rating": 4,
-        "comment": "Very fantastic choice. The boot times is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User60237",
+        "user": "User61246",
         "rating": 3,
-        "comment": "Good enough for the price, but fell short on Storage IO. Maybe look around before committing."
+        "comment": "Good enough for the price, but fell short on file transfer times. Maybe look around before committing."
+      },
+      {
+        "user": "User20522",
+        "rating": 5,
+        "comment": "Brilliant product! The cooling is top tier. I've also noticed great improvements in speed. Highly recommend."
+      },
+      {
+        "user": "User34846",
+        "rating": 5,
+        "comment": "Great product! The Storage IO is top tier. I've also noticed great improvements in speed. Highly recommend."
+      },
+      {
+        "user": "User15854",
+        "rating": 4,
+        "comment": "Very outstanding choice. The Storage IO is definitely a plus. However, the boot times could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "CDM Seq Read": "7523 MB/s",
-      "CDM Seq Write": "6964 MB/s",
-      "Random 4K Read": "1074K IOPS",
-      "Avg Load Temp": "70°C"
+      "CDM Seq Read": "7422 MB/s",
+      "CDM Seq Write": "6303 MB/s",
+      "Random 4K Read": "994K IOPS",
+      "Avg Load Temp": "69°C"
     },
     "ratingStats": {
-      "1": 559,
-      "2": 58,
-      "3": 176,
-      "4": 587,
-      "5": 4491,
-      "total": 5871,
+      "1": 329,
+      "2": 34,
+      "3": 103,
+      "4": 344,
+      "5": 2636,
+      "total": 3446,
       "avg": "4.4"
     }
   },
@@ -532,52 +527,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20MX500+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Crucial%20MX500",
+    "image": "https://logo.clearbit.com/crucial.com",
     "reviews": [
       {
-        "user": "User57216",
-        "rating": 5,
-        "comment": "Great product! The cooling is top tier. I've also noticed great improvements in file transfer times. Highly recommend."
-      },
-      {
-        "user": "User48167",
-        "rating": 5,
-        "comment": "Brilliant product! The file transfer times is top tier. I've also noticed great improvements in boot times. Highly recommend."
-      },
-      {
-        "user": "User90279",
-        "rating": 5,
-        "comment": "Outstanding product! The file transfer times is top tier. I've also noticed great improvements in Storage IO. Highly recommend."
-      },
-      {
-        "user": "User61166",
-        "rating": 5,
-        "comment": "Excellent product! The cooling is top tier. I've also noticed great improvements in cooling. Highly recommend."
-      },
-      {
-        "user": "User76863",
+        "user": "User72634",
         "rating": 4,
-        "comment": "Very excellent choice. The boot times is definitely a plus. However, the speed could be a bit better. Overall very happy."
+        "comment": "Very excellent choice. The boot times is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
       },
       {
-        "user": "User12763",
+        "user": "User39235",
+        "rating": 5,
+        "comment": "Great product! The file transfer times is top tier. I've also noticed great improvements in speed. Highly recommend."
+      },
+      {
+        "user": "User78722",
+        "rating": 3,
+        "comment": "Average for the price, but fell short on cooling. Maybe look around before committing."
+      },
+      {
+        "user": "User55260",
         "rating": 4,
-        "comment": "Very brilliant choice. The Storage IO is definitely a plus. However, the cooling could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The cooling is definitely a plus. However, the speed could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "CDM Seq Read": "6977 MB/s",
-      "CDM Seq Write": "6396 MB/s",
-      "Random 4K Read": "980K IOPS",
-      "Avg Load Temp": "61°C"
+      "CDM Seq Read": "7495 MB/s",
+      "CDM Seq Write": "6059 MB/s",
+      "Random 4K Read": "988K IOPS",
+      "Avg Load Temp": "63°C"
     },
     "ratingStats": {
-      "1": 263,
-      "2": 20,
-      "3": 60,
-      "4": 202,
-      "5": 1479,
-      "total": 2024,
+      "1": 441,
+      "2": 33,
+      "3": 101,
+      "4": 339,
+      "5": 2483,
+      "total": 3397,
       "avg": "4.3"
     }
   },
@@ -620,52 +605,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20MP600%20Pro+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Corsair%20MP600%20Pro",
+    "image": "https://logo.clearbit.com/corsair.com",
     "reviews": [
       {
-        "user": "User26969",
-        "rating": 4,
-        "comment": "Very outstanding choice. The boot times is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User93239",
-        "rating": 5,
-        "comment": "Outstanding product! The boot times is top tier. I've also noticed great improvements in Storage IO. Highly recommend."
-      },
-      {
-        "user": "User10751",
-        "rating": 4,
-        "comment": "Very fantastic choice. The boot times is definitely a plus. However, the boot times could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User13819",
-        "rating": 5,
-        "comment": "Incredible product! The speed is top tier. I've also noticed great improvements in file transfer times. Highly recommend."
-      },
-      {
-        "user": "User16068",
+        "user": "User68688",
         "rating": 3,
-        "comment": "Acceptable for the price, but fell short on Storage IO. Maybe look around before committing."
+        "comment": "Decent for the price, but fell short on file transfer times. Maybe look around before committing."
       },
       {
-        "user": "User74652",
+        "user": "User70863",
+        "rating": 2,
+        "comment": "Okay for the price, but fell short on cooling. Maybe look around before committing."
+      },
+      {
+        "user": "User55147",
         "rating": 4,
-        "comment": "Very brilliant choice. The cooling is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
+        "comment": "Very excellent choice. The cooling is definitely a plus. However, the file transfer times could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User95750",
+        "rating": 4,
+        "comment": "Very outstanding choice. The speed is definitely a plus. However, the boot times could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User74348",
+        "rating": 5,
+        "comment": "Outstanding product! The cooling is top tier. I've also noticed great improvements in speed. Highly recommend."
       }
     ],
     "benchmarks": {
-      "CDM Seq Read": "7769 MB/s",
-      "CDM Seq Write": "6558 MB/s",
-      "Random 4K Read": "1169K IOPS",
-      "Avg Load Temp": "73°C"
+      "CDM Seq Read": "6920 MB/s",
+      "CDM Seq Write": "7336 MB/s",
+      "Random 4K Read": "1123K IOPS",
+      "Avg Load Temp": "70°C"
     },
     "ratingStats": {
-      "1": 633,
-      "2": 91,
-      "3": 273,
-      "4": 910,
-      "5": 7193,
-      "total": 9100,
+      "1": 472,
+      "2": 67,
+      "3": 203,
+      "4": 677,
+      "5": 5352,
+      "total": 6771,
       "avg": "4.5"
     }
   },
@@ -708,52 +688,52 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204090+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=NVIDIA%20RTX%204090",
+    "image": "https://logo.clearbit.com/nvidia.com",
     "reviews": [
       {
-        "user": "User69196",
-        "rating": 5,
-        "comment": "Solid product! The driver stability is top tier. I've also noticed great improvements in 1440p performance. Highly recommend."
-      },
-      {
-        "user": "User52365",
-        "rating": 4,
-        "comment": "Very outstanding choice. The 4K capability is definitely a plus. However, the frame rates could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User49679",
-        "rating": 4,
-        "comment": "Very outstanding choice. The ray tracing is definitely a plus. However, the 4K capability could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User59750",
-        "rating": 5,
-        "comment": "Outstanding product! The ray tracing is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
-      },
-      {
-        "user": "User91189",
+        "user": "User91875",
         "rating": 3,
-        "comment": "Average for the price, but fell short on frame rates. Maybe look around before committing."
+        "comment": "Okay for the price, but fell short on driver stability. Maybe look around before committing."
       },
       {
-        "user": "User19515",
+        "user": "User56447",
+        "rating": 5,
+        "comment": "Brilliant product! The ray tracing is top tier. I've also noticed great improvements in 4K capability. Highly recommend."
+      },
+      {
+        "user": "User85046",
         "rating": 4,
-        "comment": "Very great choice. The driver stability is definitely a plus. However, the frame rates could be a bit better. Overall very happy."
+        "comment": "Very incredible choice. The driver stability is definitely a plus. However, the ray tracing could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User75745",
+        "rating": 4,
+        "comment": "Very excellent choice. The 1440p performance is definitely a plus. However, the ray tracing could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User54435",
+        "rating": 4,
+        "comment": "Very brilliant choice. The driver stability is definitely a plus. However, the 4K capability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User93844",
+        "rating": 5,
+        "comment": "Fantastic product! The driver stability is top tier. I've also noticed great improvements in frame rates. Highly recommend."
       }
     ],
     "benchmarks": {
-      "3DMark TimeSpy": "28007 pts",
-      "Port Royal": "16502 pts",
-      "Cyberpunk 4K FPS": "81 fps",
-      "Alan Wake 2 1440p": "109 fps"
+      "3DMark TimeSpy": "26778 pts",
+      "Port Royal": "14585 pts",
+      "Cyberpunk 4K FPS": "92 fps",
+      "Alan Wake 2 1440p": "114 fps"
     },
     "ratingStats": {
-      "1": 371,
-      "2": 32,
-      "3": 98,
-      "4": 328,
-      "5": 2460,
-      "total": 3289,
+      "1": 834,
+      "2": 74,
+      "3": 223,
+      "4": 743,
+      "5": 5561,
+      "total": 7435,
       "avg": "4.4"
     }
   },
@@ -796,52 +776,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207900%20XTX+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=AMD%20Radeon%20RX%207900%20XTX",
+    "image": "https://logo.clearbit.com/amd.com",
     "reviews": [
       {
-        "user": "User61142",
+        "user": "User81330",
         "rating": 5,
-        "comment": "Brilliant product! The ray tracing is top tier. I've also noticed great improvements in frame rates. Highly recommend."
+        "comment": "Solid product! The 4K capability is top tier. I've also noticed great improvements in 4K capability. Highly recommend."
       },
       {
-        "user": "User26395",
+        "user": "User59815",
+        "rating": 4,
+        "comment": "Very excellent choice. The driver stability is definitely a plus. However, the 4K capability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User19580",
+        "rating": 4,
+        "comment": "Very incredible choice. The frame rates is definitely a plus. However, the 4K capability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User28066",
         "rating": 5,
-        "comment": "Great product! The ray tracing is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
-      },
-      {
-        "user": "User78223",
-        "rating": 2,
-        "comment": "Good enough for the price, but fell short on 4K capability. Maybe look around before committing."
-      },
-      {
-        "user": "User36389",
-        "rating": 5,
-        "comment": "Great product! The 1440p performance is top tier. I've also noticed great improvements in 1440p performance. Highly recommend."
-      },
-      {
-        "user": "User67861",
-        "rating": 5,
-        "comment": "Fantastic product! The 4K capability is top tier. I've also noticed great improvements in 1440p performance. Highly recommend."
-      },
-      {
-        "user": "User96521",
-        "rating": 3,
-        "comment": "Decent for the price, but fell short on 4K capability. Maybe look around before committing."
+        "comment": "Excellent product! The driver stability is top tier. I've also noticed great improvements in driver stability. Highly recommend."
       }
     ],
     "benchmarks": {
-      "3DMark TimeSpy": "26643 pts",
-      "Port Royal": "15902 pts",
-      "Cyberpunk 4K FPS": "94 fps",
-      "Alan Wake 2 1440p": "123 fps"
+      "3DMark TimeSpy": "24759 pts",
+      "Port Royal": "14613 pts",
+      "Cyberpunk 4K FPS": "91 fps",
+      "Alan Wake 2 1440p": "120 fps"
     },
     "ratingStats": {
-      "1": 952,
-      "2": 84,
-      "3": 254,
-      "4": 848,
-      "5": 6343,
-      "total": 8481,
+      "1": 752,
+      "2": 66,
+      "3": 200,
+      "4": 668,
+      "5": 5001,
+      "total": 6687,
       "avg": "4.4"
     }
   },
@@ -884,47 +854,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204080%20Super+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=NVIDIA%20RTX%204080%20Super",
+    "image": "https://logo.clearbit.com/nvidia.com",
     "reviews": [
       {
-        "user": "User29887",
-        "rating": 5,
-        "comment": "Fantastic product! The 1440p performance is top tier. I've also noticed great improvements in driver stability. Highly recommend."
-      },
-      {
-        "user": "User42936",
+        "user": "User27910",
         "rating": 4,
-        "comment": "Very great choice. The 1440p performance is definitely a plus. However, the 1440p performance could be a bit better. Overall very happy."
+        "comment": "Very incredible choice. The driver stability is definitely a plus. However, the 1440p performance could be a bit better. Overall very happy."
       },
       {
-        "user": "User42082",
+        "user": "User73605",
         "rating": 5,
-        "comment": "Solid product! The 1440p performance is top tier. I've also noticed great improvements in 4K capability. Highly recommend."
+        "comment": "Incredible product! The 4K capability is top tier. I've also noticed great improvements in frame rates. Highly recommend."
       },
       {
-        "user": "User92335",
-        "rating": 5,
-        "comment": "Solid product! The 1440p performance is top tier. I've also noticed great improvements in 4K capability. Highly recommend."
+        "user": "User36160",
+        "rating": 2,
+        "comment": "Acceptable for the price, but fell short on 1440p performance. Maybe look around before committing."
       },
       {
-        "user": "User93601",
-        "rating": 5,
-        "comment": "Solid product! The frame rates is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
+        "user": "User44224",
+        "rating": 4,
+        "comment": "Very excellent choice. The 1440p performance is definitely a plus. However, the 1440p performance could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "3DMark TimeSpy": "26254 pts",
-      "Port Royal": "17047 pts",
-      "Cyberpunk 4K FPS": "84 fps",
-      "Alan Wake 2 1440p": "111 fps"
+      "3DMark TimeSpy": "26123 pts",
+      "Port Royal": "14463 pts",
+      "Cyberpunk 4K FPS": "87 fps",
+      "Alan Wake 2 1440p": "117 fps"
     },
     "ratingStats": {
-      "1": 538,
-      "2": 62,
-      "3": 186,
-      "4": 621,
-      "5": 4804,
-      "total": 6211,
+      "1": 492,
+      "2": 56,
+      "3": 169,
+      "4": 566,
+      "5": 4380,
+      "total": 5663,
       "avg": "4.5"
     }
   },
@@ -967,42 +932,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207800%20XT+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=AMD%20Radeon%20RX%207800%20XT",
+    "image": "https://logo.clearbit.com/amd.com",
     "reviews": [
       {
-        "user": "User31018",
+        "user": "User79108",
         "rating": 5,
-        "comment": "Outstanding product! The frame rates is top tier. I've also noticed great improvements in 4K capability. Highly recommend."
+        "comment": "Fantastic product! The frame rates is top tier. I've also noticed great improvements in driver stability. Highly recommend."
       },
       {
-        "user": "User73844",
+        "user": "User15288",
         "rating": 5,
-        "comment": "Excellent product! The frame rates is top tier. I've also noticed great improvements in driver stability. Highly recommend."
+        "comment": "Brilliant product! The frame rates is top tier. I've also noticed great improvements in 1440p performance. Highly recommend."
       },
       {
-        "user": "User64033",
-        "rating": 5,
-        "comment": "Outstanding product! The frame rates is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
+        "user": "User38993",
+        "rating": 4,
+        "comment": "Very solid choice. The 4K capability is definitely a plus. However, the frame rates could be a bit better. Overall very happy."
       },
       {
-        "user": "User75776",
-        "rating": 5,
-        "comment": "Excellent product! The 4K capability is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
+        "user": "User83531",
+        "rating": 3,
+        "comment": "Average for the price, but fell short on ray tracing. Maybe look around before committing."
+      },
+      {
+        "user": "User97000",
+        "rating": 4,
+        "comment": "Very great choice. The ray tracing is definitely a plus. However, the 1440p performance could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "3DMark TimeSpy": "24423 pts",
-      "Port Royal": "14111 pts",
-      "Cyberpunk 4K FPS": "79 fps",
-      "Alan Wake 2 1440p": "118 fps"
+      "3DMark TimeSpy": "24904 pts",
+      "Port Royal": "15918 pts",
+      "Cyberpunk 4K FPS": "83 fps",
+      "Alan Wake 2 1440p": "110 fps"
     },
     "ratingStats": {
-      "1": 1015,
-      "2": 69,
-      "3": 208,
-      "4": 694,
-      "5": 4957,
-      "total": 6943,
+      "1": 1403,
+      "2": 95,
+      "3": 287,
+      "4": 958,
+      "5": 6846,
+      "total": 9589,
       "avg": "4.2"
     }
   },
@@ -1045,52 +1015,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204070%20Ti%20Super+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=NVIDIA%20RTX%204070%20Ti%20Super",
+    "image": "https://logo.clearbit.com/nvidia.com",
     "reviews": [
       {
-        "user": "User95018",
-        "rating": 5,
-        "comment": "Solid product! The frame rates is top tier. I've also noticed great improvements in frame rates. Highly recommend."
-      },
-      {
-        "user": "User94938",
-        "rating": 5,
-        "comment": "Solid product! The 4K capability is top tier. I've also noticed great improvements in frame rates. Highly recommend."
-      },
-      {
-        "user": "User98543",
-        "rating": 3,
-        "comment": "Average for the price, but fell short on 1440p performance. Maybe look around before committing."
-      },
-      {
-        "user": "User99482",
+        "user": "User16847",
         "rating": 4,
-        "comment": "Very outstanding choice. The 4K capability is definitely a plus. However, the frame rates could be a bit better. Overall very happy."
+        "comment": "Very great choice. The ray tracing is definitely a plus. However, the 1440p performance could be a bit better. Overall very happy."
       },
       {
-        "user": "User65584",
+        "user": "User45394",
         "rating": 5,
-        "comment": "Great product! The 1440p performance is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
+        "comment": "Incredible product! The 4K capability is top tier. I've also noticed great improvements in driver stability. Highly recommend."
       },
       {
-        "user": "User32573",
-        "rating": 2,
-        "comment": "Average for the price, but fell short on 4K capability. Maybe look around before committing."
+        "user": "User23141",
+        "rating": 4,
+        "comment": "Very outstanding choice. The 4K capability is definitely a plus. However, the 4K capability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User65967",
+        "rating": 5,
+        "comment": "Incredible product! The 1440p performance is top tier. I've also noticed great improvements in 1440p performance. Highly recommend."
       }
     ],
     "benchmarks": {
-      "3DMark TimeSpy": "25199 pts",
-      "Port Royal": "16831 pts",
-      "Cyberpunk 4K FPS": "92 fps",
-      "Alan Wake 2 1440p": "114 fps"
+      "3DMark TimeSpy": "28342 pts",
+      "Port Royal": "16080 pts",
+      "Cyberpunk 4K FPS": "85 fps",
+      "Alan Wake 2 1440p": "109 fps"
     },
     "ratingStats": {
-      "1": 477,
-      "2": 50,
-      "3": 150,
-      "4": 501,
-      "5": 3833,
-      "total": 5011,
+      "1": 860,
+      "2": 90,
+      "3": 270,
+      "4": 902,
+      "5": 6904,
+      "total": 9026,
       "avg": "4.4"
     }
   },
@@ -1133,47 +1093,52 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207600+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=AMD%20Radeon%20RX%207600",
+    "image": "https://logo.clearbit.com/amd.com",
     "reviews": [
       {
-        "user": "User38018",
-        "rating": 5,
-        "comment": "Outstanding product! The driver stability is top tier. I've also noticed great improvements in 1440p performance. Highly recommend."
+        "user": "User49658",
+        "rating": 3,
+        "comment": "Decent for the price, but fell short on ray tracing. Maybe look around before committing."
       },
       {
-        "user": "User56363",
+        "user": "User55122",
         "rating": 5,
-        "comment": "Solid product! The driver stability is top tier. I've also noticed great improvements in frame rates. Highly recommend."
+        "comment": "Fantastic product! The 1440p performance is top tier. I've also noticed great improvements in driver stability. Highly recommend."
       },
       {
-        "user": "User91998",
-        "rating": 5,
-        "comment": "Excellent product! The ray tracing is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
-      },
-      {
-        "user": "User38451",
+        "user": "User42974",
         "rating": 2,
-        "comment": "Good enough for the price, but fell short on ray tracing. Maybe look around before committing."
+        "comment": "Acceptable for the price, but fell short on driver stability. Maybe look around before committing."
       },
       {
-        "user": "User47470",
-        "rating": 5,
-        "comment": "Great product! The driver stability is top tier. I've also noticed great improvements in 1440p performance. Highly recommend."
+        "user": "User56312",
+        "rating": 4,
+        "comment": "Very brilliant choice. The driver stability is definitely a plus. However, the 4K capability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User76764",
+        "rating": 4,
+        "comment": "Very solid choice. The 1440p performance is definitely a plus. However, the frame rates could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User44021",
+        "rating": 3,
+        "comment": "Okay for the price, but fell short on ray tracing. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "3DMark TimeSpy": "20781 pts",
-      "Port Royal": "14512 pts",
-      "Cyberpunk 4K FPS": "77 fps",
-      "Alan Wake 2 1440p": "100 fps"
+      "3DMark TimeSpy": "20987 pts",
+      "Port Royal": "14803 pts",
+      "Cyberpunk 4K FPS": "80 fps",
+      "Alan Wake 2 1440p": "108 fps"
     },
     "ratingStats": {
-      "1": 1300,
-      "2": 63,
-      "3": 189,
-      "4": 631,
-      "5": 4135,
-      "total": 6318,
+      "1": 1649,
+      "2": 80,
+      "3": 240,
+      "4": 802,
+      "5": 5249,
+      "total": 8020,
       "avg": "4.0"
     }
   },
@@ -1216,42 +1181,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%203060+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=NVIDIA%20RTX%203060",
+    "image": "https://logo.clearbit.com/nvidia.com",
     "reviews": [
       {
-        "user": "User22709",
-        "rating": 4,
-        "comment": "Very excellent choice. The driver stability is definitely a plus. However, the frame rates could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User73625",
-        "rating": 4,
-        "comment": "Very fantastic choice. The ray tracing is definitely a plus. However, the 1440p performance could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User26483",
+        "user": "User22812",
         "rating": 5,
-        "comment": "Incredible product! The 4K capability is top tier. I've also noticed great improvements in 1440p performance. Highly recommend."
+        "comment": "Solid product! The 4K capability is top tier. I've also noticed great improvements in 4K capability. Highly recommend."
       },
       {
-        "user": "User10508",
+        "user": "User54012",
         "rating": 4,
-        "comment": "Very incredible choice. The driver stability is definitely a plus. However, the ray tracing could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The frame rates is definitely a plus. However, the 4K capability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User96124",
+        "rating": 4,
+        "comment": "Very brilliant choice. The frame rates is definitely a plus. However, the ray tracing could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User80474",
+        "rating": 5,
+        "comment": "Great product! The driver stability is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
       }
     ],
     "benchmarks": {
-      "3DMark TimeSpy": "25036 pts",
-      "Port Royal": "13381 pts",
-      "Cyberpunk 4K FPS": "87 fps",
-      "Alan Wake 2 1440p": "93 fps"
+      "3DMark TimeSpy": "22734 pts",
+      "Port Royal": "12818 pts",
+      "Cyberpunk 4K FPS": "74 fps",
+      "Alan Wake 2 1440p": "101 fps"
     },
     "ratingStats": {
-      "1": 1184,
-      "2": 60,
-      "3": 180,
-      "4": 600,
-      "5": 3981,
-      "total": 6005,
+      "1": 1227,
+      "2": 62,
+      "3": 186,
+      "4": 622,
+      "5": 4123,
+      "total": 6220,
       "avg": "4.0"
     }
   },
@@ -1294,47 +1259,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Arc%20A770+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Intel%20Arc%20A770",
+    "image": "https://logo.clearbit.com/intel.com",
     "reviews": [
       {
-        "user": "User83947",
-        "rating": 2,
-        "comment": "Good enough for the price, but fell short on ray tracing. Maybe look around before committing."
-      },
-      {
-        "user": "User81414",
-        "rating": 4,
-        "comment": "Very fantastic choice. The 1440p performance is definitely a plus. However, the ray tracing could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User71774",
-        "rating": 2,
-        "comment": "Average for the price, but fell short on ray tracing. Maybe look around before committing."
-      },
-      {
-        "user": "User30135",
-        "rating": 4,
-        "comment": "Very great choice. The driver stability is definitely a plus. However, the driver stability could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User40923",
+        "user": "User28512",
         "rating": 5,
-        "comment": "Fantastic product! The driver stability is top tier. I've also noticed great improvements in ray tracing. Highly recommend."
+        "comment": "Fantastic product! The 1440p performance is top tier. I've also noticed great improvements in 4K capability. Highly recommend."
+      },
+      {
+        "user": "User95258",
+        "rating": 4,
+        "comment": "Very incredible choice. The ray tracing is definitely a plus. However, the ray tracing could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User27477",
+        "rating": 4,
+        "comment": "Very incredible choice. The ray tracing is definitely a plus. However, the frame rates could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User58169",
+        "rating": 5,
+        "comment": "Brilliant product! The 1440p performance is top tier. I've also noticed great improvements in driver stability. Highly recommend."
       }
     ],
     "benchmarks": {
-      "3DMark TimeSpy": "23783 pts",
-      "Port Royal": "15457 pts",
-      "Cyberpunk 4K FPS": "81 fps",
-      "Alan Wake 2 1440p": "101 fps"
+      "3DMark TimeSpy": "21552 pts",
+      "Port Royal": "13003 pts",
+      "Cyberpunk 4K FPS": "74 fps",
+      "Alan Wake 2 1440p": "105 fps"
     },
     "ratingStats": {
-      "1": 469,
-      "2": 26,
-      "3": 78,
-      "4": 260,
-      "5": 1768,
-      "total": 2601,
+      "1": 1387,
+      "2": 77,
+      "3": 231,
+      "4": 770,
+      "5": 5237,
+      "total": 7702,
       "avg": "4.1"
     }
   },
@@ -1377,47 +1337,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%207%207800X3D+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=AMD%20Ryzen%207%207800X3D",
+    "image": "https://logo.clearbit.com/amd.com",
     "reviews": [
       {
-        "user": "User18427",
-        "rating": 5,
-        "comment": "Incredible product! The temperatures is top tier. I've also noticed great improvements in multitasking. Highly recommend."
-      },
-      {
-        "user": "User89680",
-        "rating": 5,
-        "comment": "Fantastic product! The power efficiency is top tier. I've also noticed great improvements in multitasking. Highly recommend."
-      },
-      {
-        "user": "User86507",
-        "rating": 5,
-        "comment": "Brilliant product! The temperatures is top tier. I've also noticed great improvements in power efficiency. Highly recommend."
-      },
-      {
-        "user": "User25561",
-        "rating": 5,
-        "comment": "Outstanding product! The power efficiency is top tier. I've also noticed great improvements in multitasking. Highly recommend."
-      },
-      {
-        "user": "User29437",
+        "user": "User29168",
         "rating": 4,
-        "comment": "Very solid choice. The power efficiency is definitely a plus. However, the gaming performance could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The temperatures is definitely a plus. However, the power efficiency could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User68184",
+        "rating": 5,
+        "comment": "Great product! The temperatures is top tier. I've also noticed great improvements in multitasking. Highly recommend."
+      },
+      {
+        "user": "User50149",
+        "rating": 4,
+        "comment": "Very great choice. The multitasking is definitely a plus. However, the render times could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User45992",
+        "rating": 2,
+        "comment": "Good enough for the price, but fell short on temperatures. Maybe look around before committing."
+      },
+      {
+        "user": "User51523",
+        "rating": 3,
+        "comment": "Decent for the price, but fell short on temperatures. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Cinebench R23 Multi": "35718 pts",
-      "Cinebench R23 Single": "2470 pts",
-      "Blender Classroom": "5.2 mins",
-      "Avg Load Temp": "84°C"
+      "Cinebench R23 Multi": "38554 pts",
+      "Cinebench R23 Single": "2112 pts",
+      "Blender Classroom": "5.1 mins",
+      "Avg Load Temp": "93°C"
     },
     "ratingStats": {
-      "1": 577,
-      "2": 94,
-      "3": 282,
-      "4": 942,
-      "5": 7532,
-      "total": 9427,
+      "1": 568,
+      "2": 92,
+      "3": 278,
+      "4": 926,
+      "5": 7405,
+      "total": 9269,
       "avg": "4.6"
     }
   },
@@ -1460,47 +1420,52 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i9-14900K+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Intel%20Core%20i9-14900K",
+    "image": "https://logo.clearbit.com/intel.com",
     "reviews": [
       {
-        "user": "User25895",
+        "user": "User21966",
         "rating": 4,
-        "comment": "Very brilliant choice. The power efficiency is definitely a plus. However, the render times could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The multitasking is definitely a plus. However, the gaming performance could be a bit better. Overall very happy."
       },
       {
-        "user": "User96355",
-        "rating": 4,
-        "comment": "Very solid choice. The temperatures is definitely a plus. However, the power efficiency could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User44840",
-        "rating": 4,
-        "comment": "Very solid choice. The temperatures is definitely a plus. However, the power efficiency could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User63707",
+        "user": "User77655",
         "rating": 5,
-        "comment": "Brilliant product! The gaming performance is top tier. I've also noticed great improvements in gaming performance. Highly recommend."
+        "comment": "Incredible product! The temperatures is top tier. I've also noticed great improvements in multitasking. Highly recommend."
       },
       {
-        "user": "User98652",
-        "rating": 2,
-        "comment": "Good enough for the price, but fell short on power efficiency. Maybe look around before committing."
+        "user": "User91115",
+        "rating": 4,
+        "comment": "Very outstanding choice. The gaming performance is definitely a plus. However, the multitasking could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User48191",
+        "rating": 5,
+        "comment": "Solid product! The temperatures is top tier. I've also noticed great improvements in temperatures. Highly recommend."
+      },
+      {
+        "user": "User63267",
+        "rating": 5,
+        "comment": "Fantastic product! The power efficiency is top tier. I've also noticed great improvements in render times. Highly recommend."
+      },
+      {
+        "user": "User65912",
+        "rating": 5,
+        "comment": "Excellent product! The gaming performance is top tier. I've also noticed great improvements in multitasking. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Cinebench R23 Multi": "34075 pts",
-      "Cinebench R23 Single": "1937 pts",
+      "Cinebench R23 Multi": "34462 pts",
+      "Cinebench R23 Single": "2297 pts",
       "Blender Classroom": "4.3 mins",
-      "Avg Load Temp": "75°C"
+      "Avg Load Temp": "78°C"
     },
     "ratingStats": {
-      "1": 1020,
-      "2": 78,
-      "3": 236,
-      "4": 789,
-      "5": 5768,
-      "total": 7891,
+      "1": 595,
+      "2": 45,
+      "3": 137,
+      "4": 459,
+      "5": 3358,
+      "total": 4594,
       "avg": "4.3"
     }
   },
@@ -1543,52 +1508,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%209%207950X+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=AMD%20Ryzen%209%207950X",
+    "image": "https://logo.clearbit.com/amd.com",
     "reviews": [
       {
-        "user": "User98191",
-        "rating": 5,
-        "comment": "Excellent product! The multitasking is top tier. I've also noticed great improvements in power efficiency. Highly recommend."
-      },
-      {
-        "user": "User32502",
-        "rating": 4,
-        "comment": "Very solid choice. The multitasking is definitely a plus. However, the render times could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User87211",
-        "rating": 4,
-        "comment": "Very fantastic choice. The render times is definitely a plus. However, the temperatures could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User35731",
+        "user": "User62645",
         "rating": 5,
         "comment": "Solid product! The render times is top tier. I've also noticed great improvements in power efficiency. Highly recommend."
       },
       {
-        "user": "User64435",
-        "rating": 3,
-        "comment": "Okay for the price, but fell short on gaming performance. Maybe look around before committing."
+        "user": "User67070",
+        "rating": 5,
+        "comment": "Incredible product! The temperatures is top tier. I've also noticed great improvements in power efficiency. Highly recommend."
       },
       {
-        "user": "User95477",
-        "rating": 4,
-        "comment": "Very great choice. The gaming performance is definitely a plus. However, the temperatures could be a bit better. Overall very happy."
+        "user": "User13573",
+        "rating": 3,
+        "comment": "Average for the price, but fell short on power efficiency. Maybe look around before committing."
+      },
+      {
+        "user": "User24970",
+        "rating": 5,
+        "comment": "Brilliant product! The temperatures is top tier. I've also noticed great improvements in temperatures. Highly recommend."
+      },
+      {
+        "user": "User69229",
+        "rating": 2,
+        "comment": "Okay for the price, but fell short on temperatures. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Cinebench R23 Multi": "36127 pts",
-      "Cinebench R23 Single": "2119 pts",
-      "Blender Classroom": "4.9 mins",
-      "Avg Load Temp": "85°C"
+      "Cinebench R23 Multi": "37141 pts",
+      "Cinebench R23 Single": "2241 pts",
+      "Blender Classroom": "4.8 mins",
+      "Avg Load Temp": "82°C"
     },
     "ratingStats": {
-      "1": 694,
-      "2": 80,
-      "3": 240,
-      "4": 800,
-      "5": 6191,
-      "total": 8005,
+      "1": 822,
+      "2": 94,
+      "3": 284,
+      "4": 948,
+      "5": 7333,
+      "total": 9481,
       "avg": "4.5"
     }
   },
@@ -1631,42 +1591,47 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i5-13600K+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Intel%20Core%20i5-13600K",
+    "image": "https://logo.clearbit.com/intel.com",
     "reviews": [
       {
-        "user": "User37708",
+        "user": "User48959",
         "rating": 5,
-        "comment": "Great product! The temperatures is top tier. I've also noticed great improvements in multitasking. Highly recommend."
+        "comment": "Solid product! The multitasking is top tier. I've also noticed great improvements in render times. Highly recommend."
       },
       {
-        "user": "User67640",
+        "user": "User58644",
+        "rating": 4,
+        "comment": "Very brilliant choice. The gaming performance is definitely a plus. However, the multitasking could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User80159",
+        "rating": 2,
+        "comment": "Acceptable for the price, but fell short on temperatures. Maybe look around before committing."
+      },
+      {
+        "user": "User60669",
+        "rating": 4,
+        "comment": "Very great choice. The temperatures is definitely a plus. However, the gaming performance could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User67787",
         "rating": 5,
-        "comment": "Solid product! The power efficiency is top tier. I've also noticed great improvements in multitasking. Highly recommend."
-      },
-      {
-        "user": "User95111",
-        "rating": 4,
-        "comment": "Very solid choice. The render times is definitely a plus. However, the gaming performance could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User13093",
-        "rating": 4,
-        "comment": "Very fantastic choice. The render times is definitely a plus. However, the render times could be a bit better. Overall very happy."
+        "comment": "Excellent product! The multitasking is top tier. I've also noticed great improvements in multitasking. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Cinebench R23 Multi": "39453 pts",
-      "Cinebench R23 Single": "2125 pts",
-      "Blender Classroom": "4.4 mins",
-      "Avg Load Temp": "86°C"
+      "Cinebench R23 Multi": "34176 pts",
+      "Cinebench R23 Single": "2327 pts",
+      "Blender Classroom": "4.3 mins",
+      "Avg Load Temp": "84°C"
     },
     "ratingStats": {
-      "1": 415,
-      "2": 43,
-      "3": 130,
-      "4": 435,
-      "5": 3327,
-      "total": 4350,
+      "1": 490,
+      "2": 51,
+      "3": 154,
+      "4": 513,
+      "5": 3929,
+      "total": 5137,
       "avg": "4.4"
     }
   },
@@ -1709,47 +1674,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%205%207600X+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=AMD%20Ryzen%205%207600X",
+    "image": "https://logo.clearbit.com/amd.com",
     "reviews": [
       {
-        "user": "User89588",
+        "user": "User59426",
         "rating": 5,
-        "comment": "Solid product! The multitasking is top tier. I've also noticed great improvements in render times. Highly recommend."
+        "comment": "Incredible product! The temperatures is top tier. I've also noticed great improvements in multitasking. Highly recommend."
       },
       {
-        "user": "User78434",
+        "user": "User57651",
         "rating": 4,
-        "comment": "Very solid choice. The render times is definitely a plus. However, the temperatures could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The power efficiency is definitely a plus. However, the gaming performance could be a bit better. Overall very happy."
       },
       {
-        "user": "User59040",
-        "rating": 4,
-        "comment": "Very fantastic choice. The power efficiency is definitely a plus. However, the power efficiency could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User58074",
+        "user": "User34177",
         "rating": 5,
-        "comment": "Incredible product! The render times is top tier. I've also noticed great improvements in temperatures. Highly recommend."
+        "comment": "Solid product! The render times is top tier. I've also noticed great improvements in gaming performance. Highly recommend."
       },
       {
-        "user": "User45257",
-        "rating": 4,
-        "comment": "Very excellent choice. The power efficiency is definitely a plus. However, the gaming performance could be a bit better. Overall very happy."
+        "user": "User22570",
+        "rating": 5,
+        "comment": "Outstanding product! The multitasking is top tier. I've also noticed great improvements in multitasking. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Cinebench R23 Multi": "35804 pts",
-      "Cinebench R23 Single": "2208 pts",
-      "Blender Classroom": "5.0 mins",
+      "Cinebench R23 Multi": "39011 pts",
+      "Cinebench R23 Single": "2176 pts",
+      "Blender Classroom": "4.6 mins",
       "Avg Load Temp": "87°C"
     },
     "ratingStats": {
-      "1": 649,
-      "2": 57,
-      "3": 173,
-      "4": 577,
-      "5": 4320,
-      "total": 5776,
+      "1": 495,
+      "2": 43,
+      "3": 131,
+      "4": 439,
+      "5": 3285,
+      "total": 4393,
       "avg": "4.4"
     }
   },
@@ -1792,52 +1752,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i7-14700K+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Intel%20Core%20i7-14700K",
+    "image": "https://logo.clearbit.com/intel.com",
     "reviews": [
       {
-        "user": "User36514",
-        "rating": 2,
-        "comment": "Decent for the price, but fell short on gaming performance. Maybe look around before committing."
-      },
-      {
-        "user": "User11641",
+        "user": "User18872",
         "rating": 4,
-        "comment": "Very great choice. The render times is definitely a plus. However, the gaming performance could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The gaming performance is definitely a plus. However, the multitasking could be a bit better. Overall very happy."
       },
       {
-        "user": "User97026",
+        "user": "User12420",
         "rating": 5,
-        "comment": "Fantastic product! The gaming performance is top tier. I've also noticed great improvements in temperatures. Highly recommend."
+        "comment": "Excellent product! The render times is top tier. I've also noticed great improvements in gaming performance. Highly recommend."
       },
       {
-        "user": "User23893",
+        "user": "User67041",
         "rating": 5,
-        "comment": "Solid product! The multitasking is top tier. I've also noticed great improvements in multitasking. Highly recommend."
+        "comment": "Brilliant product! The temperatures is top tier. I've also noticed great improvements in render times. Highly recommend."
       },
       {
-        "user": "User34020",
+        "user": "User66640",
         "rating": 4,
-        "comment": "Very brilliant choice. The render times is definitely a plus. However, the render times could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User38552",
-        "rating": 5,
-        "comment": "Excellent product! The multitasking is top tier. I've also noticed great improvements in render times. Highly recommend."
+        "comment": "Very fantastic choice. The temperatures is definitely a plus. However, the temperatures could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Cinebench R23 Multi": "36662 pts",
-      "Cinebench R23 Single": "2175 pts",
+      "Cinebench R23 Multi": "36068 pts",
+      "Cinebench R23 Single": "2125 pts",
       "Blender Classroom": "4.4 mins",
-      "Avg Load Temp": "87°C"
+      "Avg Load Temp": "90°C"
     },
     "ratingStats": {
-      "1": 971,
-      "2": 93,
-      "3": 280,
-      "4": 935,
-      "5": 7080,
-      "total": 9359,
+      "1": 913,
+      "2": 88,
+      "3": 264,
+      "4": 880,
+      "5": 6663,
+      "total": 8808,
       "avg": "4.4"
     }
   },
@@ -1880,52 +1830,42 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%205%205600X+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=AMD%20Ryzen%205%205600X",
+    "image": "https://logo.clearbit.com/amd.com",
     "reviews": [
       {
-        "user": "User96467",
+        "user": "User21584",
         "rating": 5,
-        "comment": "Fantastic product! The temperatures is top tier. I've also noticed great improvements in temperatures. Highly recommend."
+        "comment": "Great product! The multitasking is top tier. I've also noticed great improvements in render times. Highly recommend."
       },
       {
-        "user": "User33281",
+        "user": "User37083",
+        "rating": 5,
+        "comment": "Outstanding product! The power efficiency is top tier. I've also noticed great improvements in multitasking. Highly recommend."
+      },
+      {
+        "user": "User22808",
+        "rating": 5,
+        "comment": "Solid product! The multitasking is top tier. I've also noticed great improvements in gaming performance. Highly recommend."
+      },
+      {
+        "user": "User75769",
         "rating": 4,
-        "comment": "Very excellent choice. The render times is definitely a plus. However, the power efficiency could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User15657",
-        "rating": 5,
-        "comment": "Incredible product! The power efficiency is top tier. I've also noticed great improvements in gaming performance. Highly recommend."
-      },
-      {
-        "user": "User35931",
-        "rating": 4,
-        "comment": "Very excellent choice. The temperatures is definitely a plus. However, the multitasking could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User89956",
-        "rating": 5,
-        "comment": "Excellent product! The gaming performance is top tier. I've also noticed great improvements in gaming performance. Highly recommend."
-      },
-      {
-        "user": "User13042",
-        "rating": 5,
-        "comment": "Great product! The render times is top tier. I've also noticed great improvements in gaming performance. Highly recommend."
+        "comment": "Very outstanding choice. The power efficiency is definitely a plus. However, the gaming performance could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Cinebench R23 Multi": "34291 pts",
-      "Cinebench R23 Single": "2103 pts",
+      "Cinebench R23 Multi": "36508 pts",
+      "Cinebench R23 Single": "1980 pts",
       "Blender Classroom": "5.0 mins",
-      "Avg Load Temp": "86°C"
+      "Avg Load Temp": "77°C"
     },
     "ratingStats": {
-      "1": 406,
-      "2": 31,
-      "3": 93,
-      "4": 313,
-      "5": 2289,
-      "total": 3132,
+      "1": 518,
+      "2": 40,
+      "3": 120,
+      "4": 400,
+      "5": 2926,
+      "total": 4004,
       "avg": "4.3"
     }
   },
@@ -1966,47 +1906,47 @@ export const productsData = [
         "link": "https://crystalmark.info/en/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=CrystalDiskMark",
+    "image": "https://logo.clearbit.com/crystalmark.info",
     "reviews": [
       {
-        "user": "User82501",
+        "user": "User51010",
         "rating": 5,
-        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User52120",
-        "rating": 5,
-        "comment": "Fantastic product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "user": "User91029",
+        "rating": 4,
+        "comment": "Very solid choice. The accuracy is definitely a plus. However, the UI could be a bit better. Overall very happy."
       },
       {
-        "user": "User23257",
+        "user": "User36908",
         "rating": 5,
-        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Excellent product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User59057",
+        "user": "User46179",
         "rating": 5,
-        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User34151",
+        "user": "User19465",
         "rating": 5,
-        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "96%",
-      "Feature Richness": "90%",
-      "Ease of Deployment": "103%",
-      "Community Support": "92%"
+      "Value for Money": "93%",
+      "Feature Richness": "103%",
+      "Ease of Deployment": "111%",
+      "Community Support": "101%"
     },
     "ratingStats": {
-      "1": 334,
-      "2": 62,
-      "3": 188,
-      "4": 629,
-      "5": 5085,
-      "total": 6298,
+      "1": 456,
+      "2": 86,
+      "3": 259,
+      "4": 865,
+      "5": 6987,
+      "total": 8653,
       "avg": "4.6"
     }
   },
@@ -2047,52 +1987,47 @@ export const productsData = [
         "link": "https://diskanalyzer.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=WizTree",
+    "image": "https://logo.clearbit.com/diskanalyzer.com",
     "reviews": [
       {
-        "user": "User51602",
+        "user": "User96650",
+        "rating": 4,
+        "comment": "Very great choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User54728",
         "rating": 5,
-        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User37910",
-        "rating": 4,
-        "comment": "Very solid choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User32605",
-        "rating": 4,
-        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User61986",
+        "user": "User30362",
         "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Outstanding product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User10917",
-        "rating": 4,
-        "comment": "Very incredible choice. The speed of scan is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "user": "User53446",
+        "rating": 5,
+        "comment": "Outstanding product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User65691",
-        "rating": 4,
-        "comment": "Very fantastic choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "user": "User70321",
+        "rating": 3,
+        "comment": "Decent for the price, but fell short on feature set. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Value for Money": "108%",
-      "Feature Richness": "100%",
-      "Ease of Deployment": "114%",
-      "Community Support": "94%"
+      "Value for Money": "105%",
+      "Feature Richness": "101%",
+      "Ease of Deployment": "106%",
+      "Community Support": "107%"
     },
     "ratingStats": {
-      "1": 194,
-      "2": 71,
-      "3": 213,
-      "4": 712,
-      "5": 5931,
-      "total": 7121,
+      "1": 86,
+      "2": 30,
+      "3": 92,
+      "4": 308,
+      "5": 2569,
+      "total": 3085,
       "avg": "4.7"
     }
   },
@@ -2133,52 +2068,47 @@ export const productsData = [
         "link": "https://semiconductor.samsung.com/consumer-storage/magician/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Samsung%20Magician",
+    "image": "https://logo.clearbit.com/samsung.com",
     "reviews": [
       {
-        "user": "User60335",
+        "user": "User77249",
         "rating": 5,
-        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Incredible product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User34430",
-        "rating": 4,
-        "comment": "Very fantastic choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User21920",
+        "user": "User72906",
         "rating": 5,
-        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Fantastic product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User39255",
+        "user": "User99706",
         "rating": 4,
-        "comment": "Very fantastic choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very excellent choice. The speed of scan is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User75091",
-        "rating": 3,
-        "comment": "Decent for the price, but fell short on feature set. Maybe look around before committing."
-      },
-      {
-        "user": "User55956",
+        "user": "User99856",
         "rating": 4,
-        "comment": "Very solid choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User60440",
+        "rating": 4,
+        "comment": "Very excellent choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "94%",
-      "Feature Richness": "93%",
-      "Ease of Deployment": "101%",
-      "Community Support": "105%"
+      "Value for Money": "98%",
+      "Feature Richness": "88%",
+      "Ease of Deployment": "97%",
+      "Community Support": "97%"
     },
     "ratingStats": {
-      "1": 347,
-      "2": 56,
-      "3": 170,
-      "4": 567,
-      "5": 4531,
-      "total": 5671,
+      "1": 590,
+      "2": 96,
+      "3": 288,
+      "4": 962,
+      "5": 7693,
+      "total": 9629,
       "avg": "4.6"
     }
   },
@@ -2219,52 +2149,47 @@ export const productsData = [
         "link": "https://www.apple.com/apple-intelligence/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Apple%20Intelligence",
+    "image": "https://logo.clearbit.com/intel.com",
     "reviews": [
       {
-        "user": "User87978",
+        "user": "User29547",
         "rating": 4,
-        "comment": "Very brilliant choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very great choice. The speed of scan is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User58031",
+        "user": "User34468",
+        "rating": 3,
+        "comment": "Acceptable for the price, but fell short on accuracy. Maybe look around before committing."
+      },
+      {
+        "user": "User31356",
         "rating": 5,
-        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User17458",
+        "user": "User29719",
         "rating": 5,
-        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User59520",
-        "rating": 4,
-        "comment": "Very outstanding choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User84485",
-        "rating": 4,
-        "comment": "Very incredible choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User25678",
-        "rating": 4,
-        "comment": "Very fantastic choice. The feature set is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "user": "User95162",
+        "rating": 5,
+        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "96%",
-      "Feature Richness": "99%",
-      "Ease of Deployment": "106%",
+      "Value for Money": "104%",
+      "Feature Richness": "90%",
+      "Ease of Deployment": "111%",
       "Community Support": "104%"
     },
     "ratingStats": {
-      "1": 288,
-      "2": 54,
-      "3": 163,
-      "4": 544,
-      "5": 4397,
-      "total": 5446,
+      "1": 134,
+      "2": 24,
+      "3": 74,
+      "4": 249,
+      "5": 2017,
+      "total": 2498,
       "avg": "4.6"
     }
   },
@@ -2305,47 +2230,47 @@ export const productsData = [
         "link": "https://www.samsung.com/global/galaxy/galaxy-ai/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Galaxy%20AI",
+    "image": "https://logo.clearbit.com/samsung.com",
     "reviews": [
       {
-        "user": "User41057",
+        "user": "User88908",
         "rating": 5,
-        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User98290",
-        "rating": 5,
-        "comment": "Great product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User91618",
+        "user": "User88804",
         "rating": 4,
-        "comment": "Very brilliant choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "comment": "Very fantastic choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
       },
       {
-        "user": "User40399",
+        "user": "User56414",
         "rating": 3,
-        "comment": "Okay for the price, but fell short on feature set. Maybe look around before committing."
+        "comment": "Good enough for the price, but fell short on reliability. Maybe look around before committing."
       },
       {
-        "user": "User51888",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on accuracy. Maybe look around before committing."
+        "user": "User67211",
+        "rating": 4,
+        "comment": "Very great choice. The accuracy is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User16591",
+        "rating": 5,
+        "comment": "Outstanding product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "103%",
-      "Feature Richness": "99%",
-      "Ease of Deployment": "101%",
-      "Community Support": "92%"
+      "Value for Money": "92%",
+      "Feature Richness": "93%",
+      "Ease of Deployment": "105%",
+      "Community Support": "89%"
     },
     "ratingStats": {
-      "1": 374,
-      "2": 53,
-      "3": 160,
-      "4": 534,
-      "5": 4226,
-      "total": 5347,
+      "1": 160,
+      "2": 22,
+      "3": 67,
+      "4": 225,
+      "5": 1785,
+      "total": 2259,
       "avg": "4.5"
     }
   },
@@ -2386,42 +2311,47 @@ export const productsData = [
         "link": "https://www.cpuid.com/softwares/hwmonitor.html"
       }
     },
-    "image": "https://via.placeholder.com/400?text=HWMonitor",
+    "image": "https://logo.clearbit.com/cpuid.com",
     "reviews": [
       {
-        "user": "User60168",
+        "user": "User50698",
         "rating": 4,
-        "comment": "Very outstanding choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very excellent choice. The speed of scan is definitely a plus. However, the feature set could be a bit better. Overall very happy."
       },
       {
-        "user": "User64484",
+        "user": "User72894",
         "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User88086",
-        "rating": 3,
-        "comment": "Decent for the price, but fell short on speed of scan. Maybe look around before committing."
-      },
-      {
-        "user": "User57591",
+        "user": "User57986",
         "rating": 5,
-        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User28497",
+        "rating": 4,
+        "comment": "Very outstanding choice. The accuracy is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User88953",
+        "rating": 4,
+        "comment": "Very outstanding choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "99%",
-      "Feature Richness": "96%",
-      "Ease of Deployment": "104%",
-      "Community Support": "87%"
+      "Value for Money": "96%",
+      "Feature Richness": "99%",
+      "Ease of Deployment": "103%",
+      "Community Support": "100%"
     },
     "ratingStats": {
-      "1": 262,
-      "2": 27,
-      "3": 81,
-      "4": 272,
-      "5": 2086,
-      "total": 2728,
+      "1": 287,
+      "2": 29,
+      "3": 89,
+      "4": 299,
+      "5": 2291,
+      "total": 2995,
       "avg": "4.4"
     }
   },
@@ -2462,52 +2392,42 @@ export const productsData = [
         "link": "https://www.maxon.net/en/cinebench"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Cinebench%20R24",
+    "image": "https://logo.clearbit.com/maxon.net",
     "reviews": [
       {
-        "user": "User35669",
+        "user": "User88620",
         "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Excellent product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User36138",
-        "rating": 4,
-        "comment": "Very solid choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User11310",
+        "user": "User53156",
         "rating": 5,
-        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User75729",
-        "rating": 5,
-        "comment": "Great product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User34422",
-        "rating": 4,
-        "comment": "Very incredible choice. The feature set is definitely a plus. However, the reliability could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User95836",
+        "user": "User79103",
         "rating": 3,
         "comment": "Good enough for the price, but fell short on feature set. Maybe look around before committing."
+      },
+      {
+        "user": "User30168",
+        "rating": 3,
+        "comment": "Acceptable for the price, but fell short on UI. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Value for Money": "104%",
-      "Feature Richness": "90%",
-      "Ease of Deployment": "105%",
-      "Community Support": "104%"
+      "Value for Money": "96%",
+      "Feature Richness": "89%",
+      "Ease of Deployment": "95%",
+      "Community Support": "93%"
     },
     "ratingStats": {
-      "1": 524,
-      "2": 99,
-      "3": 298,
-      "4": 994,
-      "5": 8029,
-      "total": 9944,
+      "1": 473,
+      "2": 89,
+      "3": 268,
+      "4": 895,
+      "5": 7232,
+      "total": 8957,
       "avg": "4.6"
     }
   },
@@ -2548,47 +2468,47 @@ export const productsData = [
         "link": "https://rufus.ie/en/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Rufus",
+    "image": "https://logo.clearbit.com/rufus.ie",
     "reviews": [
       {
-        "user": "User41588",
-        "rating": 5,
-        "comment": "Outstanding product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "user": "User85393",
+        "rating": 2,
+        "comment": "Good enough for the price, but fell short on UI. Maybe look around before committing."
       },
       {
-        "user": "User73462",
+        "user": "User40352",
         "rating": 4,
-        "comment": "Very outstanding choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "comment": "Very great choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User98341",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User57347",
+        "user": "User28810",
         "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User84764",
+        "user": "User27923",
         "rating": 5,
-        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User19132",
+        "rating": 5,
+        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "105%",
-      "Feature Richness": "103%",
-      "Ease of Deployment": "115%",
-      "Community Support": "101%"
+      "Value for Money": "108%",
+      "Feature Richness": "96%",
+      "Ease of Deployment": "100%",
+      "Community Support": "96%"
     },
     "ratingStats": {
-      "1": 72,
-      "2": 37,
-      "3": 113,
-      "4": 377,
-      "5": 3176,
-      "total": 3775,
+      "1": 39,
+      "2": 20,
+      "3": 60,
+      "4": 203,
+      "5": 1709,
+      "total": 2031,
       "avg": "4.7"
     }
   },
@@ -2632,52 +2552,52 @@ export const productsData = [
         "link": "https://git-scm.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Git",
+    "image": "https://logo.clearbit.com/git-scm.com",
     "reviews": [
       {
-        "user": "User99211",
+        "user": "User91429",
         "rating": 5,
-        "comment": "Outstanding product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User38904",
+        "user": "User83077",
         "rating": 5,
-        "comment": "Great product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User72707",
-        "rating": 5,
-        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User25513",
-        "rating": 5,
-        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User41485",
+        "user": "User45839",
         "rating": 4,
-        "comment": "Very great choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very solid choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User38860",
+        "user": "User16678",
+        "rating": 4,
+        "comment": "Very fantastic choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User29376",
         "rating": 5,
-        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User90379",
+        "rating": 5,
+        "comment": "Excellent product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "102%",
-      "Feature Richness": "98%",
-      "Ease of Deployment": "103%",
+      "Value for Money": "95%",
+      "Feature Richness": "96%",
+      "Ease of Deployment": "109%",
       "Community Support": "93%"
     },
     "ratingStats": {
-      "1": 351,
-      "2": 57,
-      "3": 172,
-      "4": 573,
-      "5": 4582,
-      "total": 5735,
+      "1": 476,
+      "2": 77,
+      "3": 232,
+      "4": 776,
+      "5": 6205,
+      "total": 7766,
       "avg": "4.6"
     }
   },
@@ -2721,47 +2641,42 @@ export const productsData = [
         "link": "https://subversion.apache.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Apache%20Subversion%20(SVN)",
+    "image": "https://logo.clearbit.com/subversion.apache.org",
     "reviews": [
       {
-        "user": "User94555",
-        "rating": 4,
-        "comment": "Very excellent choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User80514",
-        "rating": 3,
-        "comment": "Good enough for the price, but fell short on speed of scan. Maybe look around before committing."
-      },
-      {
-        "user": "User26582",
+        "user": "User97470",
         "rating": 5,
-        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Solid product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User92865",
+        "user": "User32903",
         "rating": 5,
-        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User10249",
+        "user": "User83795",
         "rating": 5,
-        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User46377",
+        "rating": 5,
+        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "92%",
-      "Feature Richness": "91%",
-      "Ease of Deployment": "105%",
-      "Community Support": "85%"
+      "Value for Money": "98%",
+      "Feature Richness": "83%",
+      "Ease of Deployment": "106%",
+      "Community Support": "97%"
     },
     "ratingStats": {
-      "1": 973,
-      "2": 86,
-      "3": 260,
-      "4": 867,
-      "5": 6487,
-      "total": 8673,
+      "1": 796,
+      "2": 71,
+      "3": 213,
+      "4": 710,
+      "5": 5310,
+      "total": 7100,
       "avg": "4.4"
     }
   },
@@ -2805,47 +2720,42 @@ export const productsData = [
         "link": "https://www.mercurial-scm.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Mercurial",
+    "image": "https://logo.clearbit.com/mercurial-scm.org",
     "reviews": [
       {
-        "user": "User35997",
+        "user": "User13734",
         "rating": 5,
-        "comment": "Fantastic product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User82058",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User26459",
+        "user": "User24617",
         "rating": 5,
-        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User20772",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on accuracy. Maybe look around before committing."
+        "user": "User37514",
+        "rating": 5,
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User19026",
-        "rating": 4,
-        "comment": "Very incredible choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "user": "User30711",
+        "rating": 5,
+        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "106%",
-      "Feature Richness": "102%",
-      "Ease of Deployment": "110%",
-      "Community Support": "98%"
+      "Value for Money": "101%",
+      "Feature Richness": "104%",
+      "Ease of Deployment": "96%",
+      "Community Support": "95%"
     },
     "ratingStats": {
-      "1": 613,
-      "2": 87,
-      "3": 263,
-      "4": 877,
-      "5": 6939,
-      "total": 8779,
+      "1": 429,
+      "2": 61,
+      "3": 184,
+      "4": 615,
+      "5": 4861,
+      "total": 6150,
       "avg": "4.5"
     }
   },
@@ -2889,52 +2799,47 @@ export const productsData = [
         "link": "https://vscodium.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=VSCodium",
+    "image": "https://logo.clearbit.com/vscodium.com",
     "reviews": [
       {
-        "user": "User77498",
-        "rating": 2,
-        "comment": "Acceptable for the price, but fell short on accuracy. Maybe look around before committing."
-      },
-      {
-        "user": "User93728",
+        "user": "User79041",
         "rating": 4,
-        "comment": "Very incredible choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
       },
       {
-        "user": "User65415",
+        "user": "User94757",
         "rating": 5,
-        "comment": "Incredible product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Outstanding product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User35339",
-        "rating": 4,
-        "comment": "Very fantastic choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "user": "User39413",
+        "rating": 5,
+        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User72671",
+        "user": "User65614",
         "rating": 4,
-        "comment": "Very fantastic choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very solid choice. The UI is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User18730",
-        "rating": 4,
-        "comment": "Very brilliant choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "user": "User75024",
+        "rating": 5,
+        "comment": "Fantastic product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "94%",
-      "Feature Richness": "106%",
-      "Ease of Deployment": "104%",
-      "Community Support": "96%"
+      "Value for Money": "102%",
+      "Feature Richness": "104%",
+      "Ease of Deployment": "112%",
+      "Community Support": "98%"
     },
     "ratingStats": {
-      "1": 225,
-      "2": 50,
-      "3": 152,
-      "4": 507,
-      "5": 4139,
-      "total": 5073,
+      "1": 410,
+      "2": 92,
+      "3": 278,
+      "4": 927,
+      "5": 7570,
+      "total": 9277,
       "avg": "4.6"
     }
   },
@@ -2978,52 +2883,52 @@ export const productsData = [
         "link": "https://www.eclipse.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Eclipse%20IDE",
+    "image": "https://logo.clearbit.com/eclipse.org",
     "reviews": [
       {
-        "user": "User91761",
+        "user": "User31226",
         "rating": 5,
-        "comment": "Excellent product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User89809",
+        "user": "User81222",
+        "rating": 5,
+        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User41051",
         "rating": 4,
-        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very great choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User52819",
+        "user": "User82041",
         "rating": 5,
-        "comment": "Outstanding product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User82452",
-        "rating": 4,
-        "comment": "Very incredible choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User31373",
+        "user": "User75143",
         "rating": 5,
-        "comment": "Brilliant product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User76626",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on accuracy. Maybe look around before committing."
+        "user": "User73648",
+        "rating": 5,
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "97%",
-      "Feature Richness": "102%",
-      "Ease of Deployment": "108%",
-      "Community Support": "101%"
+      "Value for Money": "96%",
+      "Feature Richness": "94%",
+      "Ease of Deployment": "92%",
+      "Community Support": "97%"
     },
     "ratingStats": {
-      "1": 335,
-      "2": 38,
-      "3": 115,
-      "4": 385,
-      "5": 2977,
-      "total": 3850,
+      "1": 211,
+      "2": 24,
+      "3": 72,
+      "4": 242,
+      "5": 1872,
+      "total": 2421,
       "avg": "4.5"
     }
   },
@@ -3067,52 +2972,52 @@ export const productsData = [
         "link": "https://www.jetbrains.com/idea/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=IntelliJ%20IDEA%20Community",
+    "image": "https://logo.clearbit.com/intel.com",
     "reviews": [
       {
-        "user": "User55703",
+        "user": "User84848",
         "rating": 5,
-        "comment": "Fantastic product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User95323",
-        "rating": 3,
-        "comment": "Average for the price, but fell short on accuracy. Maybe look around before committing."
-      },
-      {
-        "user": "User60427",
+        "user": "User97178",
         "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User34792",
-        "rating": 4,
-        "comment": "Very great choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "user": "User51243",
+        "rating": 5,
+        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User65196",
+        "user": "User16046",
         "rating": 4,
-        "comment": "Very incredible choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very incredible choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User95905",
-        "rating": 4,
-        "comment": "Very fantastic choice. The UI is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "user": "User48918",
+        "rating": 5,
+        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User76311",
+        "rating": 5,
+        "comment": "Excellent product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "97%",
-      "Feature Richness": "94%",
-      "Ease of Deployment": "110%",
-      "Community Support": "97%"
+      "Value for Money": "105%",
+      "Feature Richness": "101%",
+      "Ease of Deployment": "105%",
+      "Community Support": "103%"
     },
     "ratingStats": {
-      "1": 514,
-      "2": 65,
-      "3": 196,
-      "4": 656,
-      "5": 5129,
-      "total": 6560,
+      "1": 523,
+      "2": 66,
+      "3": 199,
+      "4": 666,
+      "5": 5212,
+      "total": 6666,
       "avg": "4.5"
     }
   },
@@ -3156,47 +3061,52 @@ export const productsData = [
         "link": "https://maven.apache.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Apache%20Maven",
+    "image": "https://logo.clearbit.com/maven.apache.org",
     "reviews": [
       {
-        "user": "User30361",
+        "user": "User48129",
         "rating": 5,
-        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Incredible product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User16814",
+        "user": "User27118",
+        "rating": 4,
+        "comment": "Very brilliant choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User25212",
+        "rating": 5,
+        "comment": "Fantastic product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User52632",
         "rating": 2,
-        "comment": "Good enough for the price, but fell short on UI. Maybe look around before committing."
+        "comment": "Decent for the price, but fell short on accuracy. Maybe look around before committing."
       },
       {
-        "user": "User30272",
-        "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "user": "User17980",
+        "rating": 4,
+        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User60896",
-        "rating": 5,
-        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User58426",
-        "rating": 5,
-        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "user": "User53728",
+        "rating": 4,
+        "comment": "Very brilliant choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "105%",
-      "Feature Richness": "93%",
-      "Ease of Deployment": "108%",
-      "Community Support": "101%"
+      "Value for Money": "108%",
+      "Feature Richness": "91%",
+      "Ease of Deployment": "111%",
+      "Community Support": "102%"
     },
     "ratingStats": {
-      "1": 359,
-      "2": 81,
-      "3": 243,
-      "4": 811,
-      "5": 6622,
-      "total": 8116,
+      "1": 339,
+      "2": 76,
+      "3": 229,
+      "4": 765,
+      "5": 6246,
+      "total": 7655,
       "avg": "4.6"
     }
   },
@@ -3240,47 +3150,52 @@ export const productsData = [
         "link": "https://gradle.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Gradle",
+    "image": "https://logo.clearbit.com/gradle.org",
     "reviews": [
       {
-        "user": "User91201",
+        "user": "User54666",
         "rating": 4,
-        "comment": "Very great choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User48905",
-        "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User58351",
-        "rating": 5,
-        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User78273",
+        "user": "User51799",
         "rating": 4,
-        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very solid choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User24294",
-        "rating": 3,
+        "user": "User98198",
+        "rating": 4,
+        "comment": "Very incredible choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User65766",
+        "rating": 5,
+        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User47107",
+        "rating": 4,
+        "comment": "Very brilliant choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User61777",
+        "rating": 2,
         "comment": "Average for the price, but fell short on speed of scan. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Value for Money": "96%",
-      "Feature Richness": "96%",
-      "Ease of Deployment": "99%",
-      "Community Support": "101%"
+      "Value for Money": "107%",
+      "Feature Richness": "99%",
+      "Ease of Deployment": "100%",
+      "Community Support": "103%"
     },
     "ratingStats": {
-      "1": 343,
-      "2": 64,
-      "3": 194,
-      "4": 649,
-      "5": 5242,
-      "total": 6492,
+      "1": 482,
+      "2": 91,
+      "3": 274,
+      "4": 913,
+      "5": 7378,
+      "total": 9138,
       "avg": "4.6"
     }
   },
@@ -3324,47 +3239,47 @@ export const productsData = [
         "link": "https://ant.apache.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Apache%20Ant",
+    "image": "https://logo.clearbit.com/ant.apache.org",
     "reviews": [
       {
-        "user": "User71640",
+        "user": "User60969",
         "rating": 5,
-        "comment": "Solid product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Brilliant product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User58995",
-        "rating": 5,
-        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User74267",
-        "rating": 5,
-        "comment": "Incredible product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User15295",
-        "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User99101",
+        "user": "User98121",
         "rating": 4,
-        "comment": "Very fantastic choice. The feature set is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User67128",
+        "rating": 5,
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User53119",
+        "rating": 5,
+        "comment": "Excellent product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User73796",
+        "rating": 5,
+        "comment": "Fantastic product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "95%",
-      "Feature Richness": "92%",
-      "Ease of Deployment": "95%",
-      "Community Support": "97%"
+      "Value for Money": "94%",
+      "Feature Richness": "99%",
+      "Ease of Deployment": "102%",
+      "Community Support": "102%"
     },
     "ratingStats": {
-      "1": 220,
-      "2": 25,
-      "3": 75,
-      "4": 251,
-      "5": 1948,
-      "total": 2519,
+      "1": 694,
+      "2": 80,
+      "3": 240,
+      "4": 801,
+      "5": 6196,
+      "total": 8011,
       "avg": "4.5"
     }
   },
@@ -3408,42 +3323,42 @@ export const productsData = [
         "link": "https://www.jenkins.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Jenkins",
+    "image": "https://logo.clearbit.com/jenkins.io",
     "reviews": [
       {
-        "user": "User30487",
-        "rating": 3,
-        "comment": "Decent for the price, but fell short on UI. Maybe look around before committing."
-      },
-      {
-        "user": "User50312",
+        "user": "User94711",
         "rating": 5,
-        "comment": "Fantastic product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User32418",
-        "rating": 5,
-        "comment": "Brilliant product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User53645",
+        "user": "User34050",
         "rating": 4,
-        "comment": "Very outstanding choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User49382",
+        "rating": 5,
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User31783",
+        "rating": 5,
+        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "99%",
-      "Feature Richness": "100%",
-      "Ease of Deployment": "106%",
-      "Community Support": "102%"
+      "Value for Money": "94%",
+      "Feature Richness": "91%",
+      "Ease of Deployment": "99%",
+      "Community Support": "100%"
     },
     "ratingStats": {
-      "1": 350,
-      "2": 50,
-      "3": 150,
-      "4": 500,
-      "5": 3958,
-      "total": 5008,
+      "1": 477,
+      "2": 68,
+      "3": 205,
+      "4": 683,
+      "5": 5403,
+      "total": 6836,
       "avg": "4.5"
     }
   },
@@ -3487,47 +3402,52 @@ export const productsData = [
         "link": "https://docs.gitlab.com/ee/ci/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=GitLab%20CI%2FCD",
+    "image": "https://logo.clearbit.com/git-scm.com",
     "reviews": [
       {
-        "user": "User68792",
+        "user": "User34089",
+        "rating": 4,
+        "comment": "Very solid choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User16841",
+        "rating": 4,
+        "comment": "Very fantastic choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User90195",
+        "rating": 4,
+        "comment": "Very excellent choice. The accuracy is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User67574",
         "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Great product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User10715",
+        "user": "User73738",
         "rating": 4,
-        "comment": "Very solid choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The accuracy is definitely a plus. However, the feature set could be a bit better. Overall very happy."
       },
       {
-        "user": "User15941",
-        "rating": 4,
-        "comment": "Very outstanding choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User59856",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User18773",
-        "rating": 4,
-        "comment": "Very excellent choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "user": "User89777",
+        "rating": 5,
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "102%",
-      "Feature Richness": "91%",
-      "Ease of Deployment": "100%",
-      "Community Support": "104%"
+      "Value for Money": "99%",
+      "Feature Richness": "103%",
+      "Ease of Deployment": "103%",
+      "Community Support": "95%"
     },
     "ratingStats": {
-      "1": 441,
-      "2": 83,
-      "3": 250,
-      "4": 835,
-      "5": 6747,
-      "total": 8356,
+      "1": 262,
+      "2": 49,
+      "3": 148,
+      "4": 494,
+      "5": 3995,
+      "total": 4948,
       "avg": "4.6"
     }
   },
@@ -3570,42 +3490,42 @@ export const productsData = [
         "link": "https://tekton.dev/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Tekton",
+    "image": "https://logo.clearbit.com/tekton.dev",
     "reviews": [
       {
-        "user": "User21830",
+        "user": "User20677",
+        "rating": 2,
+        "comment": "Acceptable for the price, but fell short on accuracy. Maybe look around before committing."
+      },
+      {
+        "user": "User26974",
+        "rating": 5,
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User16206",
         "rating": 3,
-        "comment": "Okay for the price, but fell short on reliability. Maybe look around before committing."
+        "comment": "Acceptable for the price, but fell short on UI. Maybe look around before committing."
       },
       {
-        "user": "User25238",
+        "user": "User59679",
         "rating": 5,
-        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User26814",
-        "rating": 5,
-        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User80364",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "99%",
-      "Feature Richness": "104%",
-      "Ease of Deployment": "108%",
-      "Community Support": "104%"
+      "Value for Money": "109%",
+      "Feature Richness": "90%",
+      "Ease of Deployment": "99%",
+      "Community Support": "94%"
     },
     "ratingStats": {
-      "1": 439,
-      "2": 71,
-      "3": 214,
-      "4": 716,
-      "5": 5724,
-      "total": 7164,
+      "1": 532,
+      "2": 86,
+      "3": 260,
+      "4": 869,
+      "5": 6943,
+      "total": 8690,
       "avg": "4.6"
     }
   },
@@ -3649,47 +3569,52 @@ export const productsData = [
         "link": "https://github.com/docker/engine"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Docker%20Engine",
+    "image": "https://logo.clearbit.com/docker.com",
     "reviews": [
       {
-        "user": "User43636",
+        "user": "User40915",
         "rating": 5,
-        "comment": "Outstanding product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User91404",
+        "user": "User75030",
         "rating": 4,
-        "comment": "Very fantastic choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "comment": "Very great choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User66317",
-        "rating": 5,
-        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User73194",
-        "rating": 5,
-        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User82100",
+        "user": "User37984",
         "rating": 3,
-        "comment": "Okay for the price, but fell short on reliability. Maybe look around before committing."
+        "comment": "Acceptable for the price, but fell short on UI. Maybe look around before committing."
+      },
+      {
+        "user": "User65953",
+        "rating": 4,
+        "comment": "Very fantastic choice. The speed of scan is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User53128",
+        "rating": 5,
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User99609",
+        "rating": 5,
+        "comment": "Excellent product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "111%",
-      "Feature Richness": "103%",
-      "Ease of Deployment": "111%",
-      "Community Support": "109%"
+      "Value for Money": "101%",
+      "Feature Richness": "97%",
+      "Ease of Deployment": "116%",
+      "Community Support": "108%"
     },
     "ratingStats": {
-      "1": 167,
-      "2": 60,
-      "3": 182,
-      "4": 608,
-      "5": 5072,
-      "total": 6089,
+      "1": 158,
+      "2": 57,
+      "3": 173,
+      "4": 577,
+      "5": 4808,
+      "total": 5773,
       "avg": "4.7"
     }
   },
@@ -3733,52 +3658,47 @@ export const productsData = [
         "link": "https://podman.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Podman",
+    "image": "https://logo.clearbit.com/podman.io",
     "reviews": [
       {
-        "user": "User15361",
-        "rating": 5,
-        "comment": "Fantastic product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User12281",
+        "user": "User17225",
         "rating": 4,
-        "comment": "Very solid choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very incredible choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User25525",
-        "rating": 5,
-        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User22723",
+        "user": "User85496",
         "rating": 4,
-        "comment": "Very outstanding choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User72222",
+        "user": "User30083",
         "rating": 5,
-        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User30050",
-        "rating": 4,
-        "comment": "Very great choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "user": "User52699",
+        "rating": 2,
+        "comment": "Decent for the price, but fell short on feature set. Maybe look around before committing."
+      },
+      {
+        "user": "User44731",
+        "rating": 5,
+        "comment": "Incredible product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "111%",
-      "Feature Richness": "91%",
-      "Ease of Deployment": "96%",
-      "Community Support": "107%"
+      "Value for Money": "94%",
+      "Feature Richness": "100%",
+      "Ease of Deployment": "111%",
+      "Community Support": "109%"
     },
     "ratingStats": {
-      "1": 348,
-      "2": 78,
-      "3": 236,
-      "4": 787,
-      "5": 6425,
-      "total": 7874,
+      "1": 247,
+      "2": 55,
+      "3": 166,
+      "4": 556,
+      "5": 4540,
+      "total": 5564,
       "avg": "4.6"
     }
   },
@@ -3821,47 +3741,47 @@ export const productsData = [
         "link": "https://containerd.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=containerd",
+    "image": "https://logo.clearbit.com/containerd.io",
     "reviews": [
       {
-        "user": "User98385",
-        "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User73770",
+        "user": "User50276",
         "rating": 4,
-        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very great choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User84588",
+        "user": "User22051",
         "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Brilliant product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User30813",
+        "user": "User89934",
         "rating": 4,
-        "comment": "Very fantastic choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very excellent choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User66875",
+        "user": "User56868",
+        "rating": 4,
+        "comment": "Very excellent choice. The feature set is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User42170",
         "rating": 2,
-        "comment": "Good enough for the price, but fell short on speed of scan. Maybe look around before committing."
+        "comment": "Decent for the price, but fell short on speed of scan. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Value for Money": "105%",
+      "Value for Money": "113%",
       "Feature Richness": "101%",
-      "Ease of Deployment": "109%",
-      "Community Support": "93%"
+      "Ease of Deployment": "112%",
+      "Community Support": "108%"
     },
     "ratingStats": {
-      "1": 183,
-      "2": 66,
-      "3": 200,
-      "4": 668,
-      "5": 5567,
-      "total": 6684,
+      "1": 148,
+      "2": 54,
+      "3": 162,
+      "4": 542,
+      "5": 4519,
+      "total": 5425,
       "avg": "4.7"
     }
   },
@@ -3904,52 +3824,52 @@ export const productsData = [
         "link": "https://kubernetes.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Kubernetes",
+    "image": "https://logo.clearbit.com/kubernetes.io",
     "reviews": [
       {
-        "user": "User14784",
-        "rating": 4,
-        "comment": "Very solid choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User79757",
-        "rating": 5,
-        "comment": "Outstanding product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User50479",
+        "user": "User71250",
         "rating": 2,
-        "comment": "Okay for the price, but fell short on feature set. Maybe look around before committing."
+        "comment": "Okay for the price, but fell short on accuracy. Maybe look around before committing."
       },
       {
-        "user": "User71545",
+        "user": "User86807",
         "rating": 5,
-        "comment": "Brilliant product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User36163",
+        "user": "User63805",
         "rating": 5,
-        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Great product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User58060",
+        "user": "User42520",
+        "rating": 4,
+        "comment": "Very excellent choice. The accuracy is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User10413",
+        "rating": 4,
+        "comment": "Very solid choice. The accuracy is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User39835",
         "rating": 5,
-        "comment": "Excellent product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "104%",
+      "Value for Money": "100%",
       "Feature Richness": "99%",
-      "Ease of Deployment": "101%",
-      "Community Support": "90%"
+      "Ease of Deployment": "107%",
+      "Community Support": "103%"
     },
     "ratingStats": {
-      "1": 203,
-      "2": 38,
-      "3": 114,
-      "4": 381,
-      "5": 3083,
-      "total": 3819,
+      "1": 426,
+      "2": 80,
+      "3": 242,
+      "4": 808,
+      "5": 6525,
+      "total": 8081,
       "avg": "4.6"
     }
   },
@@ -3993,47 +3913,52 @@ export const productsData = [
         "link": "https://docs.docker.com/engine/swarm/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Docker%20Swarm",
+    "image": "https://logo.clearbit.com/docker.com",
     "reviews": [
       {
-        "user": "User95087",
+        "user": "User78032",
         "rating": 5,
-        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User68049",
+        "user": "User89363",
         "rating": 4,
-        "comment": "Very fantastic choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User84518",
+        "user": "User47234",
+        "rating": 3,
+        "comment": "Average for the price, but fell short on feature set. Maybe look around before committing."
+      },
+      {
+        "user": "User13472",
         "rating": 5,
-        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User60391",
+        "user": "User60910",
         "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User57917",
-        "rating": 4,
-        "comment": "Very excellent choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "user": "User22790",
+        "rating": 5,
+        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "103%",
-      "Feature Richness": "87%",
-      "Ease of Deployment": "102%",
-      "Community Support": "98%"
+      "Value for Money": "98%",
+      "Feature Richness": "97%",
+      "Ease of Deployment": "97%",
+      "Community Support": "93%"
     },
     "ratingStats": {
-      "1": 459,
-      "2": 74,
-      "3": 224,
-      "4": 749,
-      "5": 5985,
-      "total": 7491,
+      "1": 486,
+      "2": 79,
+      "3": 238,
+      "4": 794,
+      "5": 6345,
+      "total": 7942,
       "avg": "4.6"
     }
   },
@@ -4077,52 +4002,42 @@ export const productsData = [
         "link": "https://www.nomadproject.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Nomad",
+    "image": "https://logo.clearbit.com/nomadproject.io",
     "reviews": [
       {
-        "user": "User45125",
-        "rating": 3,
-        "comment": "Good enough for the price, but fell short on UI. Maybe look around before committing."
-      },
-      {
-        "user": "User77358",
-        "rating": 5,
-        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User47868",
+        "user": "User53161",
         "rating": 4,
-        "comment": "Very solid choice. The feature set is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very great choice. The speed of scan is definitely a plus. However, the UI could be a bit better. Overall very happy."
       },
       {
-        "user": "User16317",
+        "user": "User12711",
         "rating": 2,
-        "comment": "Decent for the price, but fell short on UI. Maybe look around before committing."
+        "comment": "Acceptable for the price, but fell short on UI. Maybe look around before committing."
       },
       {
-        "user": "User16402",
+        "user": "User37501",
+        "rating": 3,
+        "comment": "Decent for the price, but fell short on speed of scan. Maybe look around before committing."
+      },
+      {
+        "user": "User17451",
         "rating": 4,
-        "comment": "Very solid choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User98817",
-        "rating": 5,
-        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Very solid choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
       "Value for Money": "97%",
-      "Feature Richness": "96%",
-      "Ease of Deployment": "103%",
-      "Community Support": "102%"
+      "Feature Richness": "90%",
+      "Ease of Deployment": "100%",
+      "Community Support": "95%"
     },
     "ratingStats": {
-      "1": 442,
-      "2": 83,
-      "3": 251,
-      "4": 838,
-      "5": 6767,
-      "total": 8381,
+      "1": 120,
+      "2": 22,
+      "3": 67,
+      "4": 225,
+      "5": 1819,
+      "total": 2253,
       "avg": "4.6"
     }
   },
@@ -4166,42 +4081,47 @@ export const productsData = [
         "link": "https://www.ansible.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Ansible",
+    "image": "https://logo.clearbit.com/ansible.com",
     "reviews": [
       {
-        "user": "User89500",
+        "user": "User22252",
         "rating": 4,
-        "comment": "Very outstanding choice. The accuracy is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very incredible choice. The speed of scan is definitely a plus. However, the feature set could be a bit better. Overall very happy."
       },
       {
-        "user": "User18627",
+        "user": "User52227",
         "rating": 5,
-        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User97387",
+        "user": "User13973",
+        "rating": 2,
+        "comment": "Okay for the price, but fell short on accuracy. Maybe look around before committing."
+      },
+      {
+        "user": "User46642",
         "rating": 4,
-        "comment": "Very great choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very fantastic choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User13152",
-        "rating": 5,
-        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "user": "User93881",
+        "rating": 4,
+        "comment": "Very excellent choice. The accuracy is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "98%",
-      "Feature Richness": "97%",
-      "Ease of Deployment": "115%",
-      "Community Support": "94%"
+      "Value for Money": "95%",
+      "Feature Richness": "93%",
+      "Ease of Deployment": "116%",
+      "Community Support": "97%"
     },
     "ratingStats": {
-      "1": 64,
-      "2": 22,
-      "3": 68,
-      "4": 228,
-      "5": 1902,
-      "total": 2284,
+      "1": 268,
+      "2": 98,
+      "3": 294,
+      "4": 983,
+      "5": 8190,
+      "total": 9833,
       "avg": "4.7"
     }
   },
@@ -4245,47 +4165,42 @@ export const productsData = [
         "link": "https://puppet.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Puppet",
+    "image": "https://logo.clearbit.com/puppet.com",
     "reviews": [
       {
-        "user": "User35572",
-        "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User93955",
-        "rating": 5,
-        "comment": "Great product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User18851",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on reliability. Maybe look around before committing."
-      },
-      {
-        "user": "User16109",
-        "rating": 2,
-        "comment": "Okay for the price, but fell short on speed of scan. Maybe look around before committing."
-      },
-      {
-        "user": "User45169",
+        "user": "User57582",
         "rating": 4,
-        "comment": "Very excellent choice. The speed of scan is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very great choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User58895",
+        "rating": 3,
+        "comment": "Decent for the price, but fell short on UI. Maybe look around before committing."
+      },
+      {
+        "user": "User74283",
+        "rating": 5,
+        "comment": "Outstanding product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User55544",
+        "rating": 4,
+        "comment": "Very outstanding choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "90%",
-      "Feature Richness": "93%",
-      "Ease of Deployment": "109%",
-      "Community Support": "104%"
+      "Value for Money": "101%",
+      "Feature Richness": "96%",
+      "Ease of Deployment": "111%",
+      "Community Support": "105%"
     },
     "ratingStats": {
-      "1": 710,
-      "2": 90,
-      "3": 272,
-      "4": 907,
-      "5": 7098,
-      "total": 9077,
+      "1": 550,
+      "2": 70,
+      "3": 210,
+      "4": 702,
+      "5": 5491,
+      "total": 7023,
       "avg": "4.5"
     }
   },
@@ -4329,42 +4244,47 @@ export const productsData = [
         "link": "https://www.chef.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Chef",
+    "image": "https://logo.clearbit.com/chef.io",
     "reviews": [
       {
-        "user": "User61818",
+        "user": "User64324",
         "rating": 5,
-        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Fantastic product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User34757",
-        "rating": 3,
-        "comment": "Good enough for the price, but fell short on UI. Maybe look around before committing."
+        "user": "User64424",
+        "rating": 5,
+        "comment": "Fantastic product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User27905",
+        "user": "User95051",
         "rating": 5,
-        "comment": "Fantastic product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Solid product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User14130",
-        "rating": 5,
-        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "user": "User59559",
+        "rating": 4,
+        "comment": "Very fantastic choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User52261",
+        "rating": 2,
+        "comment": "Okay for the price, but fell short on reliability. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Value for Money": "96%",
-      "Feature Richness": "87%",
+      "Value for Money": "95%",
+      "Feature Richness": "101%",
       "Ease of Deployment": "104%",
-      "Community Support": "90%"
+      "Community Support": "101%"
     },
     "ratingStats": {
-      "1": 503,
-      "2": 57,
-      "3": 173,
-      "4": 578,
-      "5": 4475,
-      "total": 5786,
+      "1": 239,
+      "2": 27,
+      "3": 82,
+      "4": 274,
+      "5": 2122,
+      "total": 2744,
       "avg": "4.5"
     }
   },
@@ -4408,42 +4328,52 @@ export const productsData = [
         "link": "https://www.redmine.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Redmine",
+    "image": "https://logo.clearbit.com/redmine.org",
     "reviews": [
       {
-        "user": "User59760",
+        "user": "User98416",
         "rating": 4,
-        "comment": "Very excellent choice. The speed of scan is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "comment": "Very great choice. The speed of scan is definitely a plus. However, the UI could be a bit better. Overall very happy."
       },
       {
-        "user": "User47792",
-        "rating": 4,
-        "comment": "Very fantastic choice. The feature set is definitely a plus. However, the reliability could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User46294",
+        "user": "User69267",
         "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User73583",
+        "user": "User92088",
         "rating": 5,
-        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User72026",
+        "rating": 5,
+        "comment": "Incredible product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User77498",
+        "rating": 5,
+        "comment": "Great product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User43008",
+        "rating": 5,
+        "comment": "Great product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "91%",
-      "Feature Richness": "84%",
-      "Ease of Deployment": "105%",
-      "Community Support": "84%"
+      "Value for Money": "99%",
+      "Feature Richness": "95%",
+      "Ease of Deployment": "104%",
+      "Community Support": "88%"
     },
     "ratingStats": {
-      "1": 1205,
-      "2": 93,
-      "3": 279,
-      "4": 932,
-      "5": 6816,
-      "total": 9325,
+      "1": 726,
+      "2": 56,
+      "3": 168,
+      "4": 561,
+      "5": 4106,
+      "total": 5617,
       "avg": "4.3"
     }
   },
@@ -4487,47 +4417,47 @@ export const productsData = [
         "link": "https://www.bugzilla.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Bugzilla",
+    "image": "https://logo.clearbit.com/bugzilla.org",
     "reviews": [
       {
-        "user": "User25871",
+        "user": "User10803",
         "rating": 5,
-        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User61956",
+        "user": "User41046",
         "rating": 5,
-        "comment": "Fantastic product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User78663",
-        "rating": 5,
-        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User42058",
+        "user": "User49539",
         "rating": 4,
-        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very great choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User70647",
+        "user": "User24737",
+        "rating": 4,
+        "comment": "Very fantastic choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User63935",
         "rating": 3,
-        "comment": "Acceptable for the price, but fell short on speed of scan. Maybe look around before committing."
+        "comment": "Good enough for the price, but fell short on accuracy. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Value for Money": "89%",
-      "Feature Richness": "93%",
-      "Ease of Deployment": "101%",
-      "Community Support": "89%"
+      "Value for Money": "83%",
+      "Feature Richness": "91%",
+      "Ease of Deployment": "85%",
+      "Community Support": "86%"
     },
     "ratingStats": {
-      "1": 650,
-      "2": 42,
-      "3": 126,
-      "4": 420,
-      "5": 2963,
-      "total": 4201,
+      "1": 1228,
+      "2": 79,
+      "3": 238,
+      "4": 794,
+      "5": 5602,
+      "total": 7941,
       "avg": "4.2"
     }
   },
@@ -4571,47 +4501,42 @@ export const productsData = [
         "link": "https://taiga.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Taiga",
+    "image": "https://logo.clearbit.com/taiga.io",
     "reviews": [
       {
-        "user": "User25658",
+        "user": "User21025",
+        "rating": 5,
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User42484",
+        "rating": 5,
+        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User10394",
         "rating": 4,
-        "comment": "Very fantastic choice. The accuracy is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very great choice. The accuracy is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User67615",
+        "user": "User83734",
         "rating": 5,
-        "comment": "Great product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User36902",
-        "rating": 5,
-        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User18470",
-        "rating": 4,
-        "comment": "Very outstanding choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User15349",
-        "rating": 5,
-        "comment": "Excellent product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "104%",
-      "Feature Richness": "93%",
-      "Ease of Deployment": "113%",
-      "Community Support": "97%"
+      "Value for Money": "107%",
+      "Feature Richness": "90%",
+      "Ease of Deployment": "110%",
+      "Community Support": "101%"
     },
     "ratingStats": {
-      "1": 502,
-      "2": 82,
-      "3": 246,
-      "4": 821,
-      "5": 6561,
-      "total": 8212,
+      "1": 500,
+      "2": 81,
+      "3": 245,
+      "4": 817,
+      "5": 6529,
+      "total": 8172,
       "avg": "4.6"
     }
   },
@@ -4655,42 +4580,52 @@ export const productsData = [
         "link": "https://www.sonarqube.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=SonarQube%20(Community)",
+    "image": "https://logo.clearbit.com/sonarqube.org",
     "reviews": [
       {
-        "user": "User43615",
+        "user": "User70329",
+        "rating": 5,
+        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User98625",
         "rating": 4,
-        "comment": "Very brilliant choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very great choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User37197",
-        "rating": 5,
-        "comment": "Excellent product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "user": "User21200",
+        "rating": 4,
+        "comment": "Very incredible choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User99525",
+        "user": "User10455",
         "rating": 5,
-        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Incredible product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User74588",
+        "user": "User48860",
         "rating": 5,
-        "comment": "Incredible product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Excellent product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User68044",
+        "rating": 5,
+        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       }
     ],
     "benchmarks": {
       "Value for Money": "99%",
-      "Feature Richness": "97%",
-      "Ease of Deployment": "103%",
-      "Community Support": "102%"
+      "Feature Richness": "105%",
+      "Ease of Deployment": "97%",
+      "Community Support": "99%"
     },
     "ratingStats": {
-      "1": 187,
-      "2": 34,
-      "3": 104,
-      "4": 349,
-      "5": 2823,
-      "total": 3497,
+      "1": 369,
+      "2": 70,
+      "3": 210,
+      "4": 700,
+      "5": 5658,
+      "total": 7007,
       "avg": "4.6"
     }
   },
@@ -4734,42 +4669,47 @@ export const productsData = [
         "link": "https://eslint.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=ESLint",
+    "image": "https://logo.clearbit.com/eslint.org",
     "reviews": [
       {
-        "user": "User92467",
+        "user": "User54279",
         "rating": 5,
-        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Fantastic product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User75419",
+        "user": "User74144",
         "rating": 5,
-        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User70772",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on UI. Maybe look around before committing."
+        "user": "User97834",
+        "rating": 4,
+        "comment": "Very great choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
       },
       {
-        "user": "User23663",
-        "rating": 2,
-        "comment": "Okay for the price, but fell short on UI. Maybe look around before committing."
+        "user": "User25025",
+        "rating": 5,
+        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User11521",
+        "rating": 5,
+        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "110%",
-      "Feature Richness": "99%",
-      "Ease of Deployment": "102%",
-      "Community Support": "104%"
+      "Value for Money": "97%",
+      "Feature Richness": "91%",
+      "Ease of Deployment": "114%",
+      "Community Support": "106%"
     },
     "ratingStats": {
-      "1": 83,
-      "2": 30,
-      "3": 90,
-      "4": 302,
-      "5": 2518,
-      "total": 3023,
+      "1": 89,
+      "2": 32,
+      "3": 96,
+      "4": 323,
+      "5": 2690,
+      "total": 3230,
       "avg": "4.7"
     }
   },
@@ -4812,47 +4752,52 @@ export const productsData = [
         "link": "https://prettier.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Prettier",
+    "image": "https://logo.clearbit.com/prettier.io",
     "reviews": [
       {
-        "user": "User21988",
+        "user": "User78961",
         "rating": 5,
-        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User42539",
-        "rating": 4,
-        "comment": "Very brilliant choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User81327",
-        "rating": 4,
-        "comment": "Very excellent choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User53577",
-        "rating": 3,
-        "comment": "Good enough for the price, but fell short on feature set. Maybe look around before committing."
-      },
-      {
-        "user": "User51875",
+        "user": "User39221",
         "rating": 5,
-        "comment": "Fantastic product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User59393",
+        "rating": 4,
+        "comment": "Very brilliant choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User68122",
+        "rating": 4,
+        "comment": "Very solid choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User14439",
+        "rating": 5,
+        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User93576",
+        "rating": 5,
+        "comment": "Fantastic product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "108%",
-      "Feature Richness": "103%",
-      "Ease of Deployment": "101%",
-      "Community Support": "104%"
+      "Value for Money": "109%",
+      "Feature Richness": "101%",
+      "Ease of Deployment": "102%",
+      "Community Support": "102%"
     },
     "ratingStats": {
-      "1": 172,
-      "2": 92,
-      "3": 277,
-      "4": 923,
-      "5": 7771,
-      "total": 9235,
+      "1": 169,
+      "2": 90,
+      "3": 271,
+      "4": 904,
+      "5": 7611,
+      "total": 9045,
       "avg": "4.7"
     }
   },
@@ -4896,47 +4841,52 @@ export const productsData = [
         "link": "https://www.selenium.dev/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Selenium",
+    "image": "https://logo.clearbit.com/selenium.dev",
     "reviews": [
       {
-        "user": "User37188",
-        "rating": 5,
-        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "user": "User70814",
+        "rating": 2,
+        "comment": "Average for the price, but fell short on speed of scan. Maybe look around before committing."
       },
       {
-        "user": "User72153",
+        "user": "User36913",
+        "rating": 5,
+        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User83806",
         "rating": 3,
-        "comment": "Decent for the price, but fell short on reliability. Maybe look around before committing."
+        "comment": "Good enough for the price, but fell short on reliability. Maybe look around before committing."
       },
       {
-        "user": "User53028",
+        "user": "User92129",
+        "rating": 5,
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User78903",
         "rating": 4,
-        "comment": "Very great choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
       },
       {
-        "user": "User24703",
+        "user": "User31669",
         "rating": 5,
-        "comment": "Fantastic product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User76141",
-        "rating": 5,
-        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Outstanding product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "100%",
-      "Feature Richness": "94%",
-      "Ease of Deployment": "104%",
-      "Community Support": "89%"
+      "Value for Money": "90%",
+      "Feature Richness": "101%",
+      "Ease of Deployment": "106%",
+      "Community Support": "102%"
     },
     "ratingStats": {
-      "1": 302,
-      "2": 42,
-      "3": 128,
-      "4": 429,
-      "5": 3398,
-      "total": 4299,
+      "1": 509,
+      "2": 72,
+      "3": 218,
+      "4": 728,
+      "5": 5758,
+      "total": 7285,
       "avg": "4.5"
     }
   },
@@ -4980,52 +4930,47 @@ export const productsData = [
         "link": "https://www.cypress.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Cypress",
+    "image": "https://logo.clearbit.com/cypress.io",
     "reviews": [
       {
-        "user": "User87800",
+        "user": "User69159",
         "rating": 5,
-        "comment": "Fantastic product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User68785",
-        "rating": 4,
-        "comment": "Very outstanding choice. The UI is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User94457",
-        "rating": 2,
-        "comment": "Average for the price, but fell short on UI. Maybe look around before committing."
-      },
-      {
-        "user": "User18480",
-        "rating": 2,
-        "comment": "Okay for the price, but fell short on accuracy. Maybe look around before committing."
-      },
-      {
-        "user": "User18539",
+        "user": "User55648",
         "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User32806",
-        "rating": 4,
-        "comment": "Very fantastic choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "user": "User21500",
+        "rating": 5,
+        "comment": "Fantastic product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User54971",
+        "rating": 5,
+        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User37707",
+        "rating": 5,
+        "comment": "Great product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "106%",
-      "Feature Richness": "101%",
-      "Ease of Deployment": "115%",
+      "Value for Money": "97%",
+      "Feature Richness": "105%",
+      "Ease of Deployment": "101%",
       "Community Support": "96%"
     },
     "ratingStats": {
-      "1": 399,
-      "2": 90,
-      "3": 270,
-      "4": 903,
-      "5": 7368,
-      "total": 9030,
+      "1": 382,
+      "2": 86,
+      "3": 259,
+      "4": 865,
+      "5": 7060,
+      "total": 8652,
       "avg": "4.6"
     }
   },
@@ -5069,47 +5014,52 @@ export const productsData = [
         "link": "https://junit.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=JUnit",
+    "image": "https://logo.clearbit.com/junit.org",
     "reviews": [
       {
-        "user": "User26800",
+        "user": "User61459",
         "rating": 5,
-        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Incredible product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User72376",
-        "rating": 5,
-        "comment": "Great product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User81412",
-        "rating": 5,
-        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User96082",
+        "user": "User90313",
         "rating": 4,
-        "comment": "Very incredible choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "comment": "Very great choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
       },
       {
-        "user": "User29176",
+        "user": "User39665",
         "rating": 4,
-        "comment": "Very outstanding choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very great choice. The speed of scan is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User14094",
+        "rating": 5,
+        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User42030",
+        "rating": 4,
+        "comment": "Very incredible choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User95375",
+        "rating": 4,
+        "comment": "Very outstanding choice. The speed of scan is definitely a plus. However, the UI could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "97%",
-      "Feature Richness": "96%",
-      "Ease of Deployment": "108%",
-      "Community Support": "109%"
+      "Value for Money": "100%",
+      "Feature Richness": "102%",
+      "Ease of Deployment": "115%",
+      "Community Support": "101%"
     },
     "ratingStats": {
-      "1": 181,
-      "2": 66,
-      "3": 199,
-      "4": 663,
-      "5": 5528,
-      "total": 6637,
+      "1": 197,
+      "2": 71,
+      "3": 215,
+      "4": 719,
+      "5": 5991,
+      "total": 7193,
       "avg": "4.7"
     }
   },
@@ -5153,42 +5103,42 @@ export const productsData = [
         "link": "https://www.postgresql.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=PostgreSQL",
+    "image": "https://logo.clearbit.com/postgresql.org",
     "reviews": [
       {
-        "user": "User13157",
-        "rating": 4,
-        "comment": "Very great choice. The speed of scan is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "user": "User90940",
+        "rating": 3,
+        "comment": "Okay for the price, but fell short on feature set. Maybe look around before committing."
       },
       {
-        "user": "User63288",
-        "rating": 4,
-        "comment": "Very outstanding choice. The accuracy is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User63491",
+        "user": "User70013",
         "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Excellent product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User52123",
+        "user": "User26757",
+        "rating": 4,
+        "comment": "Very excellent choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User71676",
         "rating": 5,
-        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "97%",
-      "Feature Richness": "103%",
-      "Ease of Deployment": "106%",
-      "Community Support": "104%"
+      "Value for Money": "108%",
+      "Feature Richness": "92%",
+      "Ease of Deployment": "103%",
+      "Community Support": "103%"
     },
     "ratingStats": {
-      "1": 201,
-      "2": 73,
-      "3": 220,
-      "4": 736,
-      "5": 6134,
-      "total": 7364,
+      "1": 147,
+      "2": 53,
+      "3": 160,
+      "4": 536,
+      "5": 4467,
+      "total": 5363,
       "avg": "4.7"
     }
   },
@@ -5232,47 +5182,42 @@ export const productsData = [
         "link": "https://www.mysql.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=MySQL",
+    "image": "https://logo.clearbit.com/mysql.com",
     "reviews": [
       {
-        "user": "User84774",
-        "rating": 4,
-        "comment": "Very brilliant choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "user": "User96648",
+        "rating": 2,
+        "comment": "Good enough for the price, but fell short on accuracy. Maybe look around before committing."
       },
       {
-        "user": "User37971",
-        "rating": 4,
-        "comment": "Very fantastic choice. The accuracy is definitely a plus. However, the reliability could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User57699",
+        "user": "User56923",
         "rating": 5,
-        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User67311",
-        "rating": 4,
-        "comment": "Very brilliant choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User56469",
+        "user": "User35634",
         "rating": 5,
-        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User26810",
+        "rating": 5,
+        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "94%",
-      "Feature Richness": "100%",
-      "Ease of Deployment": "96%",
-      "Community Support": "103%"
+      "Value for Money": "97%",
+      "Feature Richness": "102%",
+      "Ease of Deployment": "113%",
+      "Community Support": "101%"
     },
     "ratingStats": {
-      "1": 340,
-      "2": 77,
-      "3": 231,
-      "4": 770,
-      "5": 6287,
-      "total": 7705,
+      "1": 282,
+      "2": 63,
+      "3": 191,
+      "4": 637,
+      "5": 5198,
+      "total": 6371,
       "avg": "4.6"
     }
   },
@@ -5316,47 +5261,42 @@ export const productsData = [
         "link": "https://mariadb.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=MariaDB",
+    "image": "https://logo.clearbit.com/mariadb.org",
     "reviews": [
       {
-        "user": "User63277",
+        "user": "User71601",
         "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
       },
       {
-        "user": "User15571",
+        "user": "User86811",
         "rating": 4,
-        "comment": "Very brilliant choice. The feature set is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "comment": "Very fantastic choice. The accuracy is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User87284",
-        "rating": 5,
-        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "user": "User60225",
+        "rating": 4,
+        "comment": "Very solid choice. The UI is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User40744",
-        "rating": 5,
-        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User22775",
-        "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "user": "User50978",
+        "rating": 4,
+        "comment": "Very great choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "107%",
-      "Feature Richness": "105%",
-      "Ease of Deployment": "113%",
-      "Community Support": "102%"
+      "Value for Money": "100%",
+      "Feature Richness": "99%",
+      "Ease of Deployment": "108%",
+      "Community Support": "96%"
     },
     "ratingStats": {
-      "1": 79,
-      "2": 21,
-      "3": 64,
-      "4": 215,
-      "5": 1780,
-      "total": 2159,
+      "1": 291,
+      "2": 80,
+      "3": 242,
+      "4": 809,
+      "5": 6677,
+      "total": 8099,
       "avg": "4.7"
     }
   },
@@ -5400,47 +5340,52 @@ export const productsData = [
         "link": "https://hoppscotch.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Hoppscotch",
+    "image": "https://logo.clearbit.com/hoppscotch.io",
     "reviews": [
       {
-        "user": "User65530",
-        "rating": 2,
-        "comment": "Decent for the price, but fell short on accuracy. Maybe look around before committing."
-      },
-      {
-        "user": "User27024",
+        "user": "User98294",
         "rating": 4,
-        "comment": "Very excellent choice. The feature set is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The accuracy is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User36205",
+        "user": "User81177",
+        "rating": 3,
+        "comment": "Good enough for the price, but fell short on reliability. Maybe look around before committing."
+      },
+      {
+        "user": "User67047",
+        "rating": 4,
+        "comment": "Very solid choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User55838",
         "rating": 5,
-        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User25946",
-        "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "user": "User67260",
+        "rating": 4,
+        "comment": "Very incredible choice. The accuracy is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User74579",
-        "rating": 2,
-        "comment": "Okay for the price, but fell short on UI. Maybe look around before committing."
+        "user": "User52645",
+        "rating": 4,
+        "comment": "Very solid choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "108%",
-      "Feature Richness": "90%",
-      "Ease of Deployment": "114%",
-      "Community Support": "92%"
+      "Value for Money": "97%",
+      "Feature Richness": "103%",
+      "Ease of Deployment": "106%",
+      "Community Support": "105%"
     },
     "ratingStats": {
-      "1": 383,
-      "2": 86,
-      "3": 260,
-      "4": 867,
-      "5": 7074,
-      "total": 8670,
+      "1": 228,
+      "2": 51,
+      "3": 154,
+      "4": 515,
+      "5": 4202,
+      "total": 5150,
       "avg": "4.6"
     }
   },
@@ -5484,42 +5429,52 @@ export const productsData = [
         "link": "https://insomnia.rest/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Insomnia",
+    "image": "https://logo.clearbit.com/insomnia.rest",
     "reviews": [
       {
-        "user": "User71131",
-        "rating": 5,
-        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User37919",
-        "rating": 5,
-        "comment": "Great product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User49899",
-        "rating": 5,
-        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User48105",
+        "user": "User94072",
         "rating": 4,
-        "comment": "Very fantastic choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very fantastic choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User36064",
+        "rating": 5,
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User22832",
+        "rating": 5,
+        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User22585",
+        "rating": 5,
+        "comment": "Incredible product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User88549",
+        "rating": 4,
+        "comment": "Very outstanding choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User60915",
+        "rating": 5,
+        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "101%",
-      "Feature Richness": "95%",
-      "Ease of Deployment": "103%",
-      "Community Support": "93%"
+      "Value for Money": "100%",
+      "Feature Richness": "103%",
+      "Ease of Deployment": "106%",
+      "Community Support": "104%"
     },
     "ratingStats": {
-      "1": 372,
-      "2": 60,
-      "3": 181,
-      "4": 606,
-      "5": 4843,
-      "total": 6062,
+      "1": 536,
+      "2": 87,
+      "3": 262,
+      "4": 875,
+      "5": 6993,
+      "total": 8753,
       "avg": "4.6"
     }
   },
@@ -5563,42 +5518,42 @@ export const productsData = [
         "link": "https://www.usebruno.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Bruno",
+    "image": "https://logo.clearbit.com/usebruno.com",
     "reviews": [
       {
-        "user": "User64187",
-        "rating": 5,
-        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User44234",
+        "user": "User78461",
         "rating": 4,
-        "comment": "Very solid choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User58389",
-        "rating": 5,
-        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User84955",
+        "user": "User61200",
         "rating": 2,
-        "comment": "Decent for the price, but fell short on speed of scan. Maybe look around before committing."
+        "comment": "Acceptable for the price, but fell short on accuracy. Maybe look around before committing."
+      },
+      {
+        "user": "User63149",
+        "rating": 5,
+        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User25208",
+        "rating": 2,
+        "comment": "Acceptable for the price, but fell short on reliability. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Value for Money": "95%",
-      "Feature Richness": "103%",
-      "Ease of Deployment": "103%",
-      "Community Support": "109%"
+      "Value for Money": "102%",
+      "Feature Richness": "98%",
+      "Ease of Deployment": "100%",
+      "Community Support": "95%"
     },
     "ratingStats": {
-      "1": 127,
-      "2": 34,
-      "3": 104,
-      "4": 349,
-      "5": 2882,
-      "total": 3496,
+      "1": 303,
+      "2": 85,
+      "3": 255,
+      "4": 851,
+      "5": 7018,
+      "total": 8512,
       "avg": "4.7"
     }
   },
@@ -5641,42 +5596,52 @@ export const productsData = [
         "link": "https://prometheus.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Prometheus",
+    "image": "https://logo.clearbit.com/prometheus.io",
     "reviews": [
       {
-        "user": "User52477",
+        "user": "User96981",
         "rating": 5,
-        "comment": "Fantastic product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User90158",
+        "user": "User90432",
+        "rating": 5,
+        "comment": "Solid product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User10903",
         "rating": 4,
-        "comment": "Very excellent choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The speed of scan is definitely a plus. However, the feature set could be a bit better. Overall very happy."
       },
       {
-        "user": "User14872",
-        "rating": 3,
-        "comment": "Average for the price, but fell short on accuracy. Maybe look around before committing."
-      },
-      {
-        "user": "User64299",
+        "user": "User58593",
         "rating": 5,
-        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User29211",
+        "rating": 5,
+        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User96781",
+        "rating": 2,
+        "comment": "Decent for the price, but fell short on speed of scan. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "Value for Money": "109%",
-      "Feature Richness": "98%",
-      "Ease of Deployment": "102%",
-      "Community Support": "106%"
+      "Value for Money": "105%",
+      "Feature Richness": "89%",
+      "Ease of Deployment": "100%",
+      "Community Support": "100%"
     },
     "ratingStats": {
-      "1": 143,
-      "2": 23,
-      "3": 69,
-      "4": 232,
-      "5": 1856,
-      "total": 2323,
+      "1": 557,
+      "2": 90,
+      "3": 272,
+      "4": 908,
+      "5": 7260,
+      "total": 9087,
       "avg": "4.6"
     }
   },
@@ -5720,42 +5685,42 @@ export const productsData = [
         "link": "https://grafana.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Grafana",
+    "image": "https://logo.clearbit.com/grafana.com",
     "reviews": [
       {
-        "user": "User77053",
+        "user": "User44092",
         "rating": 5,
-        "comment": "Fantastic product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User79253",
+        "user": "User59846",
         "rating": 4,
-        "comment": "Very brilliant choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very fantastic choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User25469",
+        "user": "User90963",
         "rating": 5,
-        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User33280",
+        "user": "User54873",
         "rating": 5,
-        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Incredible product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "97%",
-      "Feature Richness": "96%",
-      "Ease of Deployment": "105%",
-      "Community Support": "101%"
+      "Value for Money": "95%",
+      "Feature Richness": "95%",
+      "Ease of Deployment": "100%",
+      "Community Support": "98%"
     },
     "ratingStats": {
-      "1": 85,
-      "2": 30,
-      "3": 92,
-      "4": 306,
-      "5": 2554,
-      "total": 3067,
+      "1": 92,
+      "2": 33,
+      "3": 101,
+      "4": 337,
+      "5": 2808,
+      "total": 3371,
       "avg": "4.7"
     }
   },
@@ -5799,47 +5764,42 @@ export const productsData = [
         "link": "https://www.zabbix.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Zabbix",
+    "image": "https://logo.clearbit.com/zabbix.com",
     "reviews": [
       {
-        "user": "User78629",
-        "rating": 3,
-        "comment": "Okay for the price, but fell short on accuracy. Maybe look around before committing."
-      },
-      {
-        "user": "User65751",
+        "user": "User58160",
         "rating": 5,
-        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Excellent product! The speed of scan is top tier. I've also noticed great improvements in reliability. Highly recommend."
       },
       {
-        "user": "User30231",
-        "rating": 4,
-        "comment": "Very brilliant choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "user": "User91370",
+        "rating": 2,
+        "comment": "Okay for the price, but fell short on UI. Maybe look around before committing."
       },
       {
-        "user": "User51855",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on UI. Maybe look around before committing."
+        "user": "User34294",
+        "rating": 5,
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User40103",
-        "rating": 4,
-        "comment": "Very great choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "user": "User17129",
+        "rating": 5,
+        "comment": "Incredible product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "96%",
-      "Feature Richness": "96%",
-      "Ease of Deployment": "110%",
-      "Community Support": "94%"
+      "Value for Money": "99%",
+      "Feature Richness": "89%",
+      "Ease of Deployment": "96%",
+      "Community Support": "96%"
     },
     "ratingStats": {
-      "1": 364,
-      "2": 41,
-      "3": 125,
-      "4": 417,
-      "5": 3232,
-      "total": 4179,
+      "1": 830,
+      "2": 95,
+      "3": 286,
+      "4": 956,
+      "5": 7399,
+      "total": 9566,
       "avg": "4.5"
     }
   },
@@ -5882,52 +5842,47 @@ export const productsData = [
         "link": "https://www.elastic.co/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Elasticsearch",
+    "image": "https://logo.clearbit.com/elastic.co",
     "reviews": [
       {
-        "user": "User86849",
+        "user": "User80297",
         "rating": 5,
-        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User33159",
-        "rating": 5,
-        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User30002",
-        "rating": 5,
-        "comment": "Excellent product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User45004",
+        "user": "User19048",
         "rating": 4,
-        "comment": "Very great choice. The reliability is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User70246",
+        "user": "User50590",
         "rating": 5,
-        "comment": "Brilliant product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User15277",
-        "rating": 4,
-        "comment": "Very great choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "user": "User47699",
+        "rating": 3,
+        "comment": "Good enough for the price, but fell short on reliability. Maybe look around before committing."
+      },
+      {
+        "user": "User30266",
+        "rating": 5,
+        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "108%",
-      "Feature Richness": "102%",
-      "Ease of Deployment": "104%",
-      "Community Support": "104%"
+      "Value for Money": "102%",
+      "Feature Richness": "105%",
+      "Ease of Deployment": "99%",
+      "Community Support": "109%"
     },
     "ratingStats": {
-      "1": 79,
-      "2": 28,
-      "3": 86,
-      "4": 287,
-      "5": 2394,
-      "total": 2874,
+      "1": 224,
+      "2": 82,
+      "3": 246,
+      "4": 821,
+      "5": 6844,
+      "total": 8217,
       "avg": "4.7"
     }
   },
@@ -5970,42 +5925,42 @@ export const productsData = [
         "link": "https://www.elastic.co/logstash"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Logstash",
+    "image": "https://logo.clearbit.com/elastic.co",
     "reviews": [
       {
-        "user": "User69258",
+        "user": "User81998",
         "rating": 4,
-        "comment": "Very outstanding choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very solid choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User79576",
+        "user": "User86794",
         "rating": 4,
-        "comment": "Very fantastic choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User50636",
-        "rating": 2,
-        "comment": "Okay for the price, but fell short on UI. Maybe look around before committing."
+        "user": "User82755",
+        "rating": 4,
+        "comment": "Very excellent choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User61477",
-        "rating": 4,
-        "comment": "Very fantastic choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+        "user": "User15538",
+        "rating": 5,
+        "comment": "Excellent product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "101%",
-      "Feature Richness": "89%",
-      "Ease of Deployment": "104%",
-      "Community Support": "103%"
+      "Value for Money": "98%",
+      "Feature Richness": "99%",
+      "Ease of Deployment": "110%",
+      "Community Support": "107%"
     },
     "ratingStats": {
-      "1": 544,
-      "2": 88,
-      "3": 266,
-      "4": 887,
-      "5": 7092,
-      "total": 8877,
+      "1": 379,
+      "2": 61,
+      "3": 185,
+      "4": 617,
+      "5": 4933,
+      "total": 6175,
       "avg": "4.6"
     }
   },
@@ -6048,42 +6003,52 @@ export const productsData = [
         "link": "https://www.fluentd.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Fluentd",
+    "image": "https://logo.clearbit.com/fluentd.org",
     "reviews": [
       {
-        "user": "User74477",
+        "user": "User20308",
         "rating": 4,
-        "comment": "Very excellent choice. The speed of scan is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
       },
       {
-        "user": "User48878",
+        "user": "User48184",
         "rating": 5,
-        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User23597",
+        "user": "User11792",
+        "rating": 5,
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User97568",
+        "rating": 4,
+        "comment": "Very brilliant choice. The accuracy is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User79284",
         "rating": 5,
         "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User12401",
-        "rating": 5,
-        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
+        "user": "User40448",
+        "rating": 4,
+        "comment": "Very great choice. The speed of scan is definitely a plus. However, the UI could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "93%",
-      "Feature Richness": "95%",
-      "Ease of Deployment": "107%",
-      "Community Support": "106%"
+      "Value for Money": "110%",
+      "Feature Richness": "94%",
+      "Ease of Deployment": "101%",
+      "Community Support": "92%"
     },
     "ratingStats": {
-      "1": 111,
-      "2": 20,
-      "3": 61,
-      "4": 205,
-      "5": 1662,
-      "total": 2059,
+      "1": 507,
+      "2": 96,
+      "3": 288,
+      "4": 963,
+      "5": 7776,
+      "total": 9630,
       "avg": "4.6"
     }
   },
@@ -6127,47 +6092,42 @@ export const productsData = [
         "link": "https://gitea.io/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Gitea",
+    "image": "https://logo.clearbit.com/git-scm.com",
     "reviews": [
       {
-        "user": "User52858",
+        "user": "User62808",
+        "rating": 2,
+        "comment": "Good enough for the price, but fell short on reliability. Maybe look around before committing."
+      },
+      {
+        "user": "User45395",
         "rating": 5,
-        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Outstanding product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User60353",
-        "rating": 4,
-        "comment": "Very excellent choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User90702",
-        "rating": 4,
-        "comment": "Very great choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User11350",
-        "rating": 4,
-        "comment": "Very excellent choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User85414",
+        "user": "User59238",
         "rating": 5,
-        "comment": "Outstanding product! The reliability is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User22944",
+        "rating": 4,
+        "comment": "Very solid choice. The UI is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "109%",
-      "Feature Richness": "97%",
-      "Ease of Deployment": "105%",
-      "Community Support": "89%"
+      "Value for Money": "95%",
+      "Feature Richness": "93%",
+      "Ease of Deployment": "97%",
+      "Community Support": "99%"
     },
     "ratingStats": {
-      "1": 405,
-      "2": 65,
-      "3": 197,
-      "4": 659,
-      "5": 5270,
-      "total": 6596,
+      "1": 521,
+      "2": 84,
+      "3": 254,
+      "4": 848,
+      "5": 6782,
+      "total": 8489,
       "avg": "4.6"
     }
   },
@@ -6210,42 +6170,47 @@ export const productsData = [
         "link": "https://about.gitlab.com/install/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=GitLab%20CE",
+    "image": "https://logo.clearbit.com/git-scm.com",
     "reviews": [
       {
-        "user": "User56293",
+        "user": "User65051",
         "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User92319",
-        "rating": 2,
-        "comment": "Decent for the price, but fell short on UI. Maybe look around before committing."
-      },
-      {
-        "user": "User22484",
+        "user": "User35916",
         "rating": 5,
-        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
+        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User30857",
+        "user": "User81482",
+        "rating": 5,
+        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User62339",
         "rating": 4,
-        "comment": "Very incredible choice. The accuracy is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very excellent choice. The feature set is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User95494",
+        "rating": 4,
+        "comment": "Very excellent choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "98%",
-      "Feature Richness": "89%",
-      "Ease of Deployment": "106%",
-      "Community Support": "96%"
+      "Value for Money": "104%",
+      "Feature Richness": "93%",
+      "Ease of Deployment": "108%",
+      "Community Support": "89%"
     },
     "ratingStats": {
-      "1": 275,
-      "2": 28,
-      "3": 85,
-      "4": 286,
-      "5": 2191,
-      "total": 2865,
+      "1": 335,
+      "2": 35,
+      "3": 105,
+      "4": 351,
+      "5": 2686,
+      "total": 3512,
       "avg": "4.4"
     }
   },
@@ -6289,47 +6254,47 @@ export const productsData = [
         "link": "https://nginx.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Nginx",
+    "image": "https://logo.clearbit.com/nginx.org",
     "reviews": [
       {
-        "user": "User50783",
-        "rating": 4,
-        "comment": "Very incredible choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User59659",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on speed of scan. Maybe look around before committing."
-      },
-      {
-        "user": "User25528",
-        "rating": 4,
-        "comment": "Very incredible choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User53432",
+        "user": "User42179",
         "rating": 5,
-        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User85509",
+        "user": "User46796",
         "rating": 5,
-        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User87478",
+        "rating": 5,
+        "comment": "Fantastic product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User48059",
+        "rating": 5,
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User69069",
+        "rating": 5,
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "101%",
-      "Feature Richness": "108%",
-      "Ease of Deployment": "114%",
-      "Community Support": "106%"
+      "Value for Money": "98%",
+      "Feature Richness": "96%",
+      "Ease of Deployment": "105%",
+      "Community Support": "102%"
     },
     "ratingStats": {
-      "1": 96,
-      "2": 94,
-      "3": 282,
-      "4": 942,
-      "5": 8009,
-      "total": 9423,
+      "1": 75,
+      "2": 73,
+      "3": 219,
+      "4": 733,
+      "5": 6233,
+      "total": 7333,
       "avg": "4.8"
     }
   },
@@ -6373,433 +6338,43 @@ export const productsData = [
         "link": "https://httpd.apache.org/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Apache%20HTTP%20Server",
+    "image": "https://logo.clearbit.com/httpd.apache.org",
     "reviews": [
       {
-        "user": "User16027",
+        "user": "User19377",
+        "rating": 4,
+        "comment": "Very great choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User47039",
+        "rating": 3,
+        "comment": "Acceptable for the price, but fell short on feature set. Maybe look around before committing."
+      },
+      {
+        "user": "User50539",
+        "rating": 4,
+        "comment": "Very incredible choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User95422",
         "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User42278",
-        "rating": 5,
-        "comment": "Great product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User79886",
-        "rating": 5,
-        "comment": "Outstanding product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User20611",
-        "rating": 2,
-        "comment": "Good enough for the price, but fell short on reliability. Maybe look around before committing."
-      },
-      {
-        "user": "User50796",
-        "rating": 5,
-        "comment": "Brilliant product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User11178",
-        "rating": 2,
-        "comment": "Okay for the price, but fell short on accuracy. Maybe look around before committing."
+        "comment": "Solid product! The feature set is top tier. I've also noticed great improvements in UI. Highly recommend."
       }
     ],
     "benchmarks": {
-      "Value for Money": "113%",
-      "Feature Richness": "106%",
-      "Ease of Deployment": "107%",
-      "Community Support": "98%"
-    },
-    "ratingStats": {
-      "1": 153,
-      "2": 55,
-      "3": 167,
-      "4": 558,
-      "5": 4650,
-      "total": 5583,
-      "avg": "4.7"
-    }
-  },
-  {
-    "id": 455,
-    "title": "Vercel",
-    "subtitle": "Frontend Cloud & Next.js creator",
-    "category": "TOOLS",
-    "isNew": true,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Freemium"
-    },
-    "specifications": {
-      "Type": "Platform as a Service",
-      "Platform": "Web",
-      "Support": "Global Edge Network",
-      "License": "Proprietary Service",
-      "Description": "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.",
-      "PrimaryUseCase": "Zero-configuration deployment for frontend frameworks and serverless functions.",
-      "Ecosystem": "Next.js, React, Edge Functions",
-      "FreeTier": "Hobby (Free forever for non-commercial)",
-      "ProTier": "$20/mo per user (1TB Bandwidth)",
-      "EnterpriseTier": "Custom pricing (Enhanced Security, SLA)"
-    },
-    "scores": {
-      "Reliability": 99,
-      "Speed": 100,
-      "EaseOfUse": 98,
-      "Overall": 99
-    },
-    "prices": {
-      "official": {
-        "price": "Freemium",
-        "link": "https://vercel.com/"
-      }
-    },
-    "image": "https://via.placeholder.com/400?text=Vercel",
-    "reviews": [
-      {
-        "user": "User65921",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User60827",
-        "rating": 5,
-        "comment": "Outstanding product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User74752",
-        "rating": 4,
-        "comment": "Very great choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User58532",
-        "rating": 5,
-        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "107%",
-      "Feature Richness": "103%",
-      "Ease of Deployment": "116%",
-      "Community Support": "94%"
-    },
-    "ratingStats": {
-      "1": 145,
-      "2": 77,
-      "3": 231,
-      "4": 773,
-      "5": 6504,
-      "total": 7730,
-      "avg": "4.7"
-    }
-  },
-  {
-    "id": 456,
-    "title": "Netlify",
-    "subtitle": "Connect everything. Build anywhere.",
-    "category": "TOOLS",
-    "isNew": false,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Freemium"
-    },
-    "specifications": {
-      "Type": "Platform as a Service",
-      "Platform": "Web",
-      "Support": "Jamstack",
-      "License": "Proprietary Service",
-      "Description": "A unified platform that automates your code to create high-performant, easily maintainable sites and web apps.",
-      "PrimaryUseCase": "Jamstack applications with automated edge deployments.",
-      "Ecosystem": "Gatsby, Nuxt, Edge CDN",
-      "FreeTier": "Starter (100GB Bandwidth, 300 build mins)",
-      "ProTier": "$19/mo per user (1TB Bandwidth)",
-      "EnterpriseTier": "Custom pricing (99.99% Uptime SLA)"
-    },
-    "scores": {
-      "Reliability": 98,
-      "Speed": 97,
-      "EaseOfUse": 99,
-      "Overall": 98
-    },
-    "prices": {
-      "official": {
-        "price": "Freemium",
-        "link": "https://www.netlify.com/"
-      }
-    },
-    "image": "https://via.placeholder.com/400?text=Netlify",
-    "reviews": [
-      {
-        "user": "User57732",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User46518",
-        "rating": 5,
-        "comment": "Excellent product! The feature set is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User82011",
-        "rating": 5,
-        "comment": "Outstanding product! The reliability is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User90854",
-        "rating": 5,
-        "comment": "Solid product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User58960",
-        "rating": 4,
-        "comment": "Very fantastic choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "112%",
+      "Value for Money": "109%",
       "Feature Richness": "108%",
-      "Ease of Deployment": "99%",
-      "Community Support": "106%"
-    },
-    "ratingStats": {
-      "1": 222,
-      "2": 81,
-      "3": 244,
-      "4": 816,
-      "5": 6797,
-      "total": 8160,
-      "avg": "4.7"
-    }
-  },
-  {
-    "id": 457,
-    "title": "Render",
-    "subtitle": "Unified Cloud to build and run all your apps",
-    "category": "TOOLS",
-    "isNew": true,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Freemium"
-    },
-    "specifications": {
-      "Type": "Cloud Platform",
-      "Platform": "Web / Backend",
-      "Support": "Docker, Node, Python",
-      "License": "Proprietary Service",
-      "Description": "Render is a unified cloud to build and run all your apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys from Git.",
-      "PrimaryUseCase": "Deploying full-stack applications, databases, and cron jobs effortlessly.",
-      "Ecosystem": "PostgreSQL, Redis, Web Services",
-      "FreeTier": "Individual (Static Sites, Free Web Services spin down)",
-      "ProTier": "Team $19/mo (Scale memory/CPU as needed)",
-      "EnterpriseTier": "Organization (SSO, Role-based access)"
-    },
-    "scores": {
-      "Versatility": 95,
-      "Usability": 96,
-      "Value": 98,
-      "Overall": 96
-    },
-    "prices": {
-      "official": {
-        "price": "Freemium",
-        "link": "https://render.com/"
-      }
-    },
-    "image": "https://via.placeholder.com/400?text=Render",
-    "reviews": [
-      {
-        "user": "User76922",
-        "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User18954",
-        "rating": 4,
-        "comment": "Very outstanding choice. The feature set is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User18262",
-        "rating": 5,
-        "comment": "Great product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User78751",
-        "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User43433",
-        "rating": 3,
-        "comment": "Good enough for the price, but fell short on reliability. Maybe look around before committing."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "102%",
-      "Feature Richness": "100%",
-      "Ease of Deployment": "108%",
-      "Community Support": "106%"
-    },
-    "ratingStats": {
-      "1": 164,
-      "2": 37,
-      "3": 111,
-      "4": 370,
-      "5": 3020,
-      "total": 3702,
-      "avg": "4.6"
-    }
-  },
-  {
-    "id": 458,
-    "title": "Heroku",
-    "subtitle": "Cloud application platform",
-    "category": "TOOLS",
-    "isNew": false,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Paid"
-    },
-    "specifications": {
-      "Type": "Platform as a Service",
-      "Platform": "Backend",
-      "Support": "Polyglot",
-      "License": "Proprietary Service",
-      "Description": "A platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
-      "PrimaryUseCase": "Simple container-based application hosting (Dynos).",
-      "Ecosystem": "Salesforce, Node, Ruby, Postgres",
-      "FreeTier": "No longer available. Starts at Eco ($5)",
-      "ProTier": "Standard Dynos ($25-$50/mo)",
-      "EnterpriseTier": "Private Spaces (Network isolation, compliance)"
-    },
-    "scores": {
-      "Ecosystem": 99,
-      "Reliability": 95,
-      "Pricing": 70,
-      "Overall": 88
-    },
-    "prices": {
-      "official": {
-        "price": "Paid Plans",
-        "link": "https://www.heroku.com/"
-      }
-    },
-    "image": "https://via.placeholder.com/400?text=Heroku",
-    "reviews": [
-      {
-        "user": "User41111",
-        "rating": 4,
-        "comment": "Very excellent choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User41281",
-        "rating": 4,
-        "comment": "Very solid choice. The speed of scan is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User53461",
-        "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User44164",
-        "rating": 3,
-        "comment": "Good enough for the price, but fell short on speed of scan. Maybe look around before committing."
-      },
-      {
-        "user": "User51921",
-        "rating": 5,
-        "comment": "Great product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "87%",
-      "Feature Richness": "96%",
-      "Ease of Deployment": "98%",
+      "Ease of Deployment": "111%",
       "Community Support": "101%"
     },
     "ratingStats": {
-      "1": 886,
-      "2": 78,
-      "3": 236,
-      "4": 788,
-      "5": 5898,
-      "total": 7886,
-      "avg": "4.4"
-    }
-  },
-  {
-    "id": 459,
-    "title": "AWS Amplify",
-    "subtitle": "Build extensible, full-stack web and mobile apps",
-    "category": "TOOLS",
-    "isNew": false,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Pay-as-you-go"
-    },
-    "specifications": {
-      "Type": "Cloud Platform",
-      "Platform": "Web / Mobile",
-      "Support": "AWS Cloud",
-      "License": "Proprietary Service",
-      "Description": "A set of purpose-built tools and features that lets frontend web and mobile developers quickly and easily build full-stack applications on AWS.",
-      "PrimaryUseCase": "Seamless integration of frontend code with AWS backend services (Auth, Storage, APIs).",
-      "Ecosystem": "AWS ecosystem, React Native, Vue",
-      "FreeTier": "Free tier limits for 12 months (1000 build mins, 15GB bandwidth)",
-      "ProTier": "Pay-as-you-go ($0.01/build min, $0.15/GB)",
-      "EnterpriseTier": "Part of AWS compliance, massive scale"
-    },
-    "scores": {
-      "Scalability": 100,
-      "Features": 96,
-      "Complexity": 85,
-      "Overall": 94
-    },
-    "prices": {
-      "official": {
-        "price": "Pay-as-you-go",
-        "link": "https://aws.amazon.com/amplify/"
-      }
-    },
-    "image": "https://via.placeholder.com/400?text=AWS%20Amplify",
-    "reviews": [
-      {
-        "user": "User70175",
-        "rating": 5,
-        "comment": "Incredible product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User17243",
-        "rating": 5,
-        "comment": "Incredible product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User52649",
-        "rating": 5,
-        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User56721",
-        "rating": 4,
-        "comment": "Very outstanding choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "97%",
-      "Feature Richness": "95%",
-      "Ease of Deployment": "99%",
-      "Community Support": "102%"
-    },
-    "ratingStats": {
-      "1": 127,
-      "2": 20,
-      "3": 61,
-      "4": 205,
-      "5": 1638,
-      "total": 2051,
-      "avg": "4.6"
+      "1": 133,
+      "2": 49,
+      "3": 147,
+      "4": 490,
+      "5": 4085,
+      "total": 4904,
+      "avg": "4.7"
     }
   },
   {
@@ -6836,266 +6411,281 @@ export const productsData = [
         "link": "https://vercel.com/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Vercel",
+    "image": "https://logo.clearbit.com/vercel.com",
     "reviews": [
       {
-        "user": "User54983",
-        "rating": 5,
-        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User26137",
-        "rating": 4,
-        "comment": "Very solid choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User84555",
-        "rating": 5,
-        "comment": "Outstanding product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      },
-      {
-        "user": "User28700",
-        "rating": 5,
-        "comment": "Fantastic product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "99%",
-      "Feature Richness": "109%",
-      "Ease of Deployment": "109%",
-      "Community Support": "101%"
-    },
-    "ratingStats": {
-      "1": 159,
-      "2": 84,
-      "3": 254,
-      "4": 846,
-      "5": 7126,
-      "total": 8469,
-      "avg": "4.7"
-    }
-  },
-  {
-    "id": 456,
-    "title": "Netlify",
-    "subtitle": "Connect everything. Build anywhere.",
-    "category": "TOOLS",
-    "isNew": false,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Freemium"
-    },
-    "specifications": {
-      "Type": "Platform as a Service",
-      "Platform": "Web",
-      "Support": "Jamstack",
-      "License": "Proprietary Service",
-      "Description": "A unified platform that automates your code to create high-performant, easily maintainable sites and web apps.",
-      "PrimaryUseCase": "Jamstack applications with automated edge deployments.",
-      "Ecosystem": "Gatsby, Nuxt, Edge CDN",
-      "FreeTier": "Starter (100GB Bandwidth, 300 build mins)",
-      "ProTier": "$19/mo per user (1TB Bandwidth)",
-      "EnterpriseTier": "Custom pricing (99.99% Uptime SLA)"
-    },
-    "scores": {
-      "Reliability": 98,
-      "Speed": 97,
-      "EaseOfUse": 99,
-      "Overall": 98
-    },
-    "prices": {
-      "official": {
-        "price": "Freemium",
-        "link": "https://www.netlify.com/"
-      }
-    },
-    "image": "https://via.placeholder.com/400?text=Netlify",
-    "reviews": [
-      {
-        "user": "User14942",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User90149",
-        "rating": 5,
-        "comment": "Great product! The accuracy is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User65110",
-        "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User94010",
-        "rating": 4,
-        "comment": "Very incredible choice. The reliability is definitely a plus. However, the reliability could be a bit better. Overall very happy."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "113%",
-      "Feature Richness": "98%",
-      "Ease of Deployment": "109%",
-      "Community Support": "106%"
-    },
-    "ratingStats": {
-      "1": 124,
-      "2": 45,
-      "3": 136,
-      "4": 455,
-      "5": 3790,
-      "total": 4550,
-      "avg": "4.7"
-    }
-  },
-  {
-    "id": 457,
-    "title": "Render",
-    "subtitle": "Unified Cloud to build and run all your apps",
-    "category": "TOOLS",
-    "isNew": true,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Freemium"
-    },
-    "specifications": {
-      "Type": "Cloud Platform",
-      "Platform": "Web / Backend",
-      "Support": "Docker, Node, Python",
-      "License": "Proprietary Service",
-      "Description": "Render is a unified cloud to build and run all your apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys from Git.",
-      "PrimaryUseCase": "Deploying full-stack applications, databases, and cron jobs effortlessly.",
-      "Ecosystem": "PostgreSQL, Redis, Web Services",
-      "FreeTier": "Individual (Static Sites, Free Web Services spin down)",
-      "ProTier": "Team $19/mo (Scale memory/CPU as needed)",
-      "EnterpriseTier": "Organization (SSO, Role-based access)"
-    },
-    "scores": {
-      "Versatility": 95,
-      "Usability": 96,
-      "Value": 98,
-      "Overall": 96
-    },
-    "prices": {
-      "official": {
-        "price": "Freemium",
-        "link": "https://render.com/"
-      }
-    },
-    "image": "https://via.placeholder.com/400?text=Render",
-    "reviews": [
-      {
-        "user": "User53891",
-        "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User57437",
-        "rating": 4,
-        "comment": "Very incredible choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User61601",
-        "rating": 5,
-        "comment": "Great product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User38654",
-        "rating": 2,
-        "comment": "Decent for the price, but fell short on reliability. Maybe look around before committing."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "99%",
-      "Feature Richness": "92%",
-      "Ease of Deployment": "101%",
-      "Community Support": "108%"
-    },
-    "ratingStats": {
-      "1": 381,
-      "2": 86,
-      "3": 259,
-      "4": 863,
-      "5": 7046,
-      "total": 8635,
-      "avg": "4.6"
-    }
-  },
-  {
-    "id": 458,
-    "title": "Heroku",
-    "subtitle": "Cloud application platform",
-    "category": "TOOLS",
-    "isNew": false,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Paid"
-    },
-    "specifications": {
-      "Type": "Platform as a Service",
-      "Platform": "Backend",
-      "Support": "Polyglot",
-      "License": "Proprietary Service",
-      "Description": "A platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
-      "PrimaryUseCase": "Simple container-based application hosting (Dynos).",
-      "Ecosystem": "Salesforce, Node, Ruby, Postgres",
-      "FreeTier": "No longer available. Starts at Eco ($5)",
-      "ProTier": "Standard Dynos ($25-$50/mo)",
-      "EnterpriseTier": "Private Spaces (Network isolation, compliance)"
-    },
-    "scores": {
-      "Ecosystem": 99,
-      "Reliability": 95,
-      "Pricing": 70,
-      "Overall": 88
-    },
-    "prices": {
-      "official": {
-        "price": "Paid Plans",
-        "link": "https://www.heroku.com/"
-      }
-    },
-    "image": "https://via.placeholder.com/400?text=Heroku",
-    "reviews": [
-      {
-        "user": "User41615",
-        "rating": 5,
-        "comment": "Outstanding product! The accuracy is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User62854",
+        "user": "User36988",
         "rating": 4,
         "comment": "Very solid choice. The UI is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
       },
       {
-        "user": "User73862",
-        "rating": 4,
-        "comment": "Very solid choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User19817",
+        "user": "User21580",
         "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Fantastic product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
       },
       {
-        "user": "User33874",
+        "user": "User88977",
+        "rating": 5,
+        "comment": "Solid product! The accuracy is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User93370",
+        "rating": 2,
+        "comment": "Decent for the price, but fell short on feature set. Maybe look around before committing."
+      },
+      {
+        "user": "User76804",
+        "rating": 5,
+        "comment": "Incredible product! The accuracy is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User84031",
         "rating": 4,
-        "comment": "Very fantastic choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The accuracy is definitely a plus. However, the UI could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "100%",
-      "Feature Richness": "99%",
-      "Ease of Deployment": "102%",
-      "Community Support": "92%"
+      "Value for Money": "98%",
+      "Feature Richness": "101%",
+      "Ease of Deployment": "114%",
+      "Community Support": "105%"
     },
     "ratingStats": {
-      "1": 312,
-      "2": 27,
-      "3": 83,
-      "4": 277,
-      "5": 2073,
-      "total": 2772,
+      "1": 79,
+      "2": 42,
+      "3": 126,
+      "4": 421,
+      "5": 3546,
+      "total": 4214,
+      "avg": "4.7"
+    }
+  },
+  {
+    "id": 456,
+    "title": "Netlify",
+    "subtitle": "Connect everything. Build anywhere.",
+    "category": "TOOLS",
+    "isNew": false,
+    "features": {
+      "Type": "Deployment",
+      "Subscription": "Freemium"
+    },
+    "specifications": {
+      "Type": "Platform as a Service",
+      "Platform": "Web",
+      "Support": "Jamstack",
+      "License": "Proprietary Service",
+      "Description": "A unified platform that automates your code to create high-performant, easily maintainable sites and web apps.",
+      "PrimaryUseCase": "Jamstack applications with automated edge deployments.",
+      "Ecosystem": "Gatsby, Nuxt, Edge CDN",
+      "FreeTier": "Starter (100GB Bandwidth, 300 build mins)",
+      "ProTier": "$19/mo per user (1TB Bandwidth)",
+      "EnterpriseTier": "Custom pricing (99.99% Uptime SLA)"
+    },
+    "scores": {
+      "Reliability": 98,
+      "Speed": 97,
+      "EaseOfUse": 99,
+      "Overall": 98
+    },
+    "prices": {
+      "official": {
+        "price": "Freemium",
+        "link": "https://www.netlify.com/"
+      }
+    },
+    "image": "https://logo.clearbit.com/netlify.com",
+    "reviews": [
+      {
+        "user": "User42363",
+        "rating": 5,
+        "comment": "Incredible product! The UI is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      },
+      {
+        "user": "User54947",
+        "rating": 5,
+        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User71962",
+        "rating": 4,
+        "comment": "Very fantastic choice. The accuracy is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User17901",
+        "rating": 3,
+        "comment": "Average for the price, but fell short on reliability. Maybe look around before committing."
+      },
+      {
+        "user": "User79014",
+        "rating": 4,
+        "comment": "Very fantastic choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User77207",
+        "rating": 5,
+        "comment": "Excellent product! The feature set is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      }
+    ],
+    "benchmarks": {
+      "Value for Money": "113%",
+      "Feature Richness": "91%",
+      "Ease of Deployment": "103%",
+      "Community Support": "95%"
+    },
+    "ratingStats": {
+      "1": 106,
+      "2": 38,
+      "3": 116,
+      "4": 387,
+      "5": 3223,
+      "total": 3870,
+      "avg": "4.7"
+    }
+  },
+  {
+    "id": 457,
+    "title": "Render",
+    "subtitle": "Unified Cloud to build and run all your apps",
+    "category": "TOOLS",
+    "isNew": true,
+    "features": {
+      "Type": "Deployment",
+      "Subscription": "Freemium"
+    },
+    "specifications": {
+      "Type": "Cloud Platform",
+      "Platform": "Web / Backend",
+      "Support": "Docker, Node, Python",
+      "License": "Proprietary Service",
+      "Description": "Render is a unified cloud to build and run all your apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys from Git.",
+      "PrimaryUseCase": "Deploying full-stack applications, databases, and cron jobs effortlessly.",
+      "Ecosystem": "PostgreSQL, Redis, Web Services",
+      "FreeTier": "Individual (Static Sites, Free Web Services spin down)",
+      "ProTier": "Team $19/mo (Scale memory/CPU as needed)",
+      "EnterpriseTier": "Organization (SSO, Role-based access)"
+    },
+    "scores": {
+      "Versatility": 95,
+      "Usability": 96,
+      "Value": 98,
+      "Overall": 96
+    },
+    "prices": {
+      "official": {
+        "price": "Freemium",
+        "link": "https://render.com/"
+      }
+    },
+    "image": "https://logo.clearbit.com/render.com",
+    "reviews": [
+      {
+        "user": "User89541",
+        "rating": 5,
+        "comment": "Brilliant product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User87511",
+        "rating": 4,
+        "comment": "Very incredible choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User30897",
+        "rating": 3,
+        "comment": "Good enough for the price, but fell short on accuracy. Maybe look around before committing."
+      },
+      {
+        "user": "User63217",
+        "rating": 3,
+        "comment": "Average for the price, but fell short on UI. Maybe look around before committing."
+      }
+    ],
+    "benchmarks": {
+      "Value for Money": "95%",
+      "Feature Richness": "104%",
+      "Ease of Deployment": "114%",
+      "Community Support": "94%"
+    },
+    "ratingStats": {
+      "1": 154,
+      "2": 34,
+      "3": 103,
+      "4": 346,
+      "5": 2824,
+      "total": 3461,
+      "avg": "4.6"
+    }
+  },
+  {
+    "id": 458,
+    "title": "Heroku",
+    "subtitle": "Cloud application platform",
+    "category": "TOOLS",
+    "isNew": false,
+    "features": {
+      "Type": "Deployment",
+      "Subscription": "Paid"
+    },
+    "specifications": {
+      "Type": "Platform as a Service",
+      "Platform": "Backend",
+      "Support": "Polyglot",
+      "License": "Proprietary Service",
+      "Description": "A platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+      "PrimaryUseCase": "Simple container-based application hosting (Dynos).",
+      "Ecosystem": "Salesforce, Node, Ruby, Postgres",
+      "FreeTier": "No longer available. Starts at Eco ($5)",
+      "ProTier": "Standard Dynos ($25-$50/mo)",
+      "EnterpriseTier": "Private Spaces (Network isolation, compliance)"
+    },
+    "scores": {
+      "Ecosystem": 99,
+      "Reliability": 95,
+      "Pricing": 70,
+      "Overall": 88
+    },
+    "prices": {
+      "official": {
+        "price": "Paid Plans",
+        "link": "https://www.heroku.com/"
+      }
+    },
+    "image": "https://logo.clearbit.com/heroku.com",
+    "reviews": [
+      {
+        "user": "User78720",
+        "rating": 4,
+        "comment": "Very solid choice. The UI is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User36510",
+        "rating": 4,
+        "comment": "Very great choice. The reliability is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User66478",
+        "rating": 5,
+        "comment": "Solid product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User14769",
+        "rating": 5,
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      }
+    ],
+    "benchmarks": {
+      "Value for Money": "96%",
+      "Feature Richness": "95%",
+      "Ease of Deployment": "97%",
+      "Community Support": "96%"
+    },
+    "ratingStats": {
+      "1": 298,
+      "2": 26,
+      "3": 79,
+      "4": 265,
+      "5": 1982,
+      "total": 2650,
       "avg": "4.4"
     }
   },
@@ -7133,52 +6723,427 @@ export const productsData = [
         "link": "https://aws.amazon.com/amplify/"
       }
     },
-    "image": "https://via.placeholder.com/400?text=AWS%20Amplify",
+    "image": "https://logo.clearbit.com/aws.amazon.com",
     "reviews": [
       {
-        "user": "User16773",
+        "user": "User58802",
         "rating": 5,
-        "comment": "Great product! The feature set is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+        "comment": "Outstanding product! The accuracy is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User82845",
+        "user": "User31083",
         "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
+        "comment": "Solid product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
       },
       {
-        "user": "User18552",
+        "user": "User90170",
+        "rating": 5,
+        "comment": "Excellent product! The reliability is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User21284",
+        "rating": 5,
+        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
+      }
+    ],
+    "benchmarks": {
+      "Value for Money": "105%",
+      "Feature Richness": "101%",
+      "Ease of Deployment": "96%",
+      "Community Support": "97%"
+    },
+    "ratingStats": {
+      "1": 242,
+      "2": 39,
+      "3": 117,
+      "4": 393,
+      "5": 3142,
+      "total": 3933,
+      "avg": "4.6"
+    }
+  },
+  {
+    "id": 455,
+    "title": "Vercel",
+    "subtitle": "Frontend Cloud & Next.js creator",
+    "category": "TOOLS",
+    "isNew": true,
+    "features": {
+      "Type": "Deployment",
+      "Subscription": "Freemium"
+    },
+    "specifications": {
+      "Type": "Platform as a Service",
+      "Platform": "Web",
+      "Support": "Global Edge Network",
+      "License": "Proprietary Service",
+      "Description": "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.",
+      "PrimaryUseCase": "Zero-configuration deployment for frontend frameworks and serverless functions.",
+      "Ecosystem": "Next.js, React, Edge Functions",
+      "FreeTier": "Hobby (Free forever for non-commercial)",
+      "ProTier": "$20/mo per user (1TB Bandwidth)",
+      "EnterpriseTier": "Custom pricing (Enhanced Security, SLA)"
+    },
+    "scores": {
+      "Reliability": 99,
+      "Speed": 100,
+      "EaseOfUse": 98,
+      "Overall": 99
+    },
+    "prices": {
+      "official": {
+        "price": "Freemium",
+        "link": "https://vercel.com/"
+      }
+    },
+    "image": "https://logo.clearbit.com/vercel.com",
+    "reviews": [
+      {
+        "user": "User17892",
+        "rating": 5,
+        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User58625",
+        "rating": 2,
+        "comment": "Acceptable for the price, but fell short on feature set. Maybe look around before committing."
+      },
+      {
+        "user": "User47099",
         "rating": 4,
-        "comment": "Very solid choice. The reliability is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+        "comment": "Very great choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
       },
       {
-        "user": "User61703",
+        "user": "User74946",
         "rating": 5,
-        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
       },
       {
-        "user": "User51152",
+        "user": "User96494",
+        "rating": 4,
+        "comment": "Very incredible choice. The speed of scan is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      }
+    ],
+    "benchmarks": {
+      "Value for Money": "110%",
+      "Feature Richness": "101%",
+      "Ease of Deployment": "108%",
+      "Community Support": "102%"
+    },
+    "ratingStats": {
+      "1": 54,
+      "2": 27,
+      "3": 83,
+      "4": 279,
+      "5": 2348,
+      "total": 2791,
+      "avg": "4.7"
+    }
+  },
+  {
+    "id": 456,
+    "title": "Netlify",
+    "subtitle": "Connect everything. Build anywhere.",
+    "category": "TOOLS",
+    "isNew": false,
+    "features": {
+      "Type": "Deployment",
+      "Subscription": "Freemium"
+    },
+    "specifications": {
+      "Type": "Platform as a Service",
+      "Platform": "Web",
+      "Support": "Jamstack",
+      "License": "Proprietary Service",
+      "Description": "A unified platform that automates your code to create high-performant, easily maintainable sites and web apps.",
+      "PrimaryUseCase": "Jamstack applications with automated edge deployments.",
+      "Ecosystem": "Gatsby, Nuxt, Edge CDN",
+      "FreeTier": "Starter (100GB Bandwidth, 300 build mins)",
+      "ProTier": "$19/mo per user (1TB Bandwidth)",
+      "EnterpriseTier": "Custom pricing (99.99% Uptime SLA)"
+    },
+    "scores": {
+      "Reliability": 98,
+      "Speed": 97,
+      "EaseOfUse": 99,
+      "Overall": 98
+    },
+    "prices": {
+      "official": {
+        "price": "Freemium",
+        "link": "https://www.netlify.com/"
+      }
+    },
+    "image": "https://logo.clearbit.com/netlify.com",
+    "reviews": [
+      {
+        "user": "User55838",
+        "rating": 4,
+        "comment": "Very fantastic choice. The accuracy is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User33456",
+        "rating": 4,
+        "comment": "Very brilliant choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User59867",
+        "rating": 4,
+        "comment": "Very incredible choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User55884",
+        "rating": 5,
+        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
+      }
+    ],
+    "benchmarks": {
+      "Value for Money": "106%",
+      "Feature Richness": "108%",
+      "Ease of Deployment": "102%",
+      "Community Support": "98%"
+    },
+    "ratingStats": {
+      "1": 130,
+      "2": 47,
+      "3": 142,
+      "4": 475,
+      "5": 3960,
+      "total": 4754,
+      "avg": "4.7"
+    }
+  },
+  {
+    "id": 457,
+    "title": "Render",
+    "subtitle": "Unified Cloud to build and run all your apps",
+    "category": "TOOLS",
+    "isNew": true,
+    "features": {
+      "Type": "Deployment",
+      "Subscription": "Freemium"
+    },
+    "specifications": {
+      "Type": "Cloud Platform",
+      "Platform": "Web / Backend",
+      "Support": "Docker, Node, Python",
+      "License": "Proprietary Service",
+      "Description": "Render is a unified cloud to build and run all your apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys from Git.",
+      "PrimaryUseCase": "Deploying full-stack applications, databases, and cron jobs effortlessly.",
+      "Ecosystem": "PostgreSQL, Redis, Web Services",
+      "FreeTier": "Individual (Static Sites, Free Web Services spin down)",
+      "ProTier": "Team $19/mo (Scale memory/CPU as needed)",
+      "EnterpriseTier": "Organization (SSO, Role-based access)"
+    },
+    "scores": {
+      "Versatility": 95,
+      "Usability": 96,
+      "Value": 98,
+      "Overall": 96
+    },
+    "prices": {
+      "official": {
+        "price": "Freemium",
+        "link": "https://render.com/"
+      }
+    },
+    "image": "https://logo.clearbit.com/render.com",
+    "reviews": [
+      {
+        "user": "User31738",
+        "rating": 5,
+        "comment": "Solid product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User11375",
         "rating": 4,
         "comment": "Very brilliant choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
       },
       {
-        "user": "User47042",
+        "user": "User19999",
         "rating": 4,
-        "comment": "Very brilliant choice. The reliability is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+        "comment": "Very outstanding choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User16449",
+        "rating": 4,
+        "comment": "Very excellent choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User25929",
+        "rating": 4,
+        "comment": "Very fantastic choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "Value for Money": "96%",
-      "Feature Richness": "101%",
-      "Ease of Deployment": "113%",
+      "Value for Money": "100%",
+      "Feature Richness": "91%",
+      "Ease of Deployment": "97%",
+      "Community Support": "100%"
+    },
+    "ratingStats": {
+      "1": 218,
+      "2": 49,
+      "3": 147,
+      "4": 491,
+      "5": 4009,
+      "total": 4914,
+      "avg": "4.6"
+    }
+  },
+  {
+    "id": 458,
+    "title": "Heroku",
+    "subtitle": "Cloud application platform",
+    "category": "TOOLS",
+    "isNew": false,
+    "features": {
+      "Type": "Deployment",
+      "Subscription": "Paid"
+    },
+    "specifications": {
+      "Type": "Platform as a Service",
+      "Platform": "Backend",
+      "Support": "Polyglot",
+      "License": "Proprietary Service",
+      "Description": "A platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
+      "PrimaryUseCase": "Simple container-based application hosting (Dynos).",
+      "Ecosystem": "Salesforce, Node, Ruby, Postgres",
+      "FreeTier": "No longer available. Starts at Eco ($5)",
+      "ProTier": "Standard Dynos ($25-$50/mo)",
+      "EnterpriseTier": "Private Spaces (Network isolation, compliance)"
+    },
+    "scores": {
+      "Ecosystem": 99,
+      "Reliability": 95,
+      "Pricing": 70,
+      "Overall": 88
+    },
+    "prices": {
+      "official": {
+        "price": "Paid Plans",
+        "link": "https://www.heroku.com/"
+      }
+    },
+    "image": "https://logo.clearbit.com/heroku.com",
+    "reviews": [
+      {
+        "user": "User89588",
+        "rating": 5,
+        "comment": "Excellent product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
+      },
+      {
+        "user": "User55528",
+        "rating": 4,
+        "comment": "Very brilliant choice. The feature set is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User84358",
+        "rating": 4,
+        "comment": "Very great choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User72484",
+        "rating": 4,
+        "comment": "Very fantastic choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
+      }
+    ],
+    "benchmarks": {
+      "Value for Money": "94%",
+      "Feature Richness": "84%",
+      "Ease of Deployment": "97%",
       "Community Support": "95%"
     },
     "ratingStats": {
-      "1": 527,
-      "2": 85,
-      "3": 257,
-      "4": 859,
-      "5": 6869,
-      "total": 8597,
+      "1": 1087,
+      "2": 96,
+      "3": 290,
+      "4": 968,
+      "5": 7242,
+      "total": 9683,
+      "avg": "4.4"
+    }
+  },
+  {
+    "id": 459,
+    "title": "AWS Amplify",
+    "subtitle": "Build extensible, full-stack web and mobile apps",
+    "category": "TOOLS",
+    "isNew": false,
+    "features": {
+      "Type": "Deployment",
+      "Subscription": "Pay-as-you-go"
+    },
+    "specifications": {
+      "Type": "Cloud Platform",
+      "Platform": "Web / Mobile",
+      "Support": "AWS Cloud",
+      "License": "Proprietary Service",
+      "Description": "A set of purpose-built tools and features that lets frontend web and mobile developers quickly and easily build full-stack applications on AWS.",
+      "PrimaryUseCase": "Seamless integration of frontend code with AWS backend services (Auth, Storage, APIs).",
+      "Ecosystem": "AWS ecosystem, React Native, Vue",
+      "FreeTier": "Free tier limits for 12 months (1000 build mins, 15GB bandwidth)",
+      "ProTier": "Pay-as-you-go ($0.01/build min, $0.15/GB)",
+      "EnterpriseTier": "Part of AWS compliance, massive scale"
+    },
+    "scores": {
+      "Scalability": 100,
+      "Features": 96,
+      "Complexity": 85,
+      "Overall": 94
+    },
+    "prices": {
+      "official": {
+        "price": "Pay-as-you-go",
+        "link": "https://aws.amazon.com/amplify/"
+      }
+    },
+    "image": "https://logo.clearbit.com/aws.amazon.com",
+    "reviews": [
+      {
+        "user": "User42703",
+        "rating": 5,
+        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User33941",
+        "rating": 5,
+        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
+      },
+      {
+        "user": "User63147",
+        "rating": 5,
+        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
+      },
+      {
+        "user": "User32187",
+        "rating": 2,
+        "comment": "Average for the price, but fell short on speed of scan. Maybe look around before committing."
+      },
+      {
+        "user": "User37638",
+        "rating": 5,
+        "comment": "Great product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
+      },
+      {
+        "user": "User91331",
+        "rating": 5,
+        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
+      }
+    ],
+    "benchmarks": {
+      "Value for Money": "104%",
+      "Feature Richness": "104%",
+      "Ease of Deployment": "111%",
+      "Community Support": "93%"
+    },
+    "ratingStats": {
+      "1": 217,
+      "2": 35,
+      "3": 105,
+      "4": 352,
+      "5": 2815,
+      "total": 3524,
       "avg": "4.6"
     }
   },
@@ -7221,51 +7186,46 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20Vengeance%20RGB%20DDR5+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Corsair%20Vengeance%20RGB%20DDR5",
+    "image": "https://logo.clearbit.com/corsair.com",
     "reviews": [
       {
-        "user": "User18991",
+        "user": "User44374",
         "rating": 5,
-        "comment": "Incredible product! The latency is top tier. I've also noticed great improvements in RGB lighting. Highly recommend."
+        "comment": "Solid product! The stutter reduction is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
       },
       {
-        "user": "User87929",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on EXPO profiles. Maybe look around before committing."
-      },
-      {
-        "user": "User70273",
+        "user": "User13979",
         "rating": 5,
-        "comment": "Brilliant product! The EXPO profiles is top tier. I've also noticed great improvements in RGB lighting. Highly recommend."
+        "comment": "Outstanding product! The EXPO profiles is top tier. I've also noticed great improvements in latency. Highly recommend."
       },
       {
-        "user": "User79420",
-        "rating": 3,
-        "comment": "Acceptable for the price, but fell short on stutter reduction. Maybe look around before committing."
-      },
-      {
-        "user": "User19952",
-        "rating": 4,
-        "comment": "Very outstanding choice. The stutter reduction is definitely a plus. However, the EXPO profiles could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User28975",
+        "user": "User87410",
         "rating": 5,
-        "comment": "Incredible product! The EXPO profiles is top tier. I've also noticed great improvements in EXPO profiles. Highly recommend."
+        "comment": "Solid product! The stutter reduction is top tier. I've also noticed great improvements in EXPO profiles. Highly recommend."
+      },
+      {
+        "user": "User11199",
+        "rating": 5,
+        "comment": "Excellent product! The EXPO profiles is top tier. I've also noticed great improvements in EXPO profiles. Highly recommend."
+      },
+      {
+        "user": "User53547",
+        "rating": 5,
+        "comment": "Excellent product! The RGB lighting is top tier. I've also noticed great improvements in latency. Highly recommend."
       }
     ],
     "benchmarks": {
-      "AIDA64 Read": "84247 MB/s",
-      "AIDA64 Latency": "69.2 ns",
-      "Y-Cruncher PI": "13.7 sec"
+      "AIDA64 Read": "96127 MB/s",
+      "AIDA64 Latency": "70.7 ns",
+      "Y-Cruncher PI": "13.1 sec"
     },
     "ratingStats": {
-      "1": 361,
-      "2": 46,
-      "3": 138,
-      "4": 461,
-      "5": 3607,
-      "total": 4613,
+      "1": 712,
+      "2": 91,
+      "3": 273,
+      "4": 911,
+      "5": 7126,
+      "total": 9113,
       "avg": "4.5"
     }
   },
@@ -7308,46 +7268,41 @@ export const productsData = [
         "link": "https://www.google.com/search?q=G.Skill%20Trident%20Z5%20NEO+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=G.Skill%20Trident%20Z5%20RGB%20NEO",
+    "image": "https://logo.clearbit.com/gskill.com",
     "reviews": [
       {
-        "user": "User27229",
-        "rating": 5,
-        "comment": "Outstanding product! The latency is top tier. I've also noticed great improvements in latency. Highly recommend."
-      },
-      {
-        "user": "User86042",
-        "rating": 2,
-        "comment": "Okay for the price, but fell short on overclocking. Maybe look around before committing."
-      },
-      {
-        "user": "User19853",
-        "rating": 5,
-        "comment": "Brilliant product! The RGB lighting is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
-      },
-      {
-        "user": "User63494",
+        "user": "User71426",
         "rating": 4,
-        "comment": "Very great choice. The RGB lighting is definitely a plus. However, the EXPO profiles could be a bit better. Overall very happy."
+        "comment": "Very incredible choice. The overclocking is definitely a plus. However, the overclocking could be a bit better. Overall very happy."
       },
       {
-        "user": "User84515",
-        "rating": 5,
-        "comment": "Brilliant product! The stutter reduction is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
+        "user": "User24138",
+        "rating": 4,
+        "comment": "Very solid choice. The RGB lighting is definitely a plus. However, the RGB lighting could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User71731",
+        "rating": 4,
+        "comment": "Very incredible choice. The stutter reduction is definitely a plus. However, the stutter reduction could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User30048",
+        "rating": 4,
+        "comment": "Very brilliant choice. The RGB lighting is definitely a plus. However, the EXPO profiles could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "AIDA64 Read": "90539 MB/s",
-      "AIDA64 Latency": "64.8 ns",
-      "Y-Cruncher PI": "13.5 sec"
+      "AIDA64 Read": "95555 MB/s",
+      "AIDA64 Latency": "69.8 ns",
+      "Y-Cruncher PI": "12.8 sec"
     },
     "ratingStats": {
-      "1": 187,
-      "2": 30,
-      "3": 91,
-      "4": 303,
-      "5": 2427,
-      "total": 3038,
+      "1": 270,
+      "2": 44,
+      "3": 132,
+      "4": 440,
+      "5": 3520,
+      "total": 4406,
       "avg": "4.6"
     }
   },
@@ -7390,41 +7345,41 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Kingston%20FURY%20Beast+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Kingston%20FURY%20Beast%20DDR5",
+    "image": "https://logo.clearbit.com/kingston.com",
     "reviews": [
       {
-        "user": "User88849",
-        "rating": 4,
-        "comment": "Very outstanding choice. The overclocking is definitely a plus. However, the EXPO profiles could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User25053",
+        "user": "User52137",
         "rating": 5,
-        "comment": "Outstanding product! The RGB lighting is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
+        "comment": "Great product! The latency is top tier. I've also noticed great improvements in EXPO profiles. Highly recommend."
       },
       {
-        "user": "User74523",
+        "user": "User84711",
         "rating": 4,
-        "comment": "Very incredible choice. The stutter reduction is definitely a plus. However, the overclocking could be a bit better. Overall very happy."
+        "comment": "Very brilliant choice. The EXPO profiles is definitely a plus. However, the latency could be a bit better. Overall very happy."
       },
       {
-        "user": "User89770",
-        "rating": 5,
-        "comment": "Outstanding product! The overclocking is top tier. I've also noticed great improvements in overclocking. Highly recommend."
+        "user": "User75061",
+        "rating": 4,
+        "comment": "Very solid choice. The overclocking is definitely a plus. However, the latency could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User58255",
+        "rating": 2,
+        "comment": "Good enough for the price, but fell short on RGB lighting. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "AIDA64 Read": "79985 MB/s",
-      "AIDA64 Latency": "68.1 ns",
-      "Y-Cruncher PI": "13.2 sec"
+      "AIDA64 Read": "80083 MB/s",
+      "AIDA64 Latency": "64.2 ns",
+      "Y-Cruncher PI": "12.3 sec"
     },
     "ratingStats": {
-      "1": 1022,
-      "2": 78,
-      "3": 236,
-      "4": 789,
-      "5": 5773,
-      "total": 7898,
+      "1": 993,
+      "2": 76,
+      "3": 230,
+      "4": 768,
+      "5": 5615,
+      "total": 7682,
       "avg": "4.3"
     }
   },
@@ -7467,46 +7422,51 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20Pro%20DDR5+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Crucial%20Pro%20DDR5",
+    "image": "https://logo.clearbit.com/crucial.com",
     "reviews": [
       {
-        "user": "User20508",
-        "rating": 4,
-        "comment": "Very outstanding choice. The EXPO profiles is definitely a plus. However, the stutter reduction could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User25327",
-        "rating": 4,
-        "comment": "Very excellent choice. The EXPO profiles is definitely a plus. However, the stutter reduction could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User86327",
+        "user": "User97326",
         "rating": 5,
-        "comment": "Outstanding product! The overclocking is top tier. I've also noticed great improvements in EXPO profiles. Highly recommend."
+        "comment": "Incredible product! The stutter reduction is top tier. I've also noticed great improvements in overclocking. Highly recommend."
       },
       {
-        "user": "User39420",
-        "rating": 4,
-        "comment": "Very brilliant choice. The latency is definitely a plus. However, the EXPO profiles could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User14893",
+        "user": "User47817",
         "rating": 2,
-        "comment": "Good enough for the price, but fell short on RGB lighting. Maybe look around before committing."
+        "comment": "Good enough for the price, but fell short on stutter reduction. Maybe look around before committing."
+      },
+      {
+        "user": "User22062",
+        "rating": 5,
+        "comment": "Outstanding product! The RGB lighting is top tier. I've also noticed great improvements in RGB lighting. Highly recommend."
+      },
+      {
+        "user": "User72638",
+        "rating": 5,
+        "comment": "Brilliant product! The overclocking is top tier. I've also noticed great improvements in overclocking. Highly recommend."
+      },
+      {
+        "user": "User55045",
+        "rating": 4,
+        "comment": "Very great choice. The latency is definitely a plus. However, the stutter reduction could be a bit better. Overall very happy."
+      },
+      {
+        "user": "User10121",
+        "rating": 3,
+        "comment": "Good enough for the price, but fell short on latency. Maybe look around before committing."
       }
     ],
     "benchmarks": {
-      "AIDA64 Read": "80634 MB/s",
-      "AIDA64 Latency": "62.2 ns",
-      "Y-Cruncher PI": "13.1 sec"
+      "AIDA64 Read": "80281 MB/s",
+      "AIDA64 Latency": "68.5 ns",
+      "Y-Cruncher PI": "11.0 sec"
     },
     "ratingStats": {
-      "1": 300,
-      "2": 22,
-      "3": 68,
-      "4": 229,
-      "5": 1680,
-      "total": 2299,
+      "1": 488,
+      "2": 37,
+      "3": 112,
+      "4": 375,
+      "5": 2747,
+      "total": 3759,
       "avg": "4.3"
     }
   },
@@ -7549,51 +7509,46 @@ export const productsData = [
         "link": "https://www.google.com/search?q=TeamGroup%20T-Force%20Delta+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=TeamGroup%20T-Force%20Delta%20RGB",
+    "image": "https://logo.clearbit.com/teamgroupinc.com",
     "reviews": [
       {
-        "user": "User56969",
-        "rating": 4,
-        "comment": "Very fantastic choice. The RGB lighting is definitely a plus. However, the overclocking could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User27134",
+        "user": "User99531",
         "rating": 5,
-        "comment": "Fantastic product! The stutter reduction is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
+        "comment": "Excellent product! The overclocking is top tier. I've also noticed great improvements in EXPO profiles. Highly recommend."
       },
       {
-        "user": "User42731",
-        "rating": 4,
-        "comment": "Very incredible choice. The RGB lighting is definitely a plus. However, the latency could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User25248",
-        "rating": 4,
-        "comment": "Very brilliant choice. The latency is definitely a plus. However, the RGB lighting could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User69021",
+        "user": "User71358",
         "rating": 5,
-        "comment": "Solid product! The overclocking is top tier. I've also noticed great improvements in RGB lighting. Highly recommend."
+        "comment": "Outstanding product! The latency is top tier. I've also noticed great improvements in EXPO profiles. Highly recommend."
       },
       {
-        "user": "User97027",
-        "rating": 2,
-        "comment": "Average for the price, but fell short on RGB lighting. Maybe look around before committing."
+        "user": "User63184",
+        "rating": 5,
+        "comment": "Solid product! The RGB lighting is top tier. I've also noticed great improvements in EXPO profiles. Highly recommend."
+      },
+      {
+        "user": "User27713",
+        "rating": 5,
+        "comment": "Outstanding product! The EXPO profiles is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
+      },
+      {
+        "user": "User14004",
+        "rating": 4,
+        "comment": "Very solid choice. The overclocking is definitely a plus. However, the latency could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "AIDA64 Read": "96166 MB/s",
-      "AIDA64 Latency": "70.7 ns",
-      "Y-Cruncher PI": "14.2 sec"
+      "AIDA64 Read": "91835 MB/s",
+      "AIDA64 Latency": "65.1 ns",
+      "Y-Cruncher PI": "13.8 sec"
     },
     "ratingStats": {
-      "1": 399,
-      "2": 65,
-      "3": 195,
-      "4": 651,
-      "5": 5205,
-      "total": 6515,
+      "1": 187,
+      "2": 30,
+      "3": 90,
+      "4": 302,
+      "5": 2417,
+      "total": 3026,
       "avg": "4.6"
     }
   },
@@ -7636,46 +7591,41 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20Vengeance%20LPX+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=Corsair%20Vengeance%20LPX%20DDR4",
+    "image": "https://logo.clearbit.com/corsair.com",
     "reviews": [
       {
-        "user": "User86235",
-        "rating": 4,
-        "comment": "Very excellent choice. The RGB lighting is definitely a plus. However, the latency could be a bit better. Overall very happy."
+        "user": "User14187",
+        "rating": 5,
+        "comment": "Solid product! The EXPO profiles is top tier. I've also noticed great improvements in overclocking. Highly recommend."
       },
       {
-        "user": "User39121",
-        "rating": 4,
-        "comment": "Very fantastic choice. The EXPO profiles is definitely a plus. However, the RGB lighting could be a bit better. Overall very happy."
+        "user": "User39766",
+        "rating": 5,
+        "comment": "Excellent product! The EXPO profiles is top tier. I've also noticed great improvements in RGB lighting. Highly recommend."
       },
       {
-        "user": "User50827",
-        "rating": 4,
-        "comment": "Very excellent choice. The EXPO profiles is definitely a plus. However, the overclocking could be a bit better. Overall very happy."
+        "user": "User48327",
+        "rating": 5,
+        "comment": "Incredible product! The EXPO profiles is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
       },
       {
-        "user": "User20808",
-        "rating": 4,
-        "comment": "Very solid choice. The RGB lighting is definitely a plus. However, the latency could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User97080",
-        "rating": 4,
-        "comment": "Very excellent choice. The overclocking is definitely a plus. However, the RGB lighting could be a bit better. Overall very happy."
+        "user": "User29244",
+        "rating": 5,
+        "comment": "Incredible product! The stutter reduction is top tier. I've also noticed great improvements in RGB lighting. Highly recommend."
       }
     ],
     "benchmarks": {
-      "AIDA64 Read": "89874 MB/s",
-      "AIDA64 Latency": "70.9 ns",
-      "Y-Cruncher PI": "13.0 sec"
+      "AIDA64 Read": "82706 MB/s",
+      "AIDA64 Latency": "67.0 ns",
+      "Y-Cruncher PI": "11.7 sec"
     },
     "ratingStats": {
-      "1": 476,
-      "2": 36,
-      "3": 110,
-      "4": 367,
-      "5": 2686,
-      "total": 3675,
+      "1": 1154,
+      "2": 89,
+      "3": 268,
+      "4": 893,
+      "5": 6531,
+      "total": 8935,
       "avg": "4.3"
     }
   },
@@ -7718,41 +7668,41 @@ export const productsData = [
         "link": "https://www.google.com/search?q=G.Skill%20Ripjaws%20V+official+site"
       }
     },
-    "image": "https://via.placeholder.com/400?text=G.Skill%20Ripjaws%20V%20DDR4",
+    "image": "https://logo.clearbit.com/gskill.com",
     "reviews": [
       {
-        "user": "User17012",
+        "user": "User53015",
+        "rating": 2,
+        "comment": "Average for the price, but fell short on latency. Maybe look around before committing."
+      },
+      {
+        "user": "User67181",
         "rating": 5,
-        "comment": "Outstanding product! The overclocking is top tier. I've also noticed great improvements in latency. Highly recommend."
+        "comment": "Solid product! The EXPO profiles is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
       },
       {
-        "user": "User37782",
-        "rating": 5,
-        "comment": "Excellent product! The latency is top tier. I've also noticed great improvements in stutter reduction. Highly recommend."
-      },
-      {
-        "user": "User30935",
-        "rating": 4,
-        "comment": "Very outstanding choice. The stutter reduction is definitely a plus. However, the EXPO profiles could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User84273",
-        "rating": 3,
+        "user": "User17014",
+        "rating": 2,
         "comment": "Average for the price, but fell short on stutter reduction. Maybe look around before committing."
+      },
+      {
+        "user": "User86497",
+        "rating": 4,
+        "comment": "Very brilliant choice. The RGB lighting is definitely a plus. However, the overclocking could be a bit better. Overall very happy."
       }
     ],
     "benchmarks": {
-      "AIDA64 Read": "94313 MB/s",
-      "AIDA64 Latency": "67.7 ns",
-      "Y-Cruncher PI": "12.7 sec"
+      "AIDA64 Read": "95409 MB/s",
+      "AIDA64 Latency": "64.7 ns",
+      "Y-Cruncher PI": "12.2 sec"
     },
     "ratingStats": {
-      "1": 994,
-      "2": 88,
-      "3": 265,
-      "4": 885,
-      "5": 6623,
-      "total": 8855,
+      "1": 635,
+      "2": 56,
+      "3": 169,
+      "4": 565,
+      "5": 4228,
+      "total": 5653,
       "avg": "4.4"
     }
   }

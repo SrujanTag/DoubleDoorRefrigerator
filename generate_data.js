@@ -575,10 +575,100 @@ const productsD = [
 ];
 
 // Enrich with reviews and overall scores
-productsD.forEach(p => {
-  if (!p.image) {
-    p.image = `https://via.placeholder.com/400?text=${encodeURIComponent(p.title)}`;
+
+const getProperImage = (product) => {
+  const title = product.title.toLowerCase();
+  
+  // Use clearbit logos by brand name
+  if (title.includes('samsung')) return 'https://logo.clearbit.com/samsung.com';
+  if (title.includes('wd ') || title.includes('western digital')) return 'https://logo.clearbit.com/westerndigital.com';
+  if (title.includes('crucial')) return 'https://logo.clearbit.com/crucial.com';
+  if (title.includes('kingston')) return 'https://logo.clearbit.com/kingston.com';
+  if (title.includes('sabrent')) return 'https://logo.clearbit.com/sabrent.com';
+  if (title.includes('corsair')) return 'https://logo.clearbit.com/corsair.com';
+  if (title.includes('teamgroup')) return 'https://logo.clearbit.com/teamgroupinc.com';
+  if (title.includes('nvidia') || title.includes('rtx')) return 'https://logo.clearbit.com/nvidia.com';
+  if (title.includes('amd') || title.includes('ryzen') || title.includes('radeon')) return 'https://logo.clearbit.com/amd.com';
+  if (title.includes('intel') || title.includes('core i')) return 'https://logo.clearbit.com/intel.com';
+  if (title.includes('g.skill')) return 'https://logo.clearbit.com/gskill.com';
+  
+  // Software logos
+  const urlMatches = {
+    'git': 'git-scm.com',
+    'svn': 'subversion.apache.org',
+    'mercurial': 'mercurial-scm.org',
+    'vscodium': 'vscodium.com',
+    'eclipse': 'eclipse.org',
+    'intellij': 'jetbrains.com',
+    'maven': 'maven.apache.org',
+    'gradle': 'gradle.org',
+    'ant': 'ant.apache.org',
+    'jenkins': 'jenkins.io',
+    'gitlab': 'gitlab.com',
+    'tekton': 'tekton.dev',
+    'docker': 'docker.com',
+    'podman': 'podman.io',
+    'containerd': 'containerd.io',
+    'kubernetes': 'kubernetes.io',
+    'nomad': 'nomadproject.io',
+    'ansible': 'ansible.com',
+    'puppet': 'puppet.com',
+    'chef': 'chef.io',
+    'redmine': 'redmine.org',
+    'bugzilla': 'bugzilla.org',
+    'taiga': 'taiga.io',
+    'sonarqube': 'sonarqube.org',
+    'eslint': 'eslint.org',
+    'prettier': 'prettier.io',
+    'selenium': 'selenium.dev',
+    'cypress': 'cypress.io',
+    'junit': 'junit.org',
+    'postgresql': 'postgresql.org',
+    'mysql': 'mysql.com',
+    'mariadb': 'mariadb.org',
+    'hoppscotch': 'hoppscotch.io',
+    'insomnia': 'insomnia.rest',
+    'bruno': 'usebruno.com',
+    'prometheus': 'prometheus.io',
+    'grafana': 'grafana.com',
+    'zabbix': 'zabbix.com',
+    'elasticsearch': 'elastic.co',
+    'logstash': 'elastic.co',
+    'fluentd': 'fluentd.org',
+    'gitea': 'gitea.io',
+    'nginx': 'nginx.org',
+    'apache http': 'httpd.apache.org',
+    'vercel': 'vercel.com',
+    'netlify': 'netlify.com',
+    'render': 'render.com',
+    'heroku': 'heroku.com',
+    'aws': 'aws.amazon.com',
+    'crystaldiskmark': 'crystalmark.info',
+    'wiztree': 'diskanalyzer.com',
+    'rufus': 'rufus.ie',
+    'cinebench': 'maxon.net',
+    'hwmonitor': 'cpuid.com',
+    'apple': 'apple.com',
+    'galaxy ai': 'samsung.com'
+  };
+
+  for (const [key, domain] of Object.entries(urlMatches)) {
+    if (title.includes(key)) {
+      return `https://logo.clearbit.com/${domain}`;
+    }
   }
+
+  // Fallback to beautiful tech images by category
+  if (product.category === 'SSD') return 'https://images.unsplash.com/photo-1597848212624-a19eb35e265c?w=400&h=400&fit=crop';
+  if (product.category === 'GRAPHICS CARDS') return 'https://images.unsplash.com/photo-1591488320449-011701bb6704?w=400&h=400&fit=crop';
+  if (product.category === 'CPUs') return 'https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=400&h=400&fit=crop';
+  if (product.category === 'MEMORY (RAM)') return 'https://images.unsplash.com/photo-1562976540-1502c2145186?w=400&h=400&fit=crop';
+  
+  return `https://via.placeholder.com/400?text=${encodeURIComponent(product.title)}`;
+};
+
+productsD.forEach(p => {
+  p.image = getProperImage(p);
   p.scores.Overall = calcOverall(p.scores);
   p.reviews = generateReviews(p.title, p.category);
   p.benchmarks = generateUserBenchmarks(p.category, p.scores.Overall);
