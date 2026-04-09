@@ -39,7 +39,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Samsung%20990%20Pro+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/samsung.com",
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User17362",
@@ -122,7 +122,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=WD%20Black%20SN850X+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/westerndigital.com",
+    "image": "https://images.unsplash.com/photo-1628557044797-f21a177c37ec?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User57949",
@@ -200,7 +200,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20T700+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/crucial.com",
+    "image": "https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User88150",
@@ -278,7 +278,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Kingston%20KC3000+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/kingston.com",
+    "image": "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User22554",
@@ -361,7 +361,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Sabrent%20Rocket%204%20Plus+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/sabrent.com",
+    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User12868",
@@ -444,7 +444,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=TeamGroup%20MP34+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/teamgroupinc.com",
+    "image": "https://images.unsplash.com/photo-1628557044797-f21a177c37ec?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User85401",
@@ -527,7 +527,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20MX500+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/crucial.com",
+    "image": "https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User72634",
@@ -605,7 +605,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20MP600%20Pro+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/corsair.com",
+    "image": "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User68688",
@@ -688,7 +688,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204090+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/nvidia.com",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User91875",
@@ -776,7 +776,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207900%20XTX+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/amd.com",
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User81330",
@@ -854,7 +854,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204080%20Super+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/nvidia.com",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User27910",
@@ -932,7 +932,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207800%20XT+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/amd.com",
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User79108",
@@ -1015,7 +1015,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204070%20Ti%20Super+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/nvidia.com",
+    "image": "https://images.unsplash.com/photo-1555618254-5e28e2e0c76f?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User16847",
@@ -1093,7 +1093,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207600+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/amd.com",
+    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&h=400&fit=crop&q=85",
     "reviews": [
       {
         "user": "User49658",
@@ -1181,7 +1181,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%203060+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/nvidia.com",
+    "image": "https://images.unsplash.com/photo-1555618254-5e28e2e0c76f?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User22812",
@@ -1259,7 +1259,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Arc%20A770+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/intel.com",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=400&fit=crop&q=85",
     "reviews": [
       {
         "user": "User28512",
@@ -1337,7 +1337,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%207%207800X3D+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/amd.com",
+    "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User29168",
@@ -1420,7 +1420,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i9-14900K+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/intel.com",
+    "image": "https://images.unsplash.com/photo-1592664474505-51c549ad15c5?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User21966",
@@ -1508,7 +1508,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%209%207950X+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/amd.com",
+    "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User62645",
@@ -1591,7 +1591,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i5-13600K+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/intel.com",
+    "image": "https://images.unsplash.com/photo-1592664474505-51c549ad15c5?w=600&h=400&fit=crop&q=90",
     "reviews": [
       {
         "user": "User48959",
@@ -1674,7 +1674,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%205%207600X+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/amd.com",
+    "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&h=400&fit=crop&q=85",
     "reviews": [
       {
         "user": "User59426",
@@ -1752,7 +1752,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i7-14700K+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/intel.com",
+    "image": "https://images.unsplash.com/photo-1592664474505-51c549ad15c5?w=600&h=400&fit=crop&q=85",
     "reviews": [
       {
         "user": "User18872",
@@ -1830,7 +1830,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%205%205600X+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/amd.com",
+    "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&h=400&fit=crop&q=80",
     "reviews": [
       {
         "user": "User21584",
@@ -1906,7 +1906,7 @@ export const productsData = [
         "link": "https://crystalmark.info/en/"
       }
     },
-    "image": "https://logo.clearbit.com/crystalmark.info",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User51010",
@@ -1987,7 +1987,7 @@ export const productsData = [
         "link": "https://diskanalyzer.com/"
       }
     },
-    "image": "https://logo.clearbit.com/diskanalyzer.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User96650",
@@ -2068,7 +2068,7 @@ export const productsData = [
         "link": "https://semiconductor.samsung.com/consumer-storage/magician/"
       }
     },
-    "image": "https://logo.clearbit.com/samsung.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User77249",
@@ -2149,7 +2149,7 @@ export const productsData = [
         "link": "https://www.apple.com/apple-intelligence/"
       }
     },
-    "image": "https://logo.clearbit.com/intel.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User29547",
@@ -2230,7 +2230,7 @@ export const productsData = [
         "link": "https://www.samsung.com/global/galaxy/galaxy-ai/"
       }
     },
-    "image": "https://logo.clearbit.com/samsung.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User88908",
@@ -2311,7 +2311,7 @@ export const productsData = [
         "link": "https://www.cpuid.com/softwares/hwmonitor.html"
       }
     },
-    "image": "https://logo.clearbit.com/cpuid.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User50698",
@@ -2392,7 +2392,7 @@ export const productsData = [
         "link": "https://www.maxon.net/en/cinebench"
       }
     },
-    "image": "https://logo.clearbit.com/maxon.net",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User88620",
@@ -2468,7 +2468,7 @@ export const productsData = [
         "link": "https://rufus.ie/en/"
       }
     },
-    "image": "https://logo.clearbit.com/rufus.ie",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User85393",
@@ -2552,7 +2552,7 @@ export const productsData = [
         "link": "https://git-scm.com/"
       }
     },
-    "image": "https://logo.clearbit.com/git-scm.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User91429",
@@ -2641,7 +2641,7 @@ export const productsData = [
         "link": "https://subversion.apache.org/"
       }
     },
-    "image": "https://logo.clearbit.com/subversion.apache.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User97470",
@@ -2720,7 +2720,7 @@ export const productsData = [
         "link": "https://www.mercurial-scm.org/"
       }
     },
-    "image": "https://logo.clearbit.com/mercurial-scm.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User13734",
@@ -2799,7 +2799,7 @@ export const productsData = [
         "link": "https://vscodium.com/"
       }
     },
-    "image": "https://logo.clearbit.com/vscodium.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User79041",
@@ -2883,7 +2883,7 @@ export const productsData = [
         "link": "https://www.eclipse.org/"
       }
     },
-    "image": "https://logo.clearbit.com/eclipse.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User31226",
@@ -2972,7 +2972,7 @@ export const productsData = [
         "link": "https://www.jetbrains.com/idea/"
       }
     },
-    "image": "https://logo.clearbit.com/intel.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User84848",
@@ -3061,7 +3061,7 @@ export const productsData = [
         "link": "https://maven.apache.org/"
       }
     },
-    "image": "https://logo.clearbit.com/maven.apache.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User48129",
@@ -3150,7 +3150,7 @@ export const productsData = [
         "link": "https://gradle.org/"
       }
     },
-    "image": "https://logo.clearbit.com/gradle.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User54666",
@@ -3239,7 +3239,7 @@ export const productsData = [
         "link": "https://ant.apache.org/"
       }
     },
-    "image": "https://logo.clearbit.com/ant.apache.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User60969",
@@ -3323,7 +3323,7 @@ export const productsData = [
         "link": "https://www.jenkins.io/"
       }
     },
-    "image": "https://logo.clearbit.com/jenkins.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User94711",
@@ -3402,7 +3402,7 @@ export const productsData = [
         "link": "https://docs.gitlab.com/ee/ci/"
       }
     },
-    "image": "https://logo.clearbit.com/git-scm.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User34089",
@@ -3490,7 +3490,7 @@ export const productsData = [
         "link": "https://tekton.dev/"
       }
     },
-    "image": "https://logo.clearbit.com/tekton.dev",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User20677",
@@ -3569,7 +3569,7 @@ export const productsData = [
         "link": "https://github.com/docker/engine"
       }
     },
-    "image": "https://logo.clearbit.com/docker.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User40915",
@@ -3658,7 +3658,7 @@ export const productsData = [
         "link": "https://podman.io/"
       }
     },
-    "image": "https://logo.clearbit.com/podman.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User17225",
@@ -3741,7 +3741,7 @@ export const productsData = [
         "link": "https://containerd.io/"
       }
     },
-    "image": "https://logo.clearbit.com/containerd.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User50276",
@@ -3824,7 +3824,7 @@ export const productsData = [
         "link": "https://kubernetes.io/"
       }
     },
-    "image": "https://logo.clearbit.com/kubernetes.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User71250",
@@ -3913,7 +3913,7 @@ export const productsData = [
         "link": "https://docs.docker.com/engine/swarm/"
       }
     },
-    "image": "https://logo.clearbit.com/docker.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User78032",
@@ -4002,7 +4002,7 @@ export const productsData = [
         "link": "https://www.nomadproject.io/"
       }
     },
-    "image": "https://logo.clearbit.com/nomadproject.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User53161",
@@ -4081,7 +4081,7 @@ export const productsData = [
         "link": "https://www.ansible.com/"
       }
     },
-    "image": "https://logo.clearbit.com/ansible.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User22252",
@@ -4165,7 +4165,7 @@ export const productsData = [
         "link": "https://puppet.com/"
       }
     },
-    "image": "https://logo.clearbit.com/puppet.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User57582",
@@ -4244,7 +4244,7 @@ export const productsData = [
         "link": "https://www.chef.io/"
       }
     },
-    "image": "https://logo.clearbit.com/chef.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User64324",
@@ -4328,7 +4328,7 @@ export const productsData = [
         "link": "https://www.redmine.org/"
       }
     },
-    "image": "https://logo.clearbit.com/redmine.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User98416",
@@ -4417,7 +4417,7 @@ export const productsData = [
         "link": "https://www.bugzilla.org/"
       }
     },
-    "image": "https://logo.clearbit.com/bugzilla.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User10803",
@@ -4501,7 +4501,7 @@ export const productsData = [
         "link": "https://taiga.io/"
       }
     },
-    "image": "https://logo.clearbit.com/taiga.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User21025",
@@ -4580,7 +4580,7 @@ export const productsData = [
         "link": "https://www.sonarqube.org/"
       }
     },
-    "image": "https://logo.clearbit.com/sonarqube.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User70329",
@@ -4669,7 +4669,7 @@ export const productsData = [
         "link": "https://eslint.org/"
       }
     },
-    "image": "https://logo.clearbit.com/eslint.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User54279",
@@ -4752,7 +4752,7 @@ export const productsData = [
         "link": "https://prettier.io/"
       }
     },
-    "image": "https://logo.clearbit.com/prettier.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User78961",
@@ -4841,7 +4841,7 @@ export const productsData = [
         "link": "https://www.selenium.dev/"
       }
     },
-    "image": "https://logo.clearbit.com/selenium.dev",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User70814",
@@ -4930,7 +4930,7 @@ export const productsData = [
         "link": "https://www.cypress.io/"
       }
     },
-    "image": "https://logo.clearbit.com/cypress.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User69159",
@@ -5014,7 +5014,7 @@ export const productsData = [
         "link": "https://junit.org/"
       }
     },
-    "image": "https://logo.clearbit.com/junit.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User61459",
@@ -5103,7 +5103,7 @@ export const productsData = [
         "link": "https://www.postgresql.org/"
       }
     },
-    "image": "https://logo.clearbit.com/postgresql.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User90940",
@@ -5182,7 +5182,7 @@ export const productsData = [
         "link": "https://www.mysql.com/"
       }
     },
-    "image": "https://logo.clearbit.com/mysql.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User96648",
@@ -5261,7 +5261,7 @@ export const productsData = [
         "link": "https://mariadb.org/"
       }
     },
-    "image": "https://logo.clearbit.com/mariadb.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User71601",
@@ -5340,7 +5340,7 @@ export const productsData = [
         "link": "https://hoppscotch.io/"
       }
     },
-    "image": "https://logo.clearbit.com/hoppscotch.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User98294",
@@ -5429,7 +5429,7 @@ export const productsData = [
         "link": "https://insomnia.rest/"
       }
     },
-    "image": "https://logo.clearbit.com/insomnia.rest",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User94072",
@@ -5518,7 +5518,7 @@ export const productsData = [
         "link": "https://www.usebruno.com/"
       }
     },
-    "image": "https://logo.clearbit.com/usebruno.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User78461",
@@ -5596,7 +5596,7 @@ export const productsData = [
         "link": "https://prometheus.io/"
       }
     },
-    "image": "https://logo.clearbit.com/prometheus.io",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User96981",
@@ -5685,7 +5685,7 @@ export const productsData = [
         "link": "https://grafana.com/"
       }
     },
-    "image": "https://logo.clearbit.com/grafana.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User44092",
@@ -5764,7 +5764,7 @@ export const productsData = [
         "link": "https://www.zabbix.com/"
       }
     },
-    "image": "https://logo.clearbit.com/zabbix.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User58160",
@@ -5842,7 +5842,7 @@ export const productsData = [
         "link": "https://www.elastic.co/"
       }
     },
-    "image": "https://logo.clearbit.com/elastic.co",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User80297",
@@ -5925,7 +5925,7 @@ export const productsData = [
         "link": "https://www.elastic.co/logstash"
       }
     },
-    "image": "https://logo.clearbit.com/elastic.co",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User81998",
@@ -6003,7 +6003,7 @@ export const productsData = [
         "link": "https://www.fluentd.org/"
       }
     },
-    "image": "https://logo.clearbit.com/fluentd.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User20308",
@@ -6092,7 +6092,7 @@ export const productsData = [
         "link": "https://gitea.io/"
       }
     },
-    "image": "https://logo.clearbit.com/git-scm.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User62808",
@@ -6170,7 +6170,7 @@ export const productsData = [
         "link": "https://about.gitlab.com/install/"
       }
     },
-    "image": "https://logo.clearbit.com/git-scm.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User65051",
@@ -6254,7 +6254,7 @@ export const productsData = [
         "link": "https://nginx.org/"
       }
     },
-    "image": "https://logo.clearbit.com/nginx.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User42179",
@@ -6338,7 +6338,7 @@ export const productsData = [
         "link": "https://httpd.apache.org/"
       }
     },
-    "image": "https://logo.clearbit.com/httpd.apache.org",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User19377",
@@ -6411,7 +6411,7 @@ export const productsData = [
         "link": "https://vercel.com/"
       }
     },
-    "image": "https://logo.clearbit.com/vercel.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User36988",
@@ -6494,7 +6494,7 @@ export const productsData = [
         "link": "https://www.netlify.com/"
       }
     },
-    "image": "https://logo.clearbit.com/netlify.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User42363",
@@ -6577,7 +6577,7 @@ export const productsData = [
         "link": "https://render.com/"
       }
     },
-    "image": "https://logo.clearbit.com/render.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User89541",
@@ -6650,7 +6650,7 @@ export const productsData = [
         "link": "https://www.heroku.com/"
       }
     },
-    "image": "https://logo.clearbit.com/heroku.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User78720",
@@ -6723,7 +6723,7 @@ export const productsData = [
         "link": "https://aws.amazon.com/amplify/"
       }
     },
-    "image": "https://logo.clearbit.com/aws.amazon.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User58802",
@@ -6796,7 +6796,7 @@ export const productsData = [
         "link": "https://vercel.com/"
       }
     },
-    "image": "https://logo.clearbit.com/vercel.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User17892",
@@ -6874,7 +6874,7 @@ export const productsData = [
         "link": "https://www.netlify.com/"
       }
     },
-    "image": "https://logo.clearbit.com/netlify.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User55838",
@@ -6947,7 +6947,7 @@ export const productsData = [
         "link": "https://render.com/"
       }
     },
-    "image": "https://logo.clearbit.com/render.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User31738",
@@ -7025,7 +7025,7 @@ export const productsData = [
         "link": "https://www.heroku.com/"
       }
     },
-    "image": "https://logo.clearbit.com/heroku.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User89588",
@@ -7098,7 +7098,7 @@ export const productsData = [
         "link": "https://aws.amazon.com/amplify/"
       }
     },
-    "image": "https://logo.clearbit.com/aws.amazon.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User42703",
@@ -7186,7 +7186,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20Vengeance%20RGB%20DDR5+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/corsair.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User44374",
@@ -7268,7 +7268,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=G.Skill%20Trident%20Z5%20NEO+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/gskill.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User71426",
@@ -7345,7 +7345,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Kingston%20FURY%20Beast+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/kingston.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User52137",
@@ -7422,7 +7422,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20Pro%20DDR5+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/crucial.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User97326",
@@ -7509,7 +7509,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=TeamGroup%20T-Force%20Delta+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/teamgroupinc.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User99531",
@@ -7591,7 +7591,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20Vengeance%20LPX+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/corsair.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User14187",
@@ -7668,7 +7668,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=G.Skill%20Ripjaws%20V+official+site"
       }
     },
-    "image": "https://logo.clearbit.com/gskill.com",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
     "reviews": [
       {
         "user": "User53015",

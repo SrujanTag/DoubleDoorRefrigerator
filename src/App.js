@@ -53,7 +53,7 @@ const Header = ({ setShowAuth, navigateTo, wishlist, setWishlist }) => {
           onClick={() => navigateTo('wishlist')}
         >
           <Icons.Heart fill={wishlist?.length > 0 ? "currentColor" : "none"} />
-          {wishlist?.length > 0 && <span style={{position:'absolute', top:-8, right:-8, background:'var(--secondary)', color:'white', fontSize:'0.7rem', fontWeight:'bold', padding:'2px 6px', borderRadius:'10px'}}>{wishlist.length}</span>}
+          {wishlist?.length > 0 && <span style={{position:'absolute', top:-8, right:-8, background:'var(--primary)', color:'#0F172A', fontSize:'0.65rem', fontWeight:'bold', padding:'2px 6px', borderRadius:'10px'}}>{wishlist.length}</span>}
         </div>
         <div style={{ cursor: 'pointer' }}><Icons.Globe /></div>
         <div style={{ cursor: 'pointer' }} onClick={() => setShowAuth(true)}><Icons.User /></div>
@@ -97,7 +97,7 @@ const Footer = ({ navigateTo }) => (
       </div>
       <div className="footer-brand">
         <div className="footer-logo">CompareX</div>
-        <div style={{ color: '#9ca3af', fontSize: '0.875rem' }}>Compare everything</div>
+        <div style={{ color: 'var(--text-dim)', fontSize: '0.875rem' }}>Compare everything</div>
         <div className="social-icons">
           <div className="social-icon"><Icons.Globe /></div>
           <div className="social-icon"><Icons.User /></div>
@@ -152,11 +152,11 @@ const ProductCard = ({ product, compareList, setCompareList, wishlist, setWishli
           <h3 className="product-title">{product.title}</h3>
           <p className="product-subtitle">{product.subtitle}</p>
           {product.scores && product.scores.Overall && (
-            <div style={{ marginTop: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <div style={{ background: 'var(--primary)', color: 'white', padding: '0.2rem 0.5rem', borderRadius: '4px', fontSize: '0.8rem', fontWeight: 'bold' }}>
+            <div style={{ marginTop: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <div style={{ background: 'linear-gradient(135deg, var(--primary), var(--tertiary))', color: '#0F172A', padding: '0.2rem 0.6rem', borderRadius: '6px', fontSize: '0.8rem', fontWeight: 'bold' }}>
                 {product.scores.Overall}
               </div>
-              <span style={{ fontSize: '0.8rem', color: '#6b7280' }}>CompareXscore</span>
+              <span style={{ fontSize: '0.8rem', color: 'var(--text-dim)' }}>CompareXscore</span>
             </div>
           )}
         </div>
@@ -229,7 +229,7 @@ const Home = ({ compareList, setCompareList, wishlist, setWishlist, navigateTo }
                 onChange={handleSearchChange}
                 onFocus={() => setShowResults(true)}
               />
-              <button className="btn btn-dark" onClick={() => searchResults.length > 0 && handleSelectProduct(searchResults[0].id)}>Search</button>
+              <button className="btn btn-primary" onClick={() => searchResults.length > 0 && handleSelectProduct(searchResults[0].id)}>Search</button>
             </div>
             {showResults && searchTerm.trim() !== '' && (
               <div style={{
@@ -237,9 +237,12 @@ const Home = ({ compareList, setCompareList, wishlist, setWishlist, navigateTo }
                 top: '100%',
                 left: 0,
                 right: 0,
-                background: 'white',
-                borderRadius: '8px',
-                boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)',
+                background: 'rgba(15, 23, 42, 0.95)',
+                backdropFilter: 'blur(24px)',
+                WebkitBackdropFilter: 'blur(24px)',
+                border: '1px solid rgba(255,255,255,0.08)',
+                borderRadius: '12px',
+                boxShadow: '0 16px 48px rgba(0,0,0,0.5)',
                 marginTop: '0.5rem',
                 maxHeight: '300px',
                 overflowY: 'auto',
@@ -251,19 +254,19 @@ const Home = ({ compareList, setCompareList, wishlist, setWishlist, navigateTo }
                     <div 
                       key={p.id} 
                       onClick={() => handleSelectProduct(p.id)}
-                      style={{ padding: '0.75rem 1rem', borderBottom: '1px solid #f3f4f6', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '1rem', color: '#111827' }}
-                      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f9fafb'}
-                      onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+                      style={{ padding: '0.75rem 1rem', borderBottom: '1px solid rgba(255,255,255,0.05)', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--text-main)', transition: 'all 0.2s' }}
+                      onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(0,240,255,0.05)'; e.currentTarget.style.color = '#00F0FF'; }}
+                      onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--text-main)'; }}
                     >
-                      <img src={p.image || 'https://via.placeholder.com/40'} alt={p.title} style={{ width: '40px', height: '40px', objectFit: 'contain', borderRadius: '4px', background: '#f3f4f6' }} />
+                      <img src={p.image || 'https://via.placeholder.com/40'} alt={p.title} style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '8px', background: 'rgba(0,0,0,0.3)' }} />
                       <div>
-                        <div style={{ fontWeight: 600 }}>{p.title}</div>
-                        <div style={{ fontSize: '0.8rem', color: '#6b7280' }}>{p.category}</div>
+                        <div style={{ fontWeight: 600, color: 'inherit' }}>{p.title}</div>
+                        <div style={{ fontSize: '0.8rem', color: 'var(--text-dim)' }}>{p.category}</div>
                       </div>
                     </div>
                   ))
                 ) : (
-                  <div style={{ padding: '1rem', color: '#6b7280', textAlign: 'center' }}>No products found</div>
+                  <div style={{ padding: '1rem', color: 'var(--text-dim)', textAlign: 'center' }}>No products found</div>
                 )}
               </div>
             )}
@@ -306,7 +309,7 @@ const CategoryPage = ({ categoryName, compareList, setCompareList, wishlist, set
 
   return (
     <div>
-      <section className="hero" style={{ padding: '8rem 2rem 4rem' }}>
+      <section className="hero" style={{ padding: '10rem 2rem 4rem' }}>
         <div className="hero-content">
           <h1 className="heading-xl">{categoryName}</h1>
           <p className="hero-subtitle">Browse top {categoryName} and find what works for you.</p>
@@ -335,11 +338,11 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
   if (compareList.length === 0) {
     return (
       <div>
-        <section className="hero" style={{ padding: '8rem 2rem 4rem' }}>
+        <section className="hero" style={{ padding: '10rem 2rem 4rem' }}>
           <div className="hero-content">
             <h2 className="heading-lg">Nothing to compare</h2>
             <p className="hero-subtitle">Go back to the home page and add some items.</p>
-            <button className="btn btn-dark" style={{marginTop: '2rem'}} onClick={() => navigateTo('home')}>Go to Home</button>
+            <button className="btn btn-primary" style={{marginTop: '2rem'}} onClick={() => navigateTo('home')}>Go to Home</button>
           </div>
           <WaveDivider />
         </section>
@@ -349,7 +352,7 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
 
   return (
     <div>
-      <section className="hero" style={{ padding: '8rem 2rem 4rem' }}>
+      <section className="hero" style={{ padding: '10rem 2rem 4rem' }}>
         <div className="hero-content">
           <h1 className="heading-lg">Side-by-side Comparison</h1>
           <button className="btn btn-dark" style={{marginTop: '1rem'}} onClick={() => navigateTo('home')}>Add More Items</button>
@@ -367,8 +370,8 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
               {product.image ? (
                 <img src={product.image} alt={product.title} className="compare-img" />
               ) : (
-                <div className="compare-img" style={{background: '#f3f4f6', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <span style={{color: '#9ca3af', fontSize: '0.8rem'}}>No image</span>
+                <div className="compare-img" style={{background: 'rgba(0,0,0,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <span style={{color: 'var(--text-dim)', fontSize: '0.8rem'}}>No image</span>
                 </div>
               )}
               <h3 className="heading-md">{product.title}</h3>
@@ -383,34 +386,34 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
                   </div>
                   {Object.entries(product.scores).filter(([k]) => k !== 'Overall').map(([key, value]) => (
                     <div key={key} style={{display: 'flex', justifyContent: 'space-between', fontSize: '0.875rem', marginBottom: '0.2rem'}}>
-                      <span>{key}</span>
-                      <span>{value}</span>
+                      <span style={{color: 'var(--text-muted)'}}>{key}</span>
+                      <span style={{color: 'var(--text-main)'}}>{value}</span>
                     </div>
                   ))}
                 </div>
               )}
 
               {product.category === 'TOOLS' && product.specifications?.Description && (
-                <div style={{marginBottom: '1.5rem', background: '#f9fafb', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb'}}>
-                  <h4 className="heading-sm" style={{marginBottom: '0.5rem', color: '#111827'}}>About</h4>
-                  <p style={{fontSize: '0.9rem', color: '#4b5563', lineHeight: '1.5', marginBottom: '1rem'}}>{product.specifications.Description}</p>
+                <div style={{marginBottom: '1.5rem', background: 'var(--bg-glass)', padding: '1rem', borderRadius: '12px', border: '1px solid var(--border-glass)'}}>
+                  <h4 className="heading-sm" style={{marginBottom: '0.5rem'}}>About</h4>
+                  <p style={{fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: '1.5', marginBottom: '1rem'}}>{product.specifications.Description}</p>
                   
-                  <h4 className="heading-sm" style={{marginBottom: '0.5rem', color: '#111827'}}>Primary Use Case</h4>
-                  <p style={{fontSize: '0.9rem', color: '#4b5563', lineHeight: '1.5', margin: 0}}>{product.specifications.PrimaryUseCase}</p>
+                  <h4 className="heading-sm" style={{marginBottom: '0.5rem'}}>Primary Use Case</h4>
+                  <p style={{fontSize: '0.9rem', color: 'var(--text-muted)', lineHeight: '1.5', margin: 0}}>{product.specifications.PrimaryUseCase}</p>
                 </div>
               )}
 
               {product.category === 'TOOLS' && (
-                <div style={{marginBottom: '1.5rem', background: '#f9fafb', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb'}}>
-                  <h4 className="heading-sm" style={{marginBottom: '0.5rem', color: '#111827'}}>Pricing & Plans</h4>
+                <div style={{marginBottom: '1.5rem', background: 'var(--bg-glass)', padding: '1rem', borderRadius: '12px', border: '1px solid var(--border-glass)'}}>
+                  <h4 className="heading-sm" style={{marginBottom: '0.5rem'}}>Pricing & Plans</h4>
                   {product.specifications?.FreeTier ? (
                     <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
-                      <div><strong>Free:</strong> <span style={{fontSize: '0.85rem', color: '#4b5563'}}>{product.specifications.FreeTier}</span></div>
-                      <div><strong>Pro:</strong> <span style={{fontSize: '0.85rem', color: '#4b5563'}}>{product.specifications.ProTier}</span></div>
-                      <div><strong>Enterprise:</strong> <span style={{fontSize: '0.85rem', color: '#4b5563'}}>{product.specifications.EnterpriseTier}</span></div>
+                      <div><strong style={{color: 'var(--primary)'}}>Free:</strong> <span style={{fontSize: '0.85rem', color: 'var(--text-muted)'}}>{product.specifications.FreeTier}</span></div>
+                      <div><strong style={{color: 'var(--tertiary)'}}>Pro:</strong> <span style={{fontSize: '0.85rem', color: 'var(--text-muted)'}}>{product.specifications.ProTier}</span></div>
+                      <div><strong style={{color: '#a78bfa'}}>Enterprise:</strong> <span style={{fontSize: '0.85rem', color: 'var(--text-muted)'}}>{product.specifications.EnterpriseTier}</span></div>
                     </div>
                   ) : (
-                    <p style={{fontSize: '0.85rem', color: '#4b5563', margin: 0}}><strong>Open Source & Free</strong><br/>License: {product.specifications?.License || 'Open Source'}</p>
+                    <p style={{fontSize: '0.85rem', color: 'var(--text-muted)', margin: 0}}><strong style={{color: '#10b981'}}>Open Source & Free</strong><br/>License: {product.specifications?.License || 'Open Source'}</p>
                   )}
                 </div>
               )}
@@ -449,7 +452,7 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
 const WishlistPage = ({ wishlist, setWishlist, navigateTo, compareList, setCompareList }) => {
   return (
     <div>
-      <section className="hero" style={{ padding: '8rem 2rem 4rem' }}>
+      <section className="hero" style={{ padding: '10rem 2rem 4rem' }}>
         <div className="hero-content">
           <h1 className="heading-xl">Your Wishlist</h1>
           <p className="hero-subtitle">{wishlist.length} items saved</p>
@@ -460,7 +463,7 @@ const WishlistPage = ({ wishlist, setWishlist, navigateTo, compareList, setCompa
       <section className="products-section">
         {wishlist.length === 0 ? (
           <div style={{ textAlign: 'center', padding: '4rem 0' }}>
-            <h2 className="heading-md" style={{ color: '#9ca3af' }}>Your wishlist is currently empty.</h2>
+            <h2 className="heading-md" style={{ color: 'var(--text-dim)' }}>Your wishlist is currently empty.</h2>
             <button className="btn btn-primary" style={{marginTop: '2rem'}} onClick={() => navigateTo('home')}>Explore Products</button>
           </div>
         ) : (
@@ -484,16 +487,16 @@ const WishlistPage = ({ wishlist, setWishlist, navigateTo, compareList, setCompa
 const ProductDetail = ({ productId, navigateTo }) => {
   const product = productsData.find(p => p.id === productId);
 
-  if (!product) return <div>Product Not Found</div>;
+  if (!product) return <div style={{padding: '10rem 2rem', textAlign: 'center', color: 'var(--text-muted)'}}>Product Not Found</div>;
 
   const avgRating = product.ratingStats?.avg || "0.0";
   const ratingCounts = product.ratingStats || {total: 0, 5: 0, 4: 0, 3: 0, 2: 0, 1: 0};
 
   return (
     <div>
-      <section className="hero" style={{ padding: '6rem 2rem 2rem', position: 'relative' }}>
-        <div style={{ position: 'absolute', top: '5.5rem', left: '2rem', zIndex: 10 }}>
-          <div style={{ cursor: 'pointer', color: 'white', display: 'inline-block', transition: 'transform 0.2s', padding: '0.5rem 0' }} onClick={() => navigateTo('category', product.category)} onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'} onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+      <section className="hero" style={{ padding: '8rem 2rem 2rem', position: 'relative' }}>
+        <div style={{ position: 'absolute', top: '6.5rem', left: '2rem', zIndex: 10 }}>
+          <div style={{ cursor: 'pointer', color: 'var(--text-muted)', display: 'inline-block', transition: 'all 0.3s', padding: '0.5rem 0' }} onClick={() => navigateTo('category', product.category)} onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(1.1)'; e.currentTarget.style.color = 'var(--primary)'; }} onMouseLeave={(e) => { e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.color = 'var(--text-muted)'; }}>
             <Icons.ArrowLeft />
           </div>
         </div>
@@ -501,20 +504,20 @@ const ProductDetail = ({ productId, navigateTo }) => {
       </section>
 
       <section className="products-section" style={{ paddingTop: '0', marginTop: '-4rem', position: 'relative', zIndex: 20 }}>
-        {/* Image Left, Name Center/Right with 2-lines small text below */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '3rem', marginBottom: '3rem', background: 'white', padding: '2rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+        {/* Product Header Card */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: '3rem', marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2rem', borderRadius: '20px', border: '1px solid var(--border-glass)', boxShadow: 'var(--shadow-glow)' }}>
           <div style={{ flex: '0 0 250px' }}>
             {product.image ? (
-              <img src={product.image} alt={product.title} style={{maxWidth: '100%', height: 'auto', borderRadius: '8px', objectFit: 'contain'}} />
+              <img src={product.image} alt={product.title} style={{maxWidth: '100%', height: 'auto', borderRadius: '12px', objectFit: 'contain'}} />
             ) : (
-              <div style={{background: '#f3f4f6', height: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px'}}>
-                <span style={{color: '#9ca3af'}}>Image Placeholder</span>
+              <div style={{background: 'rgba(0,0,0,0.3)', height: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px'}}>
+                <span style={{color: 'var(--text-dim)'}}>Image Placeholder</span>
               </div>
             )}
           </div>
           <div style={{ flex: '1', display: 'flex', flexDirection: 'column', paddingRight: '2rem' }}>
-            <h1 className="heading-xl" style={{ margin: 0, color: '#111827' }}>{product.title}</h1>
-            <p style={{fontSize: '0.85rem', color: '#6b7280', lineHeight: '1.5', marginTop: '0.5rem', maxWidth: '600px'}}>
+            <h1 className="heading-xl" style={{ margin: 0 }}>{product.title}</h1>
+            <p style={{fontSize: '0.95rem', color: 'var(--text-muted)', lineHeight: '1.6', marginTop: '0.75rem', maxWidth: '600px'}}>
               {product.subtitle}. {product.category === 'TOOLS' ? `This software tool is preferred by developers across the globe. CompareX aggregate data confirms its position as a leading choice for open-source development.` : `This ${product.category.toLowerCase()} is highly documented emphasizing pure performance. CompareX aggregate data confirms it stands out for long-term usage and robust feature inclusion.`}
             </p>
           </div>
@@ -522,16 +525,16 @@ const ProductDetail = ({ productId, navigateTo }) => {
 
         {/* About Feature */}
         {product.category === 'TOOLS' && product.specifications?.Description && (
-          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', borderLeft: '4px solid var(--primary)' }}>
+          <div style={{ marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)', borderLeft: '3px solid var(--primary)' }}>
             <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>About this Tool</h3>
             <div style={{display: 'flex', flexDirection: 'column', gap: '1.5rem'}}>
               <div>
-                <h4 style={{fontWeight: 'bold', color: '#111827', marginBottom: '0.5rem', fontSize: '1.1rem'}}>Description</h4>
-                <p style={{fontSize: '1rem', color: '#4b5563', lineHeight: '1.6', margin: 0}}>{product.specifications.Description}</p>
+                <h4 style={{fontWeight: 'bold', color: 'var(--text-light)', marginBottom: '0.5rem', fontSize: '1.1rem'}}>Description</h4>
+                <p style={{fontSize: '1rem', color: 'var(--text-muted)', lineHeight: '1.6', margin: 0}}>{product.specifications.Description}</p>
               </div>
               <div>
-                <h4 style={{fontWeight: 'bold', color: '#111827', marginBottom: '0.5rem', fontSize: '1.1rem'}}>Primary Use Case</h4>
-                <p style={{fontSize: '1rem', color: '#4b5563', lineHeight: '1.6', margin: 0}}>{product.specifications.PrimaryUseCase}</p>
+                <h4 style={{fontWeight: 'bold', color: 'var(--text-light)', marginBottom: '0.5rem', fontSize: '1.1rem'}}>Primary Use Case</h4>
+                <p style={{fontSize: '1rem', color: 'var(--text-muted)', lineHeight: '1.6', margin: 0}}>{product.specifications.PrimaryUseCase}</p>
               </div>
             </div>
           </div>
@@ -539,27 +542,27 @@ const ProductDetail = ({ productId, navigateTo }) => {
 
         {/* Pricing & Plans Section for TOOLS */}
         {product.category === 'TOOLS' && (
-          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+          <div style={{ marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)' }}>
             <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>Pricing & Plans</h3>
             {product.specifications?.FreeTier ? (
               <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem'}}>
-                <div style={{ background: '#f9fafb', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #10b981' }}>
-                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#111827'}}>Free Tier</h4>
-                  <p style={{color: '#4b5563', fontSize: '0.95rem', margin: 0}}>{product.specifications.FreeTier}</p>
+                <div style={{ background: 'rgba(0,0,0,0.2)', padding: '1.5rem', borderRadius: '12px', borderTop: '3px solid #10b981', border: '1px solid var(--border-glass)', borderTopColor: '#10b981' }}>
+                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#10b981'}}>Free Tier</h4>
+                  <p style={{color: 'var(--text-muted)', fontSize: '0.95rem', margin: 0}}>{product.specifications.FreeTier}</p>
                 </div>
-                <div style={{ background: '#f9fafb', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #3b82f6' }}>
-                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#111827'}}>Pro Tier</h4>
-                  <p style={{color: '#4b5563', fontSize: '0.95rem', margin: 0}}>{product.specifications.ProTier}</p>
+                <div style={{ background: 'rgba(0,0,0,0.2)', padding: '1.5rem', borderRadius: '12px', borderTop: '3px solid var(--tertiary)', border: '1px solid var(--border-glass)', borderTopColor: 'var(--tertiary)' }}>
+                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: 'var(--tertiary)'}}>Pro Tier</h4>
+                  <p style={{color: 'var(--text-muted)', fontSize: '0.95rem', margin: 0}}>{product.specifications.ProTier}</p>
                 </div>
-                <div style={{ background: '#f9fafb', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #6366f1' }}>
-                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#111827'}}>Enterprise Tier</h4>
-                  <p style={{color: '#4b5563', fontSize: '0.95rem', margin: 0}}>{product.specifications.EnterpriseTier}</p>
+                <div style={{ background: 'rgba(0,0,0,0.2)', padding: '1.5rem', borderRadius: '12px', borderTop: '3px solid #a78bfa', border: '1px solid var(--border-glass)', borderTopColor: '#a78bfa' }}>
+                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#a78bfa'}}>Enterprise Tier</h4>
+                  <p style={{color: 'var(--text-muted)', fontSize: '0.95rem', margin: 0}}>{product.specifications.EnterpriseTier}</p>
                 </div>
               </div>
             ) : (
-              <div style={{ background: '#f9fafb', padding: '1.5rem', borderRadius: '8px', borderLeft: '4px solid #10b981' }}>
-                <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#111827'}}>Open Source & Free</h4>
-                <p style={{color: '#4b5563', fontSize: '0.95rem', margin: 0}}>This tool does not have paid subscription tiers. It is free to use under its respective license: <strong>{product.specifications?.License || 'Open Source'}</strong>.</p>
+              <div style={{ background: 'rgba(0,0,0,0.2)', padding: '1.5rem', borderRadius: '12px', borderLeft: '3px solid #10b981', border: '1px solid var(--border-glass)', borderLeftColor: '#10b981' }}>
+                <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#10b981'}}>Open Source & Free</h4>
+                <p style={{color: 'var(--text-muted)', fontSize: '0.95rem', margin: 0}}>This tool does not have paid subscription tiers. It is free to use under its respective license: <strong style={{color: 'var(--text-light)'}}>{product.specifications?.License || 'Open Source'}</strong>.</p>
               </div>
             )}
           </div>
@@ -567,13 +570,13 @@ const ProductDetail = ({ productId, navigateTo }) => {
 
         {/* Specifications */}
         {product.specifications && (
-          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+          <div style={{ marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)' }}>
             <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>{product.category === 'TOOLS' ? 'Tool Details' : 'Specifications'}</h3>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1.5rem' }}>
               {Object.entries(product.specifications).filter(([key]) => !['Description', 'PrimaryUseCase', 'FreeTier', 'ProTier', 'EnterpriseTier'].includes(key)).map(([key, value]) => (
-                <div key={key} style={{ background: '#f9fafb', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
-                  <div style={{ color: '#6b7280', fontSize: '0.875rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{key}</div>
-                  <div style={{ fontWeight: '600', color: '#111827', fontSize: '1.1rem' }}>{value}</div>
+                <div key={key} style={{ background: 'rgba(0,0,0,0.2)', padding: '1rem', borderRadius: '12px', border: '1px solid var(--border-glass)' }}>
+                  <div style={{ color: 'var(--text-dim)', fontSize: '0.8rem', marginBottom: '0.3rem', textTransform: 'uppercase', letterSpacing: '0.08em' }}>{key}</div>
+                  <div style={{ fontWeight: '600', color: 'var(--text-light)', fontSize: '1.05rem' }}>{value}</div>
                 </div>
               ))}
             </div>
@@ -582,26 +585,26 @@ const ProductDetail = ({ productId, navigateTo }) => {
 
         {/* CompareXscore */}
         {product.scores && (
-          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+          <div style={{ marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)' }}>
             <h3 className="heading-lg" style={{marginBottom: '2rem'}}>CompareXscore</h3>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '3rem', alignItems: 'center' }}>
               <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-                <div style={{width: '140px', height: '140px', borderRadius: '50%', border: '10px solid var(--primary)', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
-                  <span style={{ fontSize: '3rem', fontWeight: 'bold', color: '#111827', lineHeight: '1' }}>{product.scores.Overall}</span>
-                  <span style={{ fontSize: '0.9rem', color: '#6b7280' }}>out of 100</span>
+                <div style={{width: '140px', height: '140px', borderRadius: '50%', border: '4px solid transparent', background: 'linear-gradient(var(--bg-dark), var(--bg-dark)) padding-box, linear-gradient(135deg, var(--primary), var(--tertiary)) border-box', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', boxShadow: '0 0 30px rgba(0,240,255,0.15)'}}>
+                  <span style={{ fontSize: '3rem', fontWeight: 'bold', color: 'var(--text-light)', lineHeight: '1' }}>{product.scores.Overall}</span>
+                  <span style={{ fontSize: '0.85rem', color: 'var(--text-dim)' }}>out of 100</span>
                 </div>
-                <div style={{marginTop: '1rem', fontWeight: '600', color: '#4b5563'}}>Overall Score</div>
+                <div style={{marginTop: '1rem', fontWeight: '600', color: 'var(--text-muted)'}}>Overall Score</div>
               </div>
               
               <div>
                 {Object.entries(product.scores).filter(([k]) => k !== 'Overall').map(([key, value]) => (
                   <div key={key} style={{marginBottom: '1rem'}}>
                     <div style={{display: 'flex', justifyContent: 'space-between', fontSize: '1rem', marginBottom: '0.3rem'}}>
-                      <span style={{fontWeight: '500', color: '#374151'}}>{key}</span>
+                      <span style={{fontWeight: '500', color: 'var(--text-main)' }}>{key}</span>
                       <span style={{fontWeight: 'bold', color: 'var(--primary)'}}>{value}/100</span>
                     </div>
-                    <div style={{height: '10px', background: '#e5e7eb', borderRadius: '5px', overflow: 'hidden'}}>
-                      <div style={{height: '100%', width: value + '%', background: 'var(--primary)', borderRadius: '5px'}}></div>
+                    <div style={{height: '8px', background: 'rgba(255,255,255,0.06)', borderRadius: '4px', overflow: 'hidden'}}>
+                      <div style={{height: '100%', width: value + '%', background: 'linear-gradient(90deg, var(--primary), var(--tertiary))', borderRadius: '4px', boxShadow: '0 0 10px rgba(0,240,255,0.3)', transition: 'width 1s ease'}}></div>
                     </div>
                   </div>
                 ))}
@@ -612,14 +615,14 @@ const ProductDetail = ({ productId, navigateTo }) => {
 
         {/* User Benchmarks */}
         {product.benchmarks && (
-          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', border: '2px solid #f3f4f6' }}>
+          <div style={{ marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid rgba(0,240,255,0.1)' }}>
             <h3 className="heading-lg" style={{marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem'}}><Icons.Sparkles /> {product.category === 'TOOLS' ? 'Community Metrics' : 'User Benchmarks'}</h3>
-            <p style={{color: '#6b7280', marginBottom: '2rem'}}>{product.category === 'TOOLS' ? 'Aggregated community metrics and usage statistics derived from open source development data.' : 'Aggregated real-life benchmarks and metrics calculated using community hardware reporting.'}</p>
+            <p style={{color: 'var(--text-dim)', marginBottom: '2rem'}}>{product.category === 'TOOLS' ? 'Aggregated community metrics and usage statistics derived from open source development data.' : 'Aggregated real-life benchmarks and metrics calculated using community hardware reporting.'}</p>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
               {Object.entries(product.benchmarks).map(([key, value]) => (
-                <div key={key} style={{ background: '#111827', color: 'white', padding: '1.5rem', borderRadius: '8px' }}>
-                  <div style={{ color: '#9ca3af', fontSize: '0.875rem', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{key}</div>
-                  <div style={{ fontWeight: 'bold', fontSize: '1.5rem' }}>{value}</div>
+                <div key={key} style={{ background: 'linear-gradient(135deg, rgba(0,240,255,0.05), rgba(8,125,209,0.05))', border: '1px solid var(--border-glass)', color: 'var(--text-light)', padding: '1.5rem', borderRadius: '12px', transition: 'all 0.3s ease' }}>
+                  <div style={{ color: 'var(--text-dim)', fontSize: '0.8rem', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.08em' }}>{key}</div>
+                  <div style={{ fontWeight: 'bold', fontSize: '1.5rem', color: 'var(--primary)' }}>{value}</div>
                 </div>
               ))}
             </div>
@@ -628,12 +631,12 @@ const ProductDetail = ({ productId, navigateTo }) => {
 
         {/* Buy Links */}
         {product.prices && (
-          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+          <div style={{ marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)' }}>
             <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>{product.category === 'TOOLS' ? 'Official Links' : 'Where to buy'}</h3>
             <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem'}}>
               {Object.entries(product.prices).filter(([store]) => product.category !== 'TOOLS' || store === 'official').map(([store, details]) => (
-                <a href={details.link} target="_blank" rel="noopener noreferrer" key={store} style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem', border: '1px solid #e5e7eb', borderRadius: '8px', textDecoration: 'none', color: 'inherit', background: '#f9fafb', transition: 'all 0.2s'}}>
-                  <span style={{textTransform: 'capitalize', fontWeight: '600', fontSize: '1.1rem'}}>{store}</span>
+                <a href={details.link} target="_blank" rel="noopener noreferrer" key={store} style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem', border: '1px solid var(--border-glass)', borderRadius: '12px', textDecoration: 'none', color: 'inherit', background: 'rgba(0,0,0,0.2)', transition: 'all 0.3s ease'}}>
+                  <span style={{textTransform: 'capitalize', fontWeight: '600', fontSize: '1.1rem', color: 'var(--text-main)'}}>{store}</span>
                   <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
                     <span style={{fontWeight: '900', color: 'var(--primary)', fontSize: '1.2rem'}}>{details.price}</span>
                     <Icons.Globe />
@@ -645,13 +648,13 @@ const ProductDetail = ({ productId, navigateTo }) => {
         )}
 
         {/* Ratings Summary */}
-        <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+        <div style={{ marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)' }}>
            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>User Ratings Summary</h3>
            <div style={{ display: 'grid', gridTemplateColumns: 'auto 1fr', gap: '3rem', alignItems: 'center' }}>
              <div style={{ textAlign: 'center' }}>
-               <div style={{ fontSize: '4rem', fontWeight: 'bold', color: '#111827', lineHeight: '1' }}>{avgRating}</div>
+               <div style={{ fontSize: '4rem', fontWeight: 'bold', color: 'var(--text-light)', lineHeight: '1' }}>{avgRating}</div>
                <div style={{ color: '#fbbf24', fontSize: '1.5rem', margin: '0.5rem 0' }}>{'★'.repeat(Math.round(avgRating))}{'☆'.repeat(5-Math.round(avgRating))}</div>
-               <div style={{ color: '#6b7280' }}>Based on {ratingCounts.total.toLocaleString()} ratings</div>
+               <div style={{ color: 'var(--text-dim)' }}>Based on {ratingCounts.total.toLocaleString()} ratings</div>
              </div>
              <div>
                {[5, 4, 3, 2, 1].map(stars => {
@@ -659,11 +662,11 @@ const ProductDetail = ({ productId, navigateTo }) => {
                  const pct = ratingCounts.total > 0 ? (count / ratingCounts.total) * 100 : 0;
                  return (
                    <div key={stars} style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '0.5rem' }}>
-                     <div style={{ width: '60px', color: '#4b5563', fontWeight: '500' }}>{stars} Stars</div>
-                     <div style={{ flex: '1', height: '12px', background: '#e5e7eb', borderRadius: '6px', overflow: 'hidden' }}>
-                       <div style={{ height: '100%', width: pct + '%', background: '#fbbf24', borderRadius: '6px' }}></div>
+                     <div style={{ width: '60px', color: 'var(--text-muted)', fontWeight: '500' }}>{stars} Stars</div>
+                     <div style={{ flex: '1', height: '10px', background: 'rgba(255,255,255,0.06)', borderRadius: '5px', overflow: 'hidden' }}>
+                       <div style={{ height: '100%', width: pct + '%', background: 'linear-gradient(90deg, #fbbf24, #f59e0b)', borderRadius: '5px' }}></div>
                      </div>
-                     <div style={{ width: '60px', textAlign: 'right', color: '#6b7280', fontSize: '0.9rem' }}>{count.toLocaleString()}</div>
+                     <div style={{ width: '60px', textAlign: 'right', color: 'var(--text-dim)', fontSize: '0.9rem' }}>{count.toLocaleString()}</div>
                    </div>
                  );
                })}
@@ -674,7 +677,7 @@ const ProductDetail = ({ productId, navigateTo }) => {
         {/* AI Summary */}
         <div className="ai-summary" style={{ marginBottom: '2rem' }}>
           <div className="ai-summary-header"><Icons.Sparkles /> AI Review Summary</div>
-          <p style={{fontSize: '1.1rem', lineHeight: '1.6'}}>{generateAISummary(product)}</p>
+          <p style={{fontSize: '1.05rem', lineHeight: '1.7'}}>{generateAISummary(product)}</p>
         </div>
 
         {/* Latest Reviews */}
@@ -684,10 +687,10 @@ const ProductDetail = ({ productId, navigateTo }) => {
             {product.reviews?.slice(0, 4).map((r, i) => (
               <div key={i} className="review-card" style={{padding: '1.5rem'}}>
                 <div className="review-header" style={{marginBottom: '1rem'}}>
-                  <strong style={{fontSize: '1.1rem'}}>{r.user}</strong>
-                  <span style={{color: '#fbbf24', fontSize: '1.1rem'}}>{'★'.repeat(r.rating)}<span style={{color: '#e5e7eb'}}>{'★'.repeat(5-r.rating)}</span></span>
+                  <strong style={{fontSize: '1.05rem', color: 'var(--text-light)'}}>{r.user}</strong>
+                  <span style={{color: '#fbbf24', fontSize: '1.1rem'}}>{'★'.repeat(r.rating)}<span style={{color: 'var(--text-dim)'}}>{'★'.repeat(5-r.rating)}</span></span>
                 </div>
-                <p style={{fontSize: '1rem', lineHeight: '1.6', color: '#374151'}}>{r.comment}</p>
+                <p style={{fontSize: '1rem', lineHeight: '1.6', color: 'var(--text-muted)'}}>{r.comment}</p>
               </div>
             ))}
           </div>
@@ -844,7 +847,7 @@ const App = () => {
       {/* Floating Compare Bar */}
       {compareList.length > 0 && (
         <div className="compare-bar-fixed" style={{ bottom: 0, left: 0, right: 0, borderRadius: 0 }}>
-          <span>{compareList.length}/3 items selected</span>
+          <span style={{color: 'var(--text-muted)'}}>{compareList.length}/3 items selected</span>
           <div style={{display: 'flex', gap: '0.5rem', flexWrap: 'wrap'}}>
             {compareList.map(p => (
               <div key={p.id} className="compare-item-chip">
@@ -857,7 +860,7 @@ const App = () => {
         </div>
       )}
 
-      {/* Floating Quiz Button bottom right */}
+      {/* Floating AI Button */}
       <button 
         onClick={() => setShowChat(true)}
         style={{
@@ -865,21 +868,21 @@ const App = () => {
           bottom: compareList.length > 0 ? '5rem' : '2rem',
           right: '2rem',
           zIndex: 100,
-          background: 'var(--primary)',
-          color: '#fff',
+          background: 'linear-gradient(135deg, var(--primary), var(--tertiary))',
+          color: '#0F172A',
           border: 'none',
           padding: '1rem',
           borderRadius: '999px',
-          boxShadow: '0 8px 16px rgba(103,92,255,0.3)',
+          boxShadow: '0 8px 30px rgba(0,240,255,0.3)',
           cursor: 'pointer',
           display: 'flex',
           alignItems: 'center',
           gap: '0.5rem',
-          fontWeight: 600,
-          transition: 'all 0.2s',
+          fontWeight: 700,
+          transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
         }}
-        onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-        onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+        onMouseEnter={(e) => { e.currentTarget.style.transform = 'scale(1.08)'; e.currentTarget.style.boxShadow = '0 12px 40px rgba(0,240,255,0.5)'; }}
+        onMouseLeave={(e) => { e.currentTarget.style.transform = 'scale(1)'; e.currentTarget.style.boxShadow = '0 8px 30px rgba(0,240,255,0.3)'; }}
       >
         <Icons.Brain /> AI Assistant
       </button>
@@ -891,18 +894,18 @@ const App = () => {
             <h2 className="heading-md" style={{marginBottom: '1.5rem'}}>{user ? 'Your Account' : 'Sign In'}</h2>
             {user ? (
               <div>
-                <p>Welcome, {user.name}!</p>
-                <p>Wishlist count: {wishlist.length}</p>
+                <p style={{color: 'var(--text-muted)'}}>Welcome, <span style={{color: 'var(--primary)'}}>{user.name}</span>!</p>
+                <p style={{color: 'var(--text-dim)', marginTop: '0.5rem'}}>Wishlist count: {wishlist.length}</p>
                 <button onClick={handleLogout} className="btn btn-dark" style={{marginTop: '2rem'}}>Log Out</button>
               </div>
             ) : (
               <form onSubmit={handleLogin}>
                 <div className="form-group">
-                  <label style={{display:'block', marginBottom:'0.5rem'}}>Email</label>
+                  <label style={{display:'block', marginBottom:'0.5rem', color: 'var(--text-muted)', fontSize: '0.9rem'}}>Email</label>
                   <input type="email" className="form-input" required defaultValue="user@test.com" />
                 </div>
                 <div className="form-group">
-                  <label style={{display:'block', marginBottom:'0.5rem'}}>Password</label>
+                  <label style={{display:'block', marginBottom:'0.5rem', color: 'var(--text-muted)', fontSize: '0.9rem'}}>Password</label>
                   <input type="password" className="form-input" required defaultValue="password" />
                 </div>
                 <button type="submit" className="btn btn-primary" style={{width: '100%', marginTop:'1rem'}}>Sign In / Register</button>
@@ -916,7 +919,7 @@ const App = () => {
       {showChat && (
         <div className="quiz-overlay" onClick={() => setShowChat(false)}>
           <div className="quiz-modal" style={{display: 'flex', flexDirection: 'column', height: '500px', maxHeight: '90vh'}} onClick={e => e.stopPropagation()}>
-            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', borderBottom: '1px solid #e5e7eb', paddingBottom: '1rem'}}>
+            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', borderBottom: '1px solid var(--border-glass)', paddingBottom: '1rem'}}>
               <h2 className="heading-md" style={{margin: 0}}><span style={{color: 'var(--primary)', verticalAlign: 'middle', marginRight: '0.5rem'}}><Icons.Brain /></span> AI Assistant</h2>
               <button className="btn-icon" onClick={() => setShowChat(false)}><Icons.X /></button>
             </div>
@@ -925,14 +928,16 @@ const App = () => {
               {chatMessages.map((msg, idx) => (
                 <div key={idx} style={{
                   alignSelf: msg.role === 'user' ? 'flex-end' : 'flex-start',
-                  background: msg.role === 'user' ? 'var(--primary)' : '#f3f4f6',
-                  color: msg.role === 'user' ? 'white' : '#111827',
+                  background: msg.role === 'user' ? 'linear-gradient(135deg, var(--primary), var(--tertiary))' : 'var(--bg-glass-strong)',
+                  color: msg.role === 'user' ? '#0F172A' : 'var(--text-main)',
                   padding: '0.75rem 1rem',
                   borderRadius: '12px',
                   borderBottomRightRadius: msg.role === 'user' ? '2px' : '12px',
                   borderBottomLeftRadius: msg.role === 'ai' ? '2px' : '12px',
                   maxWidth: '85%',
-                  lineHeight: '1.4'
+                  lineHeight: '1.5',
+                  border: msg.role === 'ai' ? '1px solid var(--border-glass)' : 'none',
+                  fontWeight: msg.role === 'user' ? 600 : 400
                 }}>
                   {msg.text}
                   {msg.productId && (
