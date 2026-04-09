@@ -1906,7 +1906,7 @@ export const productsData = [
         "link": "https://crystalmark.info/en/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "/logo-crystaldiskmark.png",
     "reviews": [
       {
         "user": "User51010",
@@ -1987,7 +1987,7 @@ export const productsData = [
         "link": "https://diskanalyzer.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "/logo-wiztree.png",
     "reviews": [
       {
         "user": "User96650",
@@ -2068,7 +2068,7 @@ export const productsData = [
         "link": "https://semiconductor.samsung.com/consumer-storage/magician/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "/logo-samsung-magician.png",
     "reviews": [
       {
         "user": "User77249",
@@ -2149,7 +2149,7 @@ export const productsData = [
         "link": "https://www.apple.com/apple-intelligence/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/apple/white",
     "reviews": [
       {
         "user": "User29547",
@@ -2230,7 +2230,7 @@ export const productsData = [
         "link": "https://www.samsung.com/global/galaxy/galaxy-ai/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "/logo-galaxy-ai.png",
     "reviews": [
       {
         "user": "User88908",
@@ -2311,7 +2311,7 @@ export const productsData = [
         "link": "https://www.cpuid.com/softwares/hwmonitor.html"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "/logo-hwmonitor.png",
     "reviews": [
       {
         "user": "User50698",
@@ -2392,7 +2392,7 @@ export const productsData = [
         "link": "https://www.maxon.net/en/cinebench"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/maxon/white",
     "reviews": [
       {
         "user": "User88620",
@@ -2468,7 +2468,7 @@ export const productsData = [
         "link": "https://rufus.ie/en/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://raw.githubusercontent.com/pbatard/rufus/master/res/rufus.ico",
     "reviews": [
       {
         "user": "User85393",
@@ -2552,7 +2552,7 @@ export const productsData = [
         "link": "https://git-scm.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/git/white",
     "reviews": [
       {
         "user": "User91429",
@@ -2641,7 +2641,7 @@ export const productsData = [
         "link": "https://subversion.apache.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/subversion",
     "reviews": [
       {
         "user": "User97470",
@@ -2720,7 +2720,7 @@ export const productsData = [
         "link": "https://www.mercurial-scm.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/mercurial/white",
     "reviews": [
       {
         "user": "User13734",
@@ -2799,7 +2799,7 @@ export const productsData = [
         "link": "https://vscodium.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://vscodium.com/img/vscodium.png",
     "reviews": [
       {
         "user": "User79041",
@@ -2883,7 +2883,7 @@ export const productsData = [
         "link": "https://www.eclipse.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/eclipseide",
     "reviews": [
       {
         "user": "User31226",
@@ -2972,7 +2972,7 @@ export const productsData = [
         "link": "https://www.jetbrains.com/idea/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/intellijidea",
     "reviews": [
       {
         "user": "User84848",
@@ -3061,7 +3061,7 @@ export const productsData = [
         "link": "https://maven.apache.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/apachemaven/white",
     "reviews": [
       {
         "user": "User48129",
@@ -3150,7 +3150,7 @@ export const productsData = [
         "link": "https://gradle.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/gradle/white",
     "reviews": [
       {
         "user": "User54666",
@@ -3239,7 +3239,7 @@ export const productsData = [
         "link": "https://ant.apache.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/apacheant/white",
     "reviews": [
       {
         "user": "User60969",
@@ -3323,7 +3323,7 @@ export const productsData = [
         "link": "https://www.jenkins.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/jenkins/white",
     "reviews": [
       {
         "user": "User94711",
@@ -3402,7 +3402,7 @@ export const productsData = [
         "link": "https://docs.gitlab.com/ee/ci/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/gitlab",
     "reviews": [
       {
         "user": "User34089",
@@ -3490,7 +3490,7 @@ export const productsData = [
         "link": "https://tekton.dev/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/tekton/white",
     "reviews": [
       {
         "user": "User20677",
@@ -3569,7 +3569,7 @@ export const productsData = [
         "link": "https://github.com/docker/engine"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/docker/white",
     "reviews": [
       {
         "user": "User40915",
@@ -3658,7 +3658,7 @@ export const productsData = [
         "link": "https://podman.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/podman/white",
     "reviews": [
       {
         "user": "User17225",
@@ -3741,7 +3741,7 @@ export const productsData = [
         "link": "https://containerd.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/containerd/white",
     "reviews": [
       {
         "user": "User50276",
@@ -3824,7 +3824,7 @@ export const productsData = [
         "link": "https://kubernetes.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/kubernetes/white",
     "reviews": [
       {
         "user": "User71250",
@@ -3913,7 +3913,7 @@ export const productsData = [
         "link": "https://docs.docker.com/engine/swarm/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/docker/white",
     "reviews": [
       {
         "user": "User78032",
@@ -4002,7 +4002,7 @@ export const productsData = [
         "link": "https://www.nomadproject.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/nomad/white",
     "reviews": [
       {
         "user": "User53161",
@@ -4081,7 +4081,7 @@ export const productsData = [
         "link": "https://www.ansible.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/ansible/white",
     "reviews": [
       {
         "user": "User22252",
@@ -4165,7 +4165,7 @@ export const productsData = [
         "link": "https://puppet.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/puppet/white",
     "reviews": [
       {
         "user": "User57582",
@@ -4244,7 +4244,7 @@ export const productsData = [
         "link": "https://www.chef.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/chef/white",
     "reviews": [
       {
         "user": "User64324",
@@ -4328,7 +4328,7 @@ export const productsData = [
         "link": "https://www.redmine.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/redmine/white",
     "reviews": [
       {
         "user": "User98416",
@@ -4417,7 +4417,7 @@ export const productsData = [
         "link": "https://www.bugzilla.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "/logo-bugzilla.png",
     "reviews": [
       {
         "user": "User10803",
@@ -4501,7 +4501,7 @@ export const productsData = [
         "link": "https://taiga.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/taiga/white",
     "reviews": [
       {
         "user": "User21025",
@@ -4580,7 +4580,7 @@ export const productsData = [
         "link": "https://www.sonarqube.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/sonarqube/white",
     "reviews": [
       {
         "user": "User70329",
@@ -4669,7 +4669,7 @@ export const productsData = [
         "link": "https://eslint.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/eslint/white",
     "reviews": [
       {
         "user": "User54279",
@@ -4752,7 +4752,7 @@ export const productsData = [
         "link": "https://prettier.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/prettier/white",
     "reviews": [
       {
         "user": "User78961",
@@ -4841,7 +4841,7 @@ export const productsData = [
         "link": "https://www.selenium.dev/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/selenium/white",
     "reviews": [
       {
         "user": "User70814",
@@ -4930,7 +4930,7 @@ export const productsData = [
         "link": "https://www.cypress.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/cypress/white",
     "reviews": [
       {
         "user": "User69159",
@@ -5014,7 +5014,7 @@ export const productsData = [
         "link": "https://junit.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/junit5/white",
     "reviews": [
       {
         "user": "User61459",
@@ -5103,7 +5103,7 @@ export const productsData = [
         "link": "https://www.postgresql.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/postgresql/white",
     "reviews": [
       {
         "user": "User90940",
@@ -5182,7 +5182,7 @@ export const productsData = [
         "link": "https://www.mysql.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/mysql/white",
     "reviews": [
       {
         "user": "User96648",
@@ -5261,7 +5261,7 @@ export const productsData = [
         "link": "https://mariadb.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/mariadb/white",
     "reviews": [
       {
         "user": "User71601",
@@ -5340,7 +5340,7 @@ export const productsData = [
         "link": "https://hoppscotch.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/hoppscotch/white",
     "reviews": [
       {
         "user": "User98294",
@@ -5429,7 +5429,7 @@ export const productsData = [
         "link": "https://insomnia.rest/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/insomnia/white",
     "reviews": [
       {
         "user": "User94072",
@@ -5518,7 +5518,7 @@ export const productsData = [
         "link": "https://www.usebruno.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/bruno/white",
     "reviews": [
       {
         "user": "User78461",
@@ -5596,7 +5596,7 @@ export const productsData = [
         "link": "https://prometheus.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/prometheus/white",
     "reviews": [
       {
         "user": "User96981",
@@ -5685,7 +5685,7 @@ export const productsData = [
         "link": "https://grafana.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/grafana/white",
     "reviews": [
       {
         "user": "User44092",
@@ -5764,7 +5764,7 @@ export const productsData = [
         "link": "https://www.zabbix.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/zabbix/white",
     "reviews": [
       {
         "user": "User58160",
@@ -5842,7 +5842,7 @@ export const productsData = [
         "link": "https://www.elastic.co/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/elasticsearch/white",
     "reviews": [
       {
         "user": "User80297",
@@ -5925,7 +5925,7 @@ export const productsData = [
         "link": "https://www.elastic.co/logstash"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/logstash/white",
     "reviews": [
       {
         "user": "User81998",
@@ -6003,7 +6003,7 @@ export const productsData = [
         "link": "https://www.fluentd.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/fluentd/white",
     "reviews": [
       {
         "user": "User20308",
@@ -6092,7 +6092,7 @@ export const productsData = [
         "link": "https://gitea.io/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/gitea/white",
     "reviews": [
       {
         "user": "User62808",
@@ -6170,7 +6170,7 @@ export const productsData = [
         "link": "https://about.gitlab.com/install/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/gitlab",
     "reviews": [
       {
         "user": "User65051",
@@ -6254,7 +6254,7 @@ export const productsData = [
         "link": "https://nginx.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/nginx/white",
     "reviews": [
       {
         "user": "User42179",
@@ -6338,7 +6338,7 @@ export const productsData = [
         "link": "https://httpd.apache.org/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/apache",
     "reviews": [
       {
         "user": "User19377",
@@ -6411,7 +6411,7 @@ export const productsData = [
         "link": "https://vercel.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/vercel/white",
     "reviews": [
       {
         "user": "User36988",
@@ -6494,7 +6494,7 @@ export const productsData = [
         "link": "https://www.netlify.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/netlify/white",
     "reviews": [
       {
         "user": "User42363",
@@ -6577,7 +6577,7 @@ export const productsData = [
         "link": "https://render.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/render/white",
     "reviews": [
       {
         "user": "User89541",
@@ -6650,7 +6650,7 @@ export const productsData = [
         "link": "https://www.heroku.com/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/heroku/white",
     "reviews": [
       {
         "user": "User78720",
@@ -6723,7 +6723,7 @@ export const productsData = [
         "link": "https://aws.amazon.com/amplify/"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://cdn.simpleicons.org/awsamplify/white",
     "reviews": [
       {
         "user": "User58802",
@@ -6759,391 +6759,6 @@ export const productsData = [
       "4": 393,
       "5": 3142,
       "total": 3933,
-      "avg": "4.6"
-    }
-  },
-  {
-    "id": 455,
-    "title": "Vercel",
-    "subtitle": "Frontend Cloud & Next.js creator",
-    "category": "TOOLS",
-    "isNew": true,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Freemium"
-    },
-    "specifications": {
-      "Type": "Platform as a Service",
-      "Platform": "Web",
-      "Support": "Global Edge Network",
-      "License": "Proprietary Service",
-      "Description": "Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.",
-      "PrimaryUseCase": "Zero-configuration deployment for frontend frameworks and serverless functions.",
-      "Ecosystem": "Next.js, React, Edge Functions",
-      "FreeTier": "Hobby (Free forever for non-commercial)",
-      "ProTier": "$20/mo per user (1TB Bandwidth)",
-      "EnterpriseTier": "Custom pricing (Enhanced Security, SLA)"
-    },
-    "scores": {
-      "Reliability": 99,
-      "Speed": 100,
-      "EaseOfUse": 98,
-      "Overall": 99
-    },
-    "prices": {
-      "official": {
-        "price": "Freemium",
-        "link": "https://vercel.com/"
-      }
-    },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
-    "reviews": [
-      {
-        "user": "User17892",
-        "rating": 5,
-        "comment": "Fantastic product! The UI is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User58625",
-        "rating": 2,
-        "comment": "Acceptable for the price, but fell short on feature set. Maybe look around before committing."
-      },
-      {
-        "user": "User47099",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the reliability could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User74946",
-        "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User96494",
-        "rating": 4,
-        "comment": "Very incredible choice. The speed of scan is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "110%",
-      "Feature Richness": "101%",
-      "Ease of Deployment": "108%",
-      "Community Support": "102%"
-    },
-    "ratingStats": {
-      "1": 54,
-      "2": 27,
-      "3": 83,
-      "4": 279,
-      "5": 2348,
-      "total": 2791,
-      "avg": "4.7"
-    }
-  },
-  {
-    "id": 456,
-    "title": "Netlify",
-    "subtitle": "Connect everything. Build anywhere.",
-    "category": "TOOLS",
-    "isNew": false,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Freemium"
-    },
-    "specifications": {
-      "Type": "Platform as a Service",
-      "Platform": "Web",
-      "Support": "Jamstack",
-      "License": "Proprietary Service",
-      "Description": "A unified platform that automates your code to create high-performant, easily maintainable sites and web apps.",
-      "PrimaryUseCase": "Jamstack applications with automated edge deployments.",
-      "Ecosystem": "Gatsby, Nuxt, Edge CDN",
-      "FreeTier": "Starter (100GB Bandwidth, 300 build mins)",
-      "ProTier": "$19/mo per user (1TB Bandwidth)",
-      "EnterpriseTier": "Custom pricing (99.99% Uptime SLA)"
-    },
-    "scores": {
-      "Reliability": 98,
-      "Speed": 97,
-      "EaseOfUse": 99,
-      "Overall": 98
-    },
-    "prices": {
-      "official": {
-        "price": "Freemium",
-        "link": "https://www.netlify.com/"
-      }
-    },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
-    "reviews": [
-      {
-        "user": "User55838",
-        "rating": 4,
-        "comment": "Very fantastic choice. The accuracy is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User33456",
-        "rating": 4,
-        "comment": "Very brilliant choice. The speed of scan is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User59867",
-        "rating": 4,
-        "comment": "Very incredible choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User55884",
-        "rating": 5,
-        "comment": "Solid product! The reliability is top tier. I've also noticed great improvements in UI. Highly recommend."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "106%",
-      "Feature Richness": "108%",
-      "Ease of Deployment": "102%",
-      "Community Support": "98%"
-    },
-    "ratingStats": {
-      "1": 130,
-      "2": 47,
-      "3": 142,
-      "4": 475,
-      "5": 3960,
-      "total": 4754,
-      "avg": "4.7"
-    }
-  },
-  {
-    "id": 457,
-    "title": "Render",
-    "subtitle": "Unified Cloud to build and run all your apps",
-    "category": "TOOLS",
-    "isNew": true,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Freemium"
-    },
-    "specifications": {
-      "Type": "Cloud Platform",
-      "Platform": "Web / Backend",
-      "Support": "Docker, Node, Python",
-      "License": "Proprietary Service",
-      "Description": "Render is a unified cloud to build and run all your apps and websites with free TLS certificates, a global CDN, DDoS protection, private networks, and auto deploys from Git.",
-      "PrimaryUseCase": "Deploying full-stack applications, databases, and cron jobs effortlessly.",
-      "Ecosystem": "PostgreSQL, Redis, Web Services",
-      "FreeTier": "Individual (Static Sites, Free Web Services spin down)",
-      "ProTier": "Team $19/mo (Scale memory/CPU as needed)",
-      "EnterpriseTier": "Organization (SSO, Role-based access)"
-    },
-    "scores": {
-      "Versatility": 95,
-      "Usability": 96,
-      "Value": 98,
-      "Overall": 96
-    },
-    "prices": {
-      "official": {
-        "price": "Freemium",
-        "link": "https://render.com/"
-      }
-    },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
-    "reviews": [
-      {
-        "user": "User31738",
-        "rating": 5,
-        "comment": "Solid product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User11375",
-        "rating": 4,
-        "comment": "Very brilliant choice. The feature set is definitely a plus. However, the accuracy could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User19999",
-        "rating": 4,
-        "comment": "Very outstanding choice. The speed of scan is definitely a plus. However, the speed of scan could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User16449",
-        "rating": 4,
-        "comment": "Very excellent choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User25929",
-        "rating": 4,
-        "comment": "Very fantastic choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "100%",
-      "Feature Richness": "91%",
-      "Ease of Deployment": "97%",
-      "Community Support": "100%"
-    },
-    "ratingStats": {
-      "1": 218,
-      "2": 49,
-      "3": 147,
-      "4": 491,
-      "5": 4009,
-      "total": 4914,
-      "avg": "4.6"
-    }
-  },
-  {
-    "id": 458,
-    "title": "Heroku",
-    "subtitle": "Cloud application platform",
-    "category": "TOOLS",
-    "isNew": false,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Paid"
-    },
-    "specifications": {
-      "Type": "Platform as a Service",
-      "Platform": "Backend",
-      "Support": "Polyglot",
-      "License": "Proprietary Service",
-      "Description": "A platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.",
-      "PrimaryUseCase": "Simple container-based application hosting (Dynos).",
-      "Ecosystem": "Salesforce, Node, Ruby, Postgres",
-      "FreeTier": "No longer available. Starts at Eco ($5)",
-      "ProTier": "Standard Dynos ($25-$50/mo)",
-      "EnterpriseTier": "Private Spaces (Network isolation, compliance)"
-    },
-    "scores": {
-      "Ecosystem": 99,
-      "Reliability": 95,
-      "Pricing": 70,
-      "Overall": 88
-    },
-    "prices": {
-      "official": {
-        "price": "Paid Plans",
-        "link": "https://www.heroku.com/"
-      }
-    },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
-    "reviews": [
-      {
-        "user": "User89588",
-        "rating": 5,
-        "comment": "Excellent product! The speed of scan is top tier. I've also noticed great improvements in speed of scan. Highly recommend."
-      },
-      {
-        "user": "User55528",
-        "rating": 4,
-        "comment": "Very brilliant choice. The feature set is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User84358",
-        "rating": 4,
-        "comment": "Very great choice. The UI is definitely a plus. However, the feature set could be a bit better. Overall very happy."
-      },
-      {
-        "user": "User72484",
-        "rating": 4,
-        "comment": "Very fantastic choice. The UI is definitely a plus. However, the UI could be a bit better. Overall very happy."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "94%",
-      "Feature Richness": "84%",
-      "Ease of Deployment": "97%",
-      "Community Support": "95%"
-    },
-    "ratingStats": {
-      "1": 1087,
-      "2": 96,
-      "3": 290,
-      "4": 968,
-      "5": 7242,
-      "total": 9683,
-      "avg": "4.4"
-    }
-  },
-  {
-    "id": 459,
-    "title": "AWS Amplify",
-    "subtitle": "Build extensible, full-stack web and mobile apps",
-    "category": "TOOLS",
-    "isNew": false,
-    "features": {
-      "Type": "Deployment",
-      "Subscription": "Pay-as-you-go"
-    },
-    "specifications": {
-      "Type": "Cloud Platform",
-      "Platform": "Web / Mobile",
-      "Support": "AWS Cloud",
-      "License": "Proprietary Service",
-      "Description": "A set of purpose-built tools and features that lets frontend web and mobile developers quickly and easily build full-stack applications on AWS.",
-      "PrimaryUseCase": "Seamless integration of frontend code with AWS backend services (Auth, Storage, APIs).",
-      "Ecosystem": "AWS ecosystem, React Native, Vue",
-      "FreeTier": "Free tier limits for 12 months (1000 build mins, 15GB bandwidth)",
-      "ProTier": "Pay-as-you-go ($0.01/build min, $0.15/GB)",
-      "EnterpriseTier": "Part of AWS compliance, massive scale"
-    },
-    "scores": {
-      "Scalability": 100,
-      "Features": 96,
-      "Complexity": 85,
-      "Overall": 94
-    },
-    "prices": {
-      "official": {
-        "price": "Pay-as-you-go",
-        "link": "https://aws.amazon.com/amplify/"
-      }
-    },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
-    "reviews": [
-      {
-        "user": "User42703",
-        "rating": 5,
-        "comment": "Fantastic product! The speed of scan is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User33941",
-        "rating": 5,
-        "comment": "Outstanding product! The feature set is top tier. I've also noticed great improvements in feature set. Highly recommend."
-      },
-      {
-        "user": "User63147",
-        "rating": 5,
-        "comment": "Incredible product! The speed of scan is top tier. I've also noticed great improvements in accuracy. Highly recommend."
-      },
-      {
-        "user": "User32187",
-        "rating": 2,
-        "comment": "Average for the price, but fell short on speed of scan. Maybe look around before committing."
-      },
-      {
-        "user": "User37638",
-        "rating": 5,
-        "comment": "Great product! The UI is top tier. I've also noticed great improvements in UI. Highly recommend."
-      },
-      {
-        "user": "User91331",
-        "rating": 5,
-        "comment": "Brilliant product! The accuracy is top tier. I've also noticed great improvements in reliability. Highly recommend."
-      }
-    ],
-    "benchmarks": {
-      "Value for Money": "104%",
-      "Feature Richness": "104%",
-      "Ease of Deployment": "111%",
-      "Community Support": "93%"
-    },
-    "ratingStats": {
-      "1": 217,
-      "2": 35,
-      "3": 105,
-      "4": 352,
-      "5": 2815,
-      "total": 3524,
       "avg": "4.6"
     }
   },

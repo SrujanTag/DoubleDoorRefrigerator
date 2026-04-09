@@ -145,7 +145,13 @@ const ProductCard = ({ product, compareList, setCompareList, wishlist, setWishli
       <div style={{flex: 1, cursor: 'pointer', display: 'flex', flexDirection: 'column'}} onClick={() => navigateTo('product', product.id)}>
         <div className="product-image-container">
           {product.image ? (
-            <img src={product.image} alt={product.title} className="product-image" />
+            product.category === 'TOOLS' ? (
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(135deg, rgba(15,23,42,0.9) 0%, rgba(10,22,40,0.95) 100%)', padding: '1.5rem' }}>
+                <img src={product.image} alt={product.title} style={{ maxWidth: '70%', maxHeight: '70%', objectFit: 'contain', filter: 'drop-shadow(0 4px 16px rgba(0,240,255,0.15))' }} onError={(e) => { e.target.style.display='none'; e.target.parentElement.innerHTML='<span style="color:var(--text-dim);font-size:0.8rem">' + product.title + '</span>'; }} />
+              </div>
+            ) : (
+              <img src={product.image} alt={product.title} className="product-image" />
+            )
           ) : (
             <ImagePlaceholder />
           )}
@@ -261,7 +267,9 @@ const Home = ({ compareList, setCompareList, wishlist, setWishlist, navigateTo }
                       onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(0,240,255,0.05)'; e.currentTarget.style.color = '#00F0FF'; }}
                       onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--text-main)'; }}
                     >
-                      <img src={p.image || 'https://via.placeholder.com/40'} alt={p.title} style={{ width: '40px', height: '40px', objectFit: 'cover', borderRadius: '8px', background: 'rgba(0,0,0,0.3)' }} />
+                      <div style={{ width: '40px', height: '40px', borderRadius: '8px', background: 'rgba(0,0,0,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', flexShrink: 0 }}>
+                        <img src={p.image || 'https://via.placeholder.com/40'} alt={p.title} style={{ width: p.category === 'TOOLS' ? '75%' : '100%', height: p.category === 'TOOLS' ? '75%' : '100%', objectFit: p.category === 'TOOLS' ? 'contain' : 'cover' }} />
+                      </div>
                       <div>
                         <div style={{ fontWeight: 600, color: 'inherit' }}>{p.title}</div>
                         <div style={{ fontSize: '0.8rem', color: 'var(--text-dim)' }}>{p.category}</div>
@@ -371,7 +379,13 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
                 <Icons.X />
               </button>
               {product.image ? (
-                <img src={product.image} alt={product.title} className="compare-img" />
+                product.category === 'TOOLS' ? (
+                  <div className="compare-img" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(135deg, rgba(15,23,42,0.9), rgba(10,22,40,0.95))', padding: '1rem', borderRadius: '12px' }}>
+                    <img src={product.image} alt={product.title} style={{ maxWidth: '90%', maxHeight: '90%', objectFit: 'contain', filter: 'drop-shadow(0 4px 12px rgba(0,240,255,0.2))' }} onError={(e) => { e.target.style.display='none'; }} />
+                  </div>
+                ) : (
+                  <img src={product.image} alt={product.title} className="compare-img" />
+                )
               ) : (
                 <div className="compare-img" style={{background: 'rgba(0,0,0,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
                   <span style={{color: 'var(--text-dim)', fontSize: '0.8rem'}}>No image</span>
@@ -511,7 +525,13 @@ const ProductDetail = ({ productId, navigateTo }) => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '3rem', marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2rem', borderRadius: '20px', border: '1px solid var(--border-glass)', boxShadow: 'var(--shadow-glow)' }}>
           <div style={{ flex: '0 0 250px' }}>
             {product.image ? (
-              <img src={product.image} alt={product.title} style={{maxWidth: '100%', height: 'auto', borderRadius: '12px', objectFit: 'contain'}} />
+              product.category === 'TOOLS' ? (
+                <div style={{ width: '250px', height: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(135deg, rgba(15,23,42,0.95), rgba(10,22,40,1))', borderRadius: '16px', border: '1px solid var(--border-glass)', padding: '2rem', boxShadow: '0 0 30px rgba(0,240,255,0.08)' }}>
+                  <img src={product.image} alt={product.title} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', filter: 'drop-shadow(0 6px 20px rgba(0,240,255,0.2))' }} onError={(e) => { e.target.style.display='none'; }} />
+                </div>
+              ) : (
+                <img src={product.image} alt={product.title} style={{maxWidth: '100%', height: 'auto', borderRadius: '12px', objectFit: 'contain'}} />
+              )
             ) : (
               <div style={{background: 'rgba(0,0,0,0.3)', height: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px'}}>
                 <span style={{color: 'var(--text-dim)'}}>Image Placeholder</span>
