@@ -62,37 +62,40 @@ const Header = ({ setShowAuth, navigateTo, wishlist, setWishlist }) => {
   );
 };
 
-const Footer = ({ navigateTo }) => (
+const Footer = ({ navigateTo, setShowChat }) => (
   <footer className="footer">
     <div className="footer-content">
       <div className="footer-column">
-        <h4>Resources</h4>
+        <h4>Top Categories</h4>
         <div className="footer-links">
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Blog</div>
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Glossary</div>
+          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('category', 'SSD')}>SSD Storage</div>
+          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('category', 'GRAPHICS CARDS')}>Graphics Cards</div>
+          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('category', 'CPUs')}>Processors</div>
+          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('category', 'TOOLS')}>Dev Tools</div>
         </div>
       </div>
       <div className="footer-column">
         <h4>Get in touch</h4>
         <div className="footer-links">
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Suggest a product</div>
+          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => setShowChat(true)}>Suggest a product</div>
           <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Partnerships</div>
         </div>
       </div>
       <div className="footer-column">
         <h4>CompareX</h4>
         <div className="footer-links">
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>About us</div>
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Editorial guidelines</div>
+          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('about')}>About us</div>
+          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('editorial')}>Editorial guidelines</div>
         </div>
       </div>
       <div className="footer-column">
-        <h4>Legal</h4>
-        <div className="footer-links">
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Imprint</div>
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Privacy</div>
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Terms</div>
-          <div className="footer-link" style={{cursor:'pointer'}} onClick={() => navigateTo('home')}>Cookies</div>
+        <h4>Newsletter</h4>
+        <div style={{color: 'var(--text-dim)', fontSize: '0.85rem', marginBottom: '1rem'}}>
+          Subscribe for our weekly hardware and software analysis.
+        </div>
+        <div style={{display: 'flex', gap: '0.5rem'}}>
+          <input type="email" placeholder="Your email" style={{padding: '0.5rem', borderRadius: '8px', border: '1px solid var(--border-glass)', background: 'rgba(255,255,255,0.05)', color: 'white', width: '100%'}} />
+          <button className="btn btn-primary" style={{padding: '0.5rem 1rem'}}>Sub</button>
         </div>
       </div>
       <div className="footer-brand">
@@ -700,6 +703,64 @@ const ProductDetail = ({ productId, navigateTo }) => {
   );
 };
 
+const AboutPage = () => (
+  <div>
+    <section className="hero" style={{ padding: '10rem 2rem 4rem' }}>
+      <div className="hero-content">
+        <h1 className="heading-xl">About CompareX</h1>
+        <p className="hero-subtitle">Your reference guide for technology comparisons.</p>
+      </div>
+      <WaveDivider />
+    </section>
+    <section className="products-section" style={{maxWidth: '800px', margin: '0 auto', padding: '0 2rem 4rem'}}>
+      <div style={{marginBottom: '3rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)'}}>
+        <h2 className="heading-lg" style={{marginBottom: '1rem'}}>Our Mission</h2>
+        <p style={{fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-muted)'}}>
+          We are an impartial team of technology enthusiasts dedicated to helping you make informed decisions. We analyze everything from hardware to software tools, ensuring you get unbiased, data-backed insights. Every rating is derived from aggregated community benchmarks and deep technical evaluations, giving you the clearest picture of what a product really offers.
+        </p>
+      </div>
+      <div style={{background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)'}}>
+        <h2 className="heading-lg" style={{marginBottom: '1rem'}}>The Team</h2>
+        <p style={{fontSize: '1.1rem', lineHeight: '1.8', color: 'var(--text-muted)'}}>
+          CompareX was built by engineers, gamers, and reviewers who were tired of fragmented information. We've aggregated data from across the web—from open-source repositories to in-depth hardware forums—to establish a unified score you can trust.
+        </p>
+      </div>
+    </section>
+  </div>
+);
+
+const EditorialPage = () => (
+  <div>
+    <section className="hero" style={{ padding: '10rem 2rem 4rem' }}>
+      <div className="hero-content">
+        <h1 className="heading-xl">Editorial Guidelines</h1>
+        <p className="hero-subtitle">How we test, rate, and review.</p>
+      </div>
+      <WaveDivider />
+    </section>
+    <section className="products-section" style={{maxWidth: '800px', margin: '0 auto', padding: '0 2rem 4rem'}}>
+      <div style={{marginBottom: '2rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)', borderLeft: '4px solid var(--primary)'}}>
+        <h3 className="heading-md" style={{marginBottom: '1rem'}}>1. Unbiased Aggregation</h3>
+        <p style={{color: 'var(--text-muted)', lineHeight: '1.7'}}>
+          We do not accept payment to artificially inflate ratings or manipulate review statuses. Our CompareXscore is generated using a combination of user-submitted benchmarks, GitHub activity, and aggregated forum sentiment.
+        </p>
+      </div>
+      <div style={{marginBottom: '2rem', background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)', borderLeft: '4px solid var(--tertiary)'}}>
+        <h3 className="heading-md" style={{marginBottom: '1rem'}}>2. Transparent Sourcing</h3>
+        <p style={{color: 'var(--text-muted)', lineHeight: '1.7'}}>
+          Whether we evaluate a graphics card's 3DMark score or a framework's npm package downloads, our metrics are presented openly. We link directly to official documentation, community repos, and certified retailers so you can verify our claims.
+        </p>
+      </div>
+      <div style={{background: 'var(--bg-glass)', backdropFilter: 'blur(16px)', WebkitBackdropFilter: 'blur(16px)', padding: '2.5rem', borderRadius: '20px', border: '1px solid var(--border-glass)', borderLeft: '4px solid #10b981'}}>
+        <h3 className="heading-md" style={{marginBottom: '1rem'}}>3. AI-Assisted, Human-Verified</h3>
+        <p style={{color: 'var(--text-muted)', lineHeight: '1.7'}}>
+          We use our proprietary AI models to parse thousands of reviews and generate concise summaries to save you time. However, every product page structure and definitive benchmark score is verified by a human expert before publication.
+        </p>
+      </div>
+    </section>
+  </div>
+);
+
 const App = () => {
   const [currentPage, setCurrentPage] = useState('home');
   const [currentParam, setCurrentParam] = useState(null);
@@ -840,9 +901,11 @@ const App = () => {
             navigateTo={navigateTo}
           />
         }
+        {currentPage === 'about' && <AboutPage />}
+        {currentPage === 'editorial' && <EditorialPage />}
       </main>
 
-      <Footer navigateTo={navigateTo} />
+      <Footer navigateTo={navigateTo} setShowChat={setShowChat} />
 
       {/* Floating Compare Bar */}
       {compareList.length > 0 && (
