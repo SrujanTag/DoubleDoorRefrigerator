@@ -13,10 +13,12 @@ const Icons = {
   Heart: ({ fill }) => <svg width="20" height="20" viewBox="0 0 24 24" fill={fill} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>,
   X: () => <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>,
   Sparkles: () => <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v18"/><path d="M3 12h18"/><path d="m18.36 5.64-12.72 12.72"/><path d="m5.64 5.64 12.72 12.72"/></svg>,
-  ArrowLeft: () => <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+  ArrowLeft: () => <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>,
+  Moon: () => <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>,
+  Sun: () => <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
 };
 
-const Header = ({ setShowAuth, navigateTo, wishlist, setWishlist }) => {
+const Header = ({ setShowAuth, navigateTo, wishlist, setWishlist, theme, toggleTheme }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   return (
@@ -48,6 +50,9 @@ const Header = ({ setShowAuth, navigateTo, wishlist, setWishlist }) => {
         <div className="nav-link" style={{cursor:'pointer'}} onClick={() => navigateTo('category', 'TOOLS')}>TOOLS</div>
       </nav>
       <div className="header-actions">
+        <div style={{ cursor: 'pointer' }} onClick={toggleTheme} title="Toggle Theme">
+          {theme === 'dark' ? <Icons.Sun /> : <Icons.Moon />}
+        </div>
         <div 
           style={{ cursor: 'pointer', position: 'relative' }} 
           onClick={() => navigateTo('wishlist')}
@@ -146,11 +151,11 @@ const ProductCard = ({ product, compareList, setCompareList, wishlist, setWishli
         <div className="product-image-container">
           {product.image ? (
             product.category === 'TOOLS' ? (
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'linear-gradient(135deg, rgba(15,23,42,0.9) 0%, rgba(10,22,40,0.95) 100%)', padding: '1.5rem' }}>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--bg-glass-strong)', padding: '1.5rem' }}>
                 <img src={product.image} alt={product.title} style={{ maxWidth: '70%', maxHeight: '70%', objectFit: 'contain', filter: 'drop-shadow(0 4px 16px rgba(0,240,255,0.15))' }} onError={(e) => { e.target.style.display='none'; e.target.parentElement.innerHTML='<span style="color:var(--text-dim);font-size:0.8rem">' + product.title + '</span>'; }} />
               </div>
             ) : (
-              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#ffffff', padding: '1rem' }}>
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: 'var(--bg-glass-strong)', padding: '1rem' }}>
                 <img src={product.image} alt={product.title} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} className="product-image" />
               </div>
             )
@@ -801,6 +806,7 @@ const App = () => {
   ]);
   const [isAiLoading, setIsAiLoading] = useState(false);
   const [user, setUser] = useState(null);
+  const [theme, setTheme] = useState('dark');
 
   // Load from fake backend
   useEffect(() => {
@@ -809,7 +815,24 @@ const App = () => {
     
     const savedWishlist = localStorage.getItem('versus_wishlist');
     if (savedWishlist) setWishlist(JSON.parse(savedWishlist));
+
+    const savedTheme = localStorage.getItem('comparex_theme') || 'dark';
+    setTheme(savedTheme);
+    if (savedTheme === 'light') {
+      document.documentElement.classList.add('light');
+    }
   }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+    localStorage.setItem('comparex_theme', newTheme);
+    if (newTheme === 'light') {
+      document.documentElement.classList.add('light');
+    } else {
+      document.documentElement.classList.remove('light');
+    }
+  };
 
   // Save to fake backend
   useEffect(() => {
@@ -947,7 +970,14 @@ Task: Respond nicely. MUST include EXACT string [PRODUCT_ID: id] of recommended 
 
   return (
     <div className="app-container">
-      <Header setShowAuth={setShowAuth} navigateTo={navigateTo} wishlist={wishlist} setWishlist={setWishlist} />
+      <Header 
+        setShowAuth={setShowAuth} 
+        navigateTo={navigateTo} 
+        wishlist={wishlist} 
+        setWishlist={setWishlist} 
+        theme={theme}
+        toggleTheme={toggleTheme}
+      />
       
       <main className="main-content" style={{ paddingBottom: '100px' }}>
         {currentPage === 'home' && 
