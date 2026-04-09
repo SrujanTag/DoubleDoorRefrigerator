@@ -265,7 +265,7 @@ input {
 
 .dropdown-menu {
   position: absolute;
-  top: calc(100% + 8px);
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
   background: rgba(15, 23, 42, 0.95);

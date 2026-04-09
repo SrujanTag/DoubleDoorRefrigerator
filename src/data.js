@@ -39,7 +39,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Samsung%20990%20Pro+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/71XHEQZZW+L.jpg",
     "reviews": [
       {
         "user": "User17362",
@@ -122,7 +122,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=WD%20Black%20SN850X+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1628557044797-f21a177c37ec?w=600&h=400&fit=crop",
+    "image": "https://www.sandisk.com/content/dam/sandisk/en-us/assets/products/internal-storage/wd-black-sn850x-nvme-ssd/gallery/wd-black-sn850x-nvme-ssd-heatsink-front.png.thumb.1280.1280.png",
     "reviews": [
       {
         "user": "User57949",
@@ -200,7 +200,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20T700+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?w=600&h=400&fit=crop",
+    "image": "https://www.primeabgb.com/wp-content/uploads/2025/08/Crucial-T700-1TB-PCIe-5.0-x4-M.2-Internal-SSD-CT1000T700SSD3.jpg",
     "reviews": [
       {
         "user": "User88150",
@@ -278,7 +278,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Kingston%20KC3000+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?w=600&h=400&fit=crop",
+    "image": "https://www.primeabgb.com/wp-content/uploads/2025/08/Kingston-KC3000-M.2-2280-512GB-PCIe-4.0-x4-NVMe-3D-TLC-Internal-SSD-SKC3000S512G.jpg",
     "reviews": [
       {
         "user": "User22554",
@@ -361,7 +361,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Sabrent%20Rocket%204%20Plus+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&h=400&fit=crop&q=90",
+    "image": "https://m.media-amazon.com/images/I/71VyFwKPVFL.jpg",
     "reviews": [
       {
         "user": "User12868",
@@ -444,7 +444,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=TeamGroup%20MP34+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1628557044797-f21a177c37ec?w=600&h=400&fit=crop&q=90",
+    "image": "https://m.media-amazon.com/images/I/71ki82NZx+L.jpg",
     "reviews": [
       {
         "user": "User85401",
@@ -527,7 +527,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20MX500+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?w=600&h=400&fit=crop&q=90",
+    "image": "https://rukminim2.flixcart.com/image/480/640/k12go7k0/internal-hard-drive/2/u/e/crucial-ct1000mx500ssd4-original-imafkpqyxdpvzatn.jpeg?q=90",
     "reviews": [
       {
         "user": "User72634",
@@ -605,7 +605,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20MP600%20Pro+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb?w=600&h=400&fit=crop&q=90",
+    "image": "https://www.pcstudio.in/wp-content/uploads/2025/01/Corsair-Mp600-Pro-Nh-2Tb-Gen4-NVMe-M2-Internal-Ssd-1-1.webp",
     "reviews": [
       {
         "user": "User68688",
@@ -688,7 +688,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204090+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=400&fit=crop",
+    "image": "/images/rtx4090.jpg",
     "reviews": [
       {
         "user": "User91875",
@@ -776,7 +776,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207900%20XTX+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/81il2WdPPJL.jpg",
     "reviews": [
       {
         "user": "User81330",
@@ -854,7 +854,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204080%20Super+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=400&fit=crop&q=90",
+    "image": "https://m.media-amazon.com/images/I/71-r9mRIZBL._AC_UF1000,1000_QL80_.jpg",
     "reviews": [
       {
         "user": "User27910",
@@ -932,7 +932,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207800%20XT+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&h=400&fit=crop&q=90",
+    "image": "https://static.gigabyte.com/StaticFile/Image/Global/369cb90b3cf9ca4b7b00802e3a1ce7b8/Product/36215/png/1000",
     "reviews": [
       {
         "user": "User79108",
@@ -1015,7 +1015,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%204070%20Ti%20Super+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1555618254-5e28e2e0c76f?w=600&h=400&fit=crop",
+    "image": "https://storage-asset.msi.com/global/picture/product/product_17046991811c9eb5d51a82095c16a47e5200365e92.webp",
     "reviews": [
       {
         "user": "User16847",
@@ -1093,7 +1093,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Radeon%20RX%207600+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1587202372775-e229f172b9d7?w=600&h=400&fit=crop&q=85",
+    "image": "https://m.media-amazon.com/images/I/71+Lh5QLfyL.jpg",
     "reviews": [
       {
         "user": "User49658",
@@ -1181,7 +1181,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=NVIDIA%20RTX%203060+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1555618254-5e28e2e0c76f?w=600&h=400&fit=crop&q=90",
+    "image": "https://m.media-amazon.com/images/I/71tduSp8ooL.jpg",
     "reviews": [
       {
         "user": "User22812",
@@ -1259,7 +1259,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Arc%20A770+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=600&h=400&fit=crop&q=85",
+    "image": "https://m.media-amazon.com/images/I/71Dqh5iF+AL.jpg",
     "reviews": [
       {
         "user": "User28512",
@@ -1337,7 +1337,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%207%207800X3D+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&h=400&fit=crop",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0BTZB7F88.01.LZZZZZZZ.jpg",
     "reviews": [
       {
         "user": "User29168",
@@ -1420,7 +1420,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i9-14900K+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1592664474505-51c549ad15c5?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/61aQ0AzVAML._AC_UF1000,1000_QL80_.jpg",
     "reviews": [
       {
         "user": "User21966",
@@ -1508,7 +1508,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%209%207950X+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&h=400&fit=crop&q=90",
+    "image": "https://m.media-amazon.com/images/I/5116zdA9uyL.jpg",
     "reviews": [
       {
         "user": "User62645",
@@ -1591,7 +1591,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i5-13600K+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1592664474505-51c549ad15c5?w=600&h=400&fit=crop&q=90",
+    "image": "https://m.media-amazon.com/images/I/61lNEpDfdcL.jpg",
     "reviews": [
       {
         "user": "User48959",
@@ -1674,7 +1674,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%205%207600X+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&h=400&fit=crop&q=85",
+    "image": "https://i0.wp.com/www.amd.com/content/dam/amd/en/images/products/processors/ryzen/2505503-ryzen-5-7600x.jpg?resize=555%2C555&ssl=1",
     "reviews": [
       {
         "user": "User59426",
@@ -1752,7 +1752,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Intel%20Core%20i7-14700K+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1592664474505-51c549ad15c5?w=600&h=400&fit=crop&q=85",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0CGJ41C9W.01.LZZZZZZZ.jpg",
     "reviews": [
       {
         "user": "User18872",
@@ -1830,7 +1830,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=AMD%20Ryzen%205%205600X+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&h=400&fit=crop&q=80",
+    "image": "https://m.media-amazon.com/images/I/51ld6RR8IrL.jpg",
     "reviews": [
       {
         "user": "User21584",
@@ -1906,7 +1906,7 @@ export const productsData = [
         "link": "https://crystalmark.info/en/"
       }
     },
-    "image": "/logo-crystaldiskmark.png",
+    "image": "https://images.dwncdn.net/images/t_app-icon-l/p/f378a182-9b23-11e6-8737-00163ed833e7/3576996781/2094_4-75330576-logo",
     "reviews": [
       {
         "user": "User51010",
@@ -1987,7 +1987,7 @@ export const productsData = [
         "link": "https://diskanalyzer.com/"
       }
     },
-    "image": "/logo-wiztree.png",
+    "image": "https://custom-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_630,w_1200,f_auto,q_auto/12191439/779410_219922.png",
     "reviews": [
       {
         "user": "User96650",
@@ -2068,7 +2068,7 @@ export const productsData = [
         "link": "https://semiconductor.samsung.com/consumer-storage/magician/"
       }
     },
-    "image": "/logo-samsung-magician.png",
+    "image": "https://play-lh.googleusercontent.com/AZCOwJR9dXFjVL_YqnEhePpzlEyhsR95CGjkdvwzewGiQCayR29RSEe-cEf3WdKNfGvmbTdhPaRd__VxvW2E-Q=w240-h480-rw",
     "reviews": [
       {
         "user": "User77249",
@@ -2230,7 +2230,7 @@ export const productsData = [
         "link": "https://www.samsung.com/global/galaxy/galaxy-ai/"
       }
     },
-    "image": "/logo-galaxy-ai.png",
+    "image": "https://gadgetguideonline.com/s24/wp-content/uploads/2024/10/galaxy_AI_250.jpg",
     "reviews": [
       {
         "user": "User88908",
@@ -2392,7 +2392,7 @@ export const productsData = [
         "link": "https://www.maxon.net/en/cinebench"
       }
     },
-    "image": "https://cdn.simpleicons.org/maxon/white",
+    "image": "https://sc.filehippo.net/images/t_app-icon-l/p/5c5413b8-a6ea-11e6-b63f-00163ed833e7/1828819671/cinebench-logo",
     "reviews": [
       {
         "user": "User88620",
@@ -4501,7 +4501,7 @@ export const productsData = [
         "link": "https://taiga.io/"
       }
     },
-    "image": "https://cdn.simpleicons.org/taiga/white",
+    "image": "/images/taiga.png",
     "reviews": [
       {
         "user": "User21025",
@@ -4580,7 +4580,7 @@ export const productsData = [
         "link": "https://www.sonarqube.org/"
       }
     },
-    "image": "https://cdn.simpleicons.org/sonarqube/white",
+    "image": "/images/sonarqube.png",
     "reviews": [
       {
         "user": "User70329",
@@ -5764,7 +5764,7 @@ export const productsData = [
         "link": "https://www.zabbix.com/"
       }
     },
-    "image": "https://cdn.simpleicons.org/zabbix/white",
+    "image": "https://icon-icons.com/download-file?file=https%3A%2F%2Fimages.icon-icons.com%2F2699%2FPNG%2F512%2Fzabbix_logo_icon_167937.png",
     "reviews": [
       {
         "user": "User58160",
@@ -6650,7 +6650,7 @@ export const productsData = [
         "link": "https://www.heroku.com/"
       }
     },
-    "image": "https://cdn.simpleicons.org/heroku/white",
+    "image": "https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F123%2F38b10714-65da-4f1d-88ae-e9b28c1d7a5e.png",
     "reviews": [
       {
         "user": "User78720",
@@ -6723,7 +6723,7 @@ export const productsData = [
         "link": "https://aws.amazon.com/amplify/"
       }
     },
-    "image": "https://cdn.simpleicons.org/awsamplify/white",
+    "image": "https://i1.sndcdn.com/artworks-000570396638-6vixrq-t500x500.jpg",
     "reviews": [
       {
         "user": "User58802",
@@ -6801,7 +6801,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20Vengeance%20RGB%20DDR5+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://www.vedantcomputers.com/image/cache/catalog/assets/product/corsair/ram/cmh32gx5m2b6000z30k/cmh32gx5m2b6000z30k-2-350x350.jpg",
     "reviews": [
       {
         "user": "User44374",
@@ -6883,7 +6883,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=G.Skill%20Trident%20Z5%20NEO+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/61XlVUhmP+L.jpg",
     "reviews": [
       {
         "user": "User71426",
@@ -6960,7 +6960,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Kingston%20FURY%20Beast+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/71Y-MK6-fsL.jpg",
     "reviews": [
       {
         "user": "User52137",
@@ -7037,7 +7037,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Crucial%20Pro%20DDR5+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/61EUuA9HiaL.jpg",
     "reviews": [
       {
         "user": "User97326",
@@ -7124,7 +7124,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=TeamGroup%20T-Force%20Delta+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/71yyY+Y29WL.jpg",
     "reviews": [
       {
         "user": "User99531",
@@ -7206,7 +7206,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=Corsair%20Vengeance%20LPX+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/71jGZ9WpjTL.jpg",
     "reviews": [
       {
         "user": "User14187",
@@ -7283,7 +7283,7 @@ export const productsData = [
         "link": "https://www.google.com/search?q=G.Skill%20Ripjaws%20V+official+site"
       }
     },
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    "image": "https://m.media-amazon.com/images/I/618SEnJR1nL.jpg",
     "reviews": [
       {
         "user": "User53015",

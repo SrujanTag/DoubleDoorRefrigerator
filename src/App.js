@@ -150,7 +150,9 @@ const ProductCard = ({ product, compareList, setCompareList, wishlist, setWishli
                 <img src={product.image} alt={product.title} style={{ maxWidth: '70%', maxHeight: '70%', objectFit: 'contain', filter: 'drop-shadow(0 4px 16px rgba(0,240,255,0.15))' }} onError={(e) => { e.target.style.display='none'; e.target.parentElement.innerHTML='<span style="color:var(--text-dim);font-size:0.8rem">' + product.title + '</span>'; }} />
               </div>
             ) : (
-              <img src={product.image} alt={product.title} className="product-image" />
+              <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#ffffff', padding: '1rem' }}>
+                <img src={product.image} alt={product.title} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} className="product-image" />
+              </div>
             )
           ) : (
             <ImagePlaceholder />
@@ -267,8 +269,8 @@ const Home = ({ compareList, setCompareList, wishlist, setWishlist, navigateTo }
                       onMouseEnter={(e) => { e.currentTarget.style.backgroundColor = 'rgba(0,240,255,0.05)'; e.currentTarget.style.color = '#00F0FF'; }}
                       onMouseLeave={(e) => { e.currentTarget.style.backgroundColor = 'transparent'; e.currentTarget.style.color = 'var(--text-main)'; }}
                     >
-                      <div style={{ width: '40px', height: '40px', borderRadius: '8px', background: 'rgba(0,0,0,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', flexShrink: 0 }}>
-                        <img src={p.image || 'https://via.placeholder.com/40'} alt={p.title} style={{ width: p.category === 'TOOLS' ? '75%' : '100%', height: p.category === 'TOOLS' ? '75%' : '100%', objectFit: p.category === 'TOOLS' ? 'contain' : 'cover' }} />
+                      <div style={{ width: '40px', height: '40px', borderRadius: '8px', background: p.category === 'TOOLS' ? 'rgba(0,0,0,0.3)' : '#ffffff', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden', flexShrink: 0, padding: p.category === 'TOOLS' ? '0' : '4px' }}>
+                        <img src={p.image || 'https://via.placeholder.com/40'} alt={p.title} style={{ width: p.category === 'TOOLS' ? '75%' : '100%', height: p.category === 'TOOLS' ? '75%' : '100%', objectFit: 'contain' }} />
                       </div>
                       <div>
                         <div style={{ fontWeight: 600, color: 'inherit' }}>{p.title}</div>
@@ -384,7 +386,9 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
                     <img src={product.image} alt={product.title} style={{ maxWidth: '90%', maxHeight: '90%', objectFit: 'contain', filter: 'drop-shadow(0 4px 12px rgba(0,240,255,0.2))' }} onError={(e) => { e.target.style.display='none'; }} />
                   </div>
                 ) : (
-                  <img src={product.image} alt={product.title} className="compare-img" />
+                  <div className="compare-img" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#ffffff', padding: '1rem', borderRadius: '12px' }}>
+                    <img src={product.image} alt={product.title} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+                  </div>
                 )
               ) : (
                 <div className="compare-img" style={{background: 'rgba(0,0,0,0.3)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
@@ -530,7 +534,9 @@ const ProductDetail = ({ productId, navigateTo }) => {
                   <img src={product.image} alt={product.title} style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain', filter: 'drop-shadow(0 6px 20px rgba(0,240,255,0.2))' }} onError={(e) => { e.target.style.display='none'; }} />
                 </div>
               ) : (
-                <img src={product.image} alt={product.title} style={{maxWidth: '100%', height: 'auto', borderRadius: '12px', objectFit: 'contain'}} />
+                <div style={{ width: '250px', height: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#ffffff', borderRadius: '16px', padding: '1.5rem', boxShadow: 'inset 0 0 10px rgba(0,0,0,0.05)' }}>
+                  <img src={product.image} alt={product.title} style={{maxWidth: '100%', maxHeight: '100%', objectFit: 'contain'}} />
+                </div>
               )
             ) : (
               <div style={{background: 'rgba(0,0,0,0.3)', height: '250px', display: 'flex', alignItems: 'center', justifyContent: 'center', borderRadius: '12px'}}>
