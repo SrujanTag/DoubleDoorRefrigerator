@@ -576,6 +576,9 @@ const productsD = [
 
 // Enrich with reviews and overall scores
 productsD.forEach(p => {
+  if (!p.image) {
+    p.image = `https://via.placeholder.com/400?text=${encodeURIComponent(p.title)}`;
+  }
   p.scores.Overall = calcOverall(p.scores);
   p.reviews = generateReviews(p.title, p.category);
   p.benchmarks = generateUserBenchmarks(p.category, p.scores.Overall);
