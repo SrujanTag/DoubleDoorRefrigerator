@@ -197,15 +197,76 @@ const Home = ({ compareList, setCompareList, wishlist, setWishlist, navigateTo }
     productsData.find(p => p.id === 401),
   ].filter(Boolean);
 
+  const [searchTerm, setSearchTerm] = useState('');
+  const [showResults, setShowResults] = useState(false);
+
+  const searchResults = productsData.filter(p => p.title.toLowerCase().includes(searchTerm.toLowerCase()));
+
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value);
+    setShowResults(true);
+  };
+
+  const handleSelectProduct = (id) => {
+    setSearchTerm('');
+    setShowResults(false);
+    navigateTo('product', id);
+  };
+
   return (
     <div>
       <section className="hero">
         <div className="hero-content">
           <h1 className="heading-xl">Compare Everything</h1>
           <p className="hero-subtitle">Compare Hardware, Software, Tools, and much more</p>
-          <div className="search-container">
-            <input type="text" className="search-input" placeholder="Type here to compare" />
-            <button className="btn btn-dark">Search</button>
+          <div style={{ position: 'relative', maxWidth: '600px', margin: '0 auto' }}>
+            <div className="search-container" style={{ margin: 0 }}>
+              <input 
+                type="text" 
+                className="search-input" 
+                placeholder="Type here to compare" 
+                value={searchTerm}
+                onChange={handleSearchChange}
+                onFocus={() => setShowResults(true)}
+              />
+              <button className="btn btn-dark" onClick={() => searchResults.length > 0 && handleSelectProduct(searchResults[0].id)}>Search</button>
+            </div>
+            {showResults && searchTerm.trim() !== '' && (
+              <div style={{
+                position: 'absolute',
+                top: '100%',
+                left: 0,
+                right: 0,
+                background: 'white',
+                borderRadius: '8px',
+                boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)',
+                marginTop: '0.5rem',
+                maxHeight: '300px',
+                overflowY: 'auto',
+                zIndex: 50,
+                textAlign: 'left'
+              }}>
+                {searchResults.length > 0 ? (
+                  searchResults.map(p => (
+                    <div 
+                      key={p.id} 
+                      onClick={() => handleSelectProduct(p.id)}
+                      style={{ padding: '0.75rem 1rem', borderBottom: '1px solid #f3f4f6', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: '1rem', color: '#111827' }}
+                      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#f9fafb'}
+                      onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'transparent'}
+                    >
+                      <img src={p.image || 'https://via.placeholder.com/40'} alt={p.title} style={{ width: '40px', height: '40px', objectFit: 'contain', borderRadius: '4px', background: '#f3f4f6' }} />
+                      <div>
+                        <div style={{ fontWeight: 600 }}>{p.title}</div>
+                        <div style={{ fontSize: '0.8rem', color: '#6b7280' }}>{p.category}</div>
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  <div style={{ padding: '1rem', color: '#6b7280', textAlign: 'center' }}>No products found</div>
+                )}
+              </div>
+            )}
           </div>
         </div>
         <WaveDivider />
