@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { productsData, generateAISummary, getQuestionsForCategory } from './data';
+import { productsData, generateAISummary } from './data';
 import './index.css';
 
 // SVG Icons to replace lucide-react
@@ -205,7 +205,7 @@ const Home = ({ compareList, setCompareList, wishlist, setWishlist, navigateTo }
           <p className="hero-subtitle">Compare Hardware, Software, Tools, and much more</p>
           <div className="search-container">
             <input type="text" className="search-input" placeholder="Type here to compare" />
-            <button className="btn btn-dark">Compare</button>
+            <button className="btn btn-dark">Search</button>
           </div>
         </div>
         <WaveDivider />
@@ -329,9 +329,34 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
                 </div>
               )}
 
-              <h4 className="heading-sm" style={{marginTop: '1.5rem', marginBottom: '0.5rem'}}>Specifications</h4>
+              {product.category === 'TOOLS' && product.specifications?.Description && (
+                <div style={{marginBottom: '1.5rem', background: '#f9fafb', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb'}}>
+                  <h4 className="heading-sm" style={{marginBottom: '0.5rem', color: '#111827'}}>About</h4>
+                  <p style={{fontSize: '0.9rem', color: '#4b5563', lineHeight: '1.5', marginBottom: '1rem'}}>{product.specifications.Description}</p>
+                  
+                  <h4 className="heading-sm" style={{marginBottom: '0.5rem', color: '#111827'}}>Primary Use Case</h4>
+                  <p style={{fontSize: '0.9rem', color: '#4b5563', lineHeight: '1.5', margin: 0}}>{product.specifications.PrimaryUseCase}</p>
+                </div>
+              )}
+
+              {product.category === 'TOOLS' && (
+                <div style={{marginBottom: '1.5rem', background: '#f9fafb', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb'}}>
+                  <h4 className="heading-sm" style={{marginBottom: '0.5rem', color: '#111827'}}>Pricing & Plans</h4>
+                  {product.specifications?.FreeTier ? (
+                    <div style={{display: 'flex', flexDirection: 'column', gap: '0.5rem'}}>
+                      <div><strong>Free:</strong> <span style={{fontSize: '0.85rem', color: '#4b5563'}}>{product.specifications.FreeTier}</span></div>
+                      <div><strong>Pro:</strong> <span style={{fontSize: '0.85rem', color: '#4b5563'}}>{product.specifications.ProTier}</span></div>
+                      <div><strong>Enterprise:</strong> <span style={{fontSize: '0.85rem', color: '#4b5563'}}>{product.specifications.EnterpriseTier}</span></div>
+                    </div>
+                  ) : (
+                    <p style={{fontSize: '0.85rem', color: '#4b5563', margin: 0}}><strong>Open Source & Free</strong><br/>License: {product.specifications?.License || 'Open Source'}</p>
+                  )}
+                </div>
+              )}
+
+              <h4 className="heading-sm" style={{marginTop: '1.5rem', marginBottom: '0.5rem'}}>{product.category === 'TOOLS' ? 'Tool Details' : 'Specifications'}</h4>
               <dl className="feature-list">
-                {Object.entries(product.specifications || product.features).map(([key, value]) => (
+                {Object.entries(product.specifications || product.features).filter(([key]) => !['Description', 'PrimaryUseCase', 'FreeTier', 'ProTier', 'EnterpriseTier'].includes(key)).map(([key, value]) => (
                   <React.Fragment key={key}>
                     <dt>{key}</dt>
                     <dd>{value}</dd>
@@ -341,7 +366,7 @@ const Compare = ({ compareList, setCompareList, navigateTo }) => {
 
               {product.benchmarks && (
                 <>
-                  <h4 className="heading-sm" style={{marginTop: '1.5rem', marginBottom: '0.5rem'}}>User Benchmarks</h4>
+                  <h4 className="heading-sm" style={{marginTop: '1.5rem', marginBottom: '0.5rem'}}>{product.category === 'TOOLS' ? 'Community Metrics' : 'User Benchmarks'}</h4>
                   <dl className="feature-list">
                     {Object.entries(product.benchmarks).map(([key, value]) => (
                       <React.Fragment key={key}>
@@ -429,18 +454,62 @@ const ProductDetail = ({ productId, navigateTo }) => {
           <div style={{ flex: '1', display: 'flex', flexDirection: 'column', paddingRight: '2rem' }}>
             <h1 className="heading-xl" style={{ margin: 0, color: '#111827' }}>{product.title}</h1>
             <p style={{fontSize: '0.85rem', color: '#6b7280', lineHeight: '1.5', marginTop: '0.5rem', maxWidth: '600px'}}>
-              {product.subtitle}. This {product.category.toLowerCase()} is highly documented emphasizing pure performance. <br/>
-              CompareX aggregate data confirms it stands out for long-term usage and robust feature inclusion.
+              {product.subtitle}. {product.category === 'TOOLS' ? `This software tool is preferred by developers across the globe. CompareX aggregate data confirms its position as a leading choice for open-source development.` : `This ${product.category.toLowerCase()} is highly documented emphasizing pure performance. CompareX aggregate data confirms it stands out for long-term usage and robust feature inclusion.`}
             </p>
           </div>
         </div>
 
+        {/* About Feature */}
+        {product.category === 'TOOLS' && product.specifications?.Description && (
+          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', borderLeft: '4px solid var(--primary)' }}>
+            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>About this Tool</h3>
+            <div style={{display: 'flex', flexDirection: 'column', gap: '1.5rem'}}>
+              <div>
+                <h4 style={{fontWeight: 'bold', color: '#111827', marginBottom: '0.5rem', fontSize: '1.1rem'}}>Description</h4>
+                <p style={{fontSize: '1rem', color: '#4b5563', lineHeight: '1.6', margin: 0}}>{product.specifications.Description}</p>
+              </div>
+              <div>
+                <h4 style={{fontWeight: 'bold', color: '#111827', marginBottom: '0.5rem', fontSize: '1.1rem'}}>Primary Use Case</h4>
+                <p style={{fontSize: '1rem', color: '#4b5563', lineHeight: '1.6', margin: 0}}>{product.specifications.PrimaryUseCase}</p>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {/* Pricing & Plans Section for TOOLS */}
+        {product.category === 'TOOLS' && (
+          <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
+            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>Pricing & Plans</h3>
+            {product.specifications?.FreeTier ? (
+              <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.5rem'}}>
+                <div style={{ background: '#f9fafb', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #10b981' }}>
+                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#111827'}}>Free Tier</h4>
+                  <p style={{color: '#4b5563', fontSize: '0.95rem', margin: 0}}>{product.specifications.FreeTier}</p>
+                </div>
+                <div style={{ background: '#f9fafb', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #3b82f6' }}>
+                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#111827'}}>Pro Tier</h4>
+                  <p style={{color: '#4b5563', fontSize: '0.95rem', margin: 0}}>{product.specifications.ProTier}</p>
+                </div>
+                <div style={{ background: '#f9fafb', padding: '1.5rem', borderRadius: '8px', borderTop: '4px solid #6366f1' }}>
+                  <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#111827'}}>Enterprise Tier</h4>
+                  <p style={{color: '#4b5563', fontSize: '0.95rem', margin: 0}}>{product.specifications.EnterpriseTier}</p>
+                </div>
+              </div>
+            ) : (
+              <div style={{ background: '#f9fafb', padding: '1.5rem', borderRadius: '8px', borderLeft: '4px solid #10b981' }}>
+                <h4 style={{fontSize: '1.2rem', fontWeight: 'bold', marginBottom: '0.5rem', color: '#111827'}}>Open Source & Free</h4>
+                <p style={{color: '#4b5563', fontSize: '0.95rem', margin: 0}}>This tool does not have paid subscription tiers. It is free to use under its respective license: <strong>{product.specifications?.License || 'Open Source'}</strong>.</p>
+              </div>
+            )}
+          </div>
+        )}
+
         {/* Specifications */}
         {product.specifications && (
           <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
-            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>Specifications</h3>
+            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>{product.category === 'TOOLS' ? 'Tool Details' : 'Specifications'}</h3>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1.5rem' }}>
-              {Object.entries(product.specifications).map(([key, value]) => (
+              {Object.entries(product.specifications).filter(([key]) => !['Description', 'PrimaryUseCase', 'FreeTier', 'ProTier', 'EnterpriseTier'].includes(key)).map(([key, value]) => (
                 <div key={key} style={{ background: '#f9fafb', padding: '1rem', borderRadius: '8px', border: '1px solid #e5e7eb' }}>
                   <div style={{ color: '#6b7280', fontSize: '0.875rem', marginBottom: '0.25rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{key}</div>
                   <div style={{ fontWeight: '600', color: '#111827', fontSize: '1.1rem' }}>{value}</div>
@@ -483,8 +552,8 @@ const ProductDetail = ({ productId, navigateTo }) => {
         {/* User Benchmarks */}
         {product.benchmarks && (
           <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)', border: '2px solid #f3f4f6' }}>
-            <h3 className="heading-lg" style={{marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem'}}><Icons.Sparkles /> User Benchmarks</h3>
-            <p style={{color: '#6b7280', marginBottom: '2rem'}}>Aggregated real-life benchmarks and metrics calculated using community hardware reporting.</p>
+            <h3 className="heading-lg" style={{marginBottom: '1.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem'}}><Icons.Sparkles /> {product.category === 'TOOLS' ? 'Community Metrics' : 'User Benchmarks'}</h3>
+            <p style={{color: '#6b7280', marginBottom: '2rem'}}>{product.category === 'TOOLS' ? 'Aggregated community metrics and usage statistics derived from open source development data.' : 'Aggregated real-life benchmarks and metrics calculated using community hardware reporting.'}</p>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1.5rem' }}>
               {Object.entries(product.benchmarks).map(([key, value]) => (
                 <div key={key} style={{ background: '#111827', color: 'white', padding: '1.5rem', borderRadius: '8px' }}>
@@ -499,9 +568,9 @@ const ProductDetail = ({ productId, navigateTo }) => {
         {/* Buy Links */}
         {product.prices && (
           <div style={{ marginBottom: '3rem', background: 'white', padding: '2.5rem', borderRadius: '12px', boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1)' }}>
-            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>Where to buy</h3>
+            <h3 className="heading-lg" style={{marginBottom: '1.5rem'}}>{product.category === 'TOOLS' ? 'Official Links' : 'Where to buy'}</h3>
             <div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem'}}>
-              {Object.entries(product.prices).map(([store, details]) => (
+              {Object.entries(product.prices).filter(([store]) => product.category !== 'TOOLS' || store === 'official').map(([store, details]) => (
                 <a href={details.link} target="_blank" rel="noopener noreferrer" key={store} style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem', border: '1px solid #e5e7eb', borderRadius: '8px', textDecoration: 'none', color: 'inherit', background: '#f9fafb', transition: 'all 0.2s'}}>
                   <span style={{textTransform: 'capitalize', fontWeight: '600', fontSize: '1.1rem'}}>{store}</span>
                   <div style={{display: 'flex', alignItems: 'center', gap: '0.5rem'}}>
@@ -574,7 +643,11 @@ const App = () => {
   const [compareList, setCompareList] = useState([]);
   const [wishlist, setWishlist] = useState([]);
   const [showAuth, setShowAuth] = useState(false);
-  const [showQuiz, setShowQuiz] = useState(false);
+  const [showChat, setShowChat] = useState(false);
+  const [chatInput, setChatInput] = useState('');
+  const [chatMessages, setChatMessages] = useState([
+    { role: 'ai', text: 'Hi! I am the CompareX AI. What kind of tool or hardware are you looking for today?' }
+  ]);
   const [user, setUser] = useState(null);
 
   // Load from fake backend
@@ -610,8 +683,59 @@ const App = () => {
     window.scrollTo(0,0);
   };
 
-  const quizCategory = currentPage === 'category' ? currentParam : (currentPage === 'product' ? productsData.find(p => p.id === currentParam)?.category : 'default');
-  const quizQuestions = getQuestionsForCategory(quizCategory);
+  const handleChatSubmit = (e) => {
+    e.preventDefault();
+    if (!chatInput.trim()) return;
+
+    const userMsg = chatInput.trim();
+    setChatMessages(prev => [...prev, { role: 'user', text: userMsg }]);
+    setChatInput('');
+
+    // Simulate AI thinking and response
+    setTimeout(() => {
+      const lowerInput = userMsg.toLowerCase();
+      // Extremely basic matching logic for existing products
+      let foundProduct = null;
+      if (lowerInput.includes('editor') || lowerInput.includes('code') || lowerInput.includes('ide')) {
+        foundProduct = productsData.find(p => p.title.toLowerCase().includes('visual studio code') || p.title.toLowerCase().includes('cursor'));
+      } else if (lowerInput.includes('deploy') || lowerInput.includes('hosting') || lowerInput.includes('vercel') || lowerInput.includes('netlify')) {
+        foundProduct = productsData.find(p => p.title.toLowerCase().includes('vercel') || p.title.toLowerCase().includes('netlify'));
+      } else if (lowerInput.includes('container') || lowerInput.includes('docker')) {
+        foundProduct = productsData.find(p => p.title.toLowerCase().includes('docker'));
+      } else if (lowerInput.includes('version') || lowerInput.includes('git')) {
+        foundProduct = productsData.find(p => p.title.toLowerCase().includes('git'));
+      } else if (lowerInput.includes('gpu') || lowerInput.includes('graphic') || lowerInput.includes('game')) {
+        foundProduct = productsData.find(p => p.category === 'GRAPHICS CARDS');
+      } else if (lowerInput.includes('ssd') || lowerInput.includes('storage') || lowerInput.includes('drive')) {
+        foundProduct = productsData.find(p => p.category === 'SSD');
+      } else if (lowerInput.includes('cpu') || lowerInput.includes('processor')) {
+        foundProduct = productsData.find(p => p.category === 'CPUs');
+      } else if (lowerInput.includes('ram') || lowerInput.includes('memory')) {
+        foundProduct = productsData.find(p => p.category === 'MEMORY (RAM)');
+      }
+
+      if (!foundProduct) {
+        // Fallback to searching all titles/subtitles
+        foundProduct = productsData.find(p => 
+          p.title.toLowerCase().includes(lowerInput) || 
+          p.subtitle.toLowerCase().includes(lowerInput)
+        );
+      }
+
+      if (foundProduct) {
+        setChatMessages(prev => [...prev, { 
+          role: 'ai', 
+          text: `Based on what you need, I recommend checking out **${foundProduct.title}**.`,
+          productId: foundProduct.id
+        }]);
+      } else {
+        setChatMessages(prev => [...prev, { 
+          role: 'ai', 
+          text: "I couldn't find a specific tool matching that on our website right now. Try searching for broader categories like 'code editor', 'GPU', or 'SSD'."
+        }]);
+      }
+    }, 800);
+  };
 
   return (
     <div className="app-container">
@@ -674,7 +798,7 @@ const App = () => {
 
       {/* Floating Quiz Button bottom right */}
       <button 
-        onClick={() => setShowQuiz(true)}
+        onClick={() => setShowChat(true)}
         style={{
           position: 'fixed',
           bottom: compareList.length > 0 ? '5rem' : '2rem',
@@ -696,7 +820,7 @@ const App = () => {
         onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
         onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
       >
-        <Icons.Brain /> Smart Quiz
+        <Icons.Brain /> AI Assistant
       </button>
 
       {/* Auth Modal */}
@@ -727,30 +851,58 @@ const App = () => {
         </div>
       )}
 
-      {/* Quiz Modal */}
-      {showQuiz && (
-        <div className="quiz-overlay" onClick={() => setShowQuiz(false)}>
-          <div className="quiz-modal" onClick={e => e.stopPropagation()}>
-            <h2 className="heading-md" style={{marginBottom: '1rem'}}><span style={{color: 'var(--primary)', verticalAlign: 'middle', marginRight: '0.5rem'}}><Icons.Brain /></span> Smart Recommendation</h2>
+      {/* AI Chat Modal */}
+      {showChat && (
+        <div className="quiz-overlay" onClick={() => setShowChat(false)}>
+          <div className="quiz-modal" style={{display: 'flex', flexDirection: 'column', height: '500px', maxHeight: '90vh'}} onClick={e => e.stopPropagation()}>
+            <div style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', borderBottom: '1px solid #e5e7eb', paddingBottom: '1rem'}}>
+              <h2 className="heading-md" style={{margin: 0}}><span style={{color: 'var(--primary)', verticalAlign: 'middle', marginRight: '0.5rem'}}><Icons.Brain /></span> AI Assistant</h2>
+              <button className="btn-icon" onClick={() => setShowChat(false)}><Icons.X /></button>
+            </div>
             
-            <p style={{marginBottom: '1.5rem'}}>
-              {quizCategory === 'default' 
-                ? "Answer a few questions and we'll suggest the best product for you!" 
-                : `Answer a few questions to find the best ${quizCategory.toLowerCase()} for you!`}
-            </p>
-            
-            <div className="quiz-options">
-              {quizQuestions.map((q, idx) => (
-                <button key={idx} className="quiz-btn" onClick={() => {
-                  alert(`Based on your answer, we strongly recommend: ${q.recommendation}!`);
-                  setShowQuiz(false);
+            <div className="chat-messages" style={{flex: 1, overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '1rem', padding: '0.5rem', marginBottom: '1rem'}}>
+              {chatMessages.map((msg, idx) => (
+                <div key={idx} style={{
+                  alignSelf: msg.role === 'user' ? 'flex-end' : 'flex-start',
+                  background: msg.role === 'user' ? 'var(--primary)' : '#f3f4f6',
+                  color: msg.role === 'user' ? 'white' : '#111827',
+                  padding: '0.75rem 1rem',
+                  borderRadius: '12px',
+                  borderBottomRightRadius: msg.role === 'user' ? '2px' : '12px',
+                  borderBottomLeftRadius: msg.role === 'ai' ? '2px' : '12px',
+                  maxWidth: '85%',
+                  lineHeight: '1.4'
                 }}>
-                  {q.label}
-                </button>
+                  {msg.text}
+                  {msg.productId && (
+                    <div style={{marginTop: '0.5rem'}}>
+                      <button 
+                        className="btn btn-dark" 
+                        style={{fontSize: '0.8rem', padding: '0.4rem 0.8rem'}}
+                        onClick={() => {
+                          setShowChat(false);
+                          navigateTo('product', msg.productId);
+                        }}
+                      >
+                        View Product
+                      </button>
+                    </div>
+                  )}
+                </div>
               ))}
             </div>
             
-            <button className="btn" style={{marginTop: '2rem'}} onClick={() => setShowQuiz(false)}>Close</button>
+            <form onSubmit={handleChatSubmit} style={{display: 'flex', gap: '0.5rem', marginTop: 'auto'}}>
+              <input 
+                type="text" 
+                value={chatInput} 
+                onChange={e => setChatInput(e.target.value)} 
+                placeholder="Ask for a tool recommendation..." 
+                className="form-input" 
+                style={{flex: 1, margin: 0}} 
+              />
+              <button type="submit" className="btn btn-primary" disabled={!chatInput.trim()}>Send</button>
+            </form>
           </div>
         </div>
       )}
