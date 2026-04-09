@@ -799,6 +799,7 @@ const App = () => {
   const [chatMessages, setChatMessages] = useState([
     { role: 'ai', text: 'Hi! I am the CompareX AI. What kind of tool or hardware are you looking for today?' }
   ]);
+  const [isAiLoading, setIsAiLoading] = useState(false);
   const [user, setUser] = useState(null);
 
   // Load from fake backend
@@ -834,58 +835,114 @@ const App = () => {
     window.scrollTo(0,0);
   };
 
-  const handleChatSubmit = (e) => {
+  const handleChatSubmit = async (e) => {
     e.preventDefault();
     if (!chatInput.trim()) return;
 
     const userMsg = chatInput.trim();
     setChatMessages(prev => [...prev, { role: 'user', text: userMsg }]);
     setChatInput('');
+    setIsAiLoading(true);
 
-    // Simulate AI thinking and response
-    setTimeout(() => {
-      const lowerInput = userMsg.toLowerCase();
-      // Extremely basic matching logic for existing products
+    try {
+      const lowerUserMsg = userMsg.toLowerCase();
+      let keywords = lowerUserMsg.split(' ').filter(w => w.length > 2);
+      
+      const relevantItems = productsData.filter(p => {
+        const str = (p.title + " " + p.category).toLowerCase();
+        return keywords.some(k => str.includes(k));
+      }).slice(0, 5);
+      
+      const itemsToPass = relevantItems.length > 0 ? relevantItems : productsData.slice(0, 3);
+      const availableItems = itemsToPass.map(p => `[PRODUCT_ID: ${p.id}] ${p.title} (${p.category})`).join(', ');
+      
+      const prompt = `You are CompareX AI.
+Data: ${availableItems}
+User: ${userMsg}
+Task: Respond nicely. MUST include EXACT string [PRODUCT_ID: id] of recommended items.`;
+
+      const response = await fetch('https://text.pollinations.ai/' + encodeURIComponent(prompt));
+      
+      if (!response.ok) {
+        throw new Error("Failed to contact API");
+      }
+
+      let responseText = await response.text();
+
+      // If the API somehow still returns the deprecation notice instead of the completion, trigger our local fallback.
+      if (responseText.includes("Pollinations legacy text API is being deprecated")) {
+        throw new Error("API returned deprecation notice");
+      }
+      
+      const match = responseText.match(/\[PRODUCT_ID:\s*(\d+)\]/i);
+      let productId = null;
+      let cleanText = responseText;
+      if (match) {
+        productId = parseInt(match[1]);
+        cleanText = responseText.replace(match[0], '').trim();
+      }
+
+      setChatMessages(prev => [...prev, { 
+        role: 'ai', 
+        text: cleanText,
+        productId: productId
+      }]);
+
+    } catch (error) {
+      // Local AI heuristic simulation
+      const lowerMsg = userMsg.toLowerCase();
       let foundProduct = null;
-      if (lowerInput.includes('editor') || lowerInput.includes('code') || lowerInput.includes('ide')) {
-        foundProduct = productsData.find(p => p.title.toLowerCase().includes('visual studio code') || p.title.toLowerCase().includes('cursor'));
-      } else if (lowerInput.includes('deploy') || lowerInput.includes('hosting') || lowerInput.includes('vercel') || lowerInput.includes('netlify')) {
-        foundProduct = productsData.find(p => p.title.toLowerCase().includes('vercel') || p.title.toLowerCase().includes('netlify'));
-      } else if (lowerInput.includes('container') || lowerInput.includes('docker')) {
-        foundProduct = productsData.find(p => p.title.toLowerCase().includes('docker'));
-      } else if (lowerInput.includes('version') || lowerInput.includes('git')) {
-        foundProduct = productsData.find(p => p.title.toLowerCase().includes('git'));
-      } else if (lowerInput.includes('gpu') || lowerInput.includes('graphic') || lowerInput.includes('game')) {
-        foundProduct = productsData.find(p => p.category === 'GRAPHICS CARDS');
-      } else if (lowerInput.includes('ssd') || lowerInput.includes('storage') || lowerInput.includes('drive')) {
-        foundProduct = productsData.find(p => p.category === 'SSD');
-      } else if (lowerInput.includes('cpu') || lowerInput.includes('processor')) {
-        foundProduct = productsData.find(p => p.category === 'CPUs');
-      } else if (lowerInput.includes('ram') || lowerInput.includes('memory')) {
-        foundProduct = productsData.find(p => p.category === 'MEMORY (RAM)');
+      let text = "";
+      
+      const categorySynonyms = {
+        'GRAPHICS CARDS': ['gpu', 'graphics', 'video card', 'rtx', 'rx', 'nvidia', 'amd', 'geforce', 'radeon'],
+        'CPUs': ['cpu', 'processor', 'intel', 'ryzen', 'core i', 'chip'],
+        'SSD': ['ssd', 'storage', 'drive', 'nvme', 'm.2', 'hard drive', 'samsung 9', 'crucial'],
+        'TOOLS': ['tool', 'software', 'app', 'framework', 'library', 'code', 'dev', 'ide']
+      };
+
+      let matchedCategory = null;
+
+      // 1. Direct title matching
+      for (const p of productsData) {
+        if (lowerMsg.includes(p.title.toLowerCase())) {
+          foundProduct = p;
+          break;
+        }
       }
 
+      // 2. Category matching via synonyms
       if (!foundProduct) {
-        // Fallback to searching all titles/subtitles
-        foundProduct = productsData.find(p => 
-          p.title.toLowerCase().includes(lowerInput) || 
-          p.subtitle.toLowerCase().includes(lowerInput)
-        );
+        for (const [cat, synonyms] of Object.entries(categorySynonyms)) {
+           // We use word boundaries or just inclusion for simplicity
+          if (synonyms.some(syn => lowerMsg.includes(syn))) {
+            matchedCategory = cat;
+            break;
+          }
+        }
+        
+        if (matchedCategory) {
+          const categoryProducts = productsData.filter(p => p.category === matchedCategory);
+          // Pick the first featured one
+          foundProduct = categoryProducts[0];
+        }
       }
-
+      
       if (foundProduct) {
-        setChatMessages(prev => [...prev, { 
-          role: 'ai', 
-          text: `Based on what you need, I recommend checking out **${foundProduct.title}**.`,
-          productId: foundProduct.id
-        }]);
+        text = `Based on your request, I highly recommend the **${foundProduct.title}**. It's an excellent choice if you're looking into ${foundProduct.category.toLowerCase()}!`;
+        setChatMessages(prev => [...prev, { role: 'ai', text: text, productId: foundProduct.id }]);
       } else {
-        setChatMessages(prev => [...prev, { 
-          role: 'ai', 
-          text: "I couldn't find a specific tool matching that on our website right now. Try searching for broader categories like 'code editor', 'GPU', or 'SSD'."
-        }]);
+        const responses = [
+          "That sounds interesting! Could you specify if you're looking for a Tool, SSD, GPU, or CPU?",
+          "I'd love to help! Tell me which specific task or hardware category you're focusing on.",
+          "I have data on a lot of great tech. What category (like CPUs, Graphics Cards, or Tools) can I guide you towards?"
+        ];
+        text = responses[Math.floor(Math.random() * responses.length)];
+        setChatMessages(prev => [...prev, { role: 'ai', text: text }]);
       }
-    }, 800);
+    }
+    
+    setIsAiLoading(false);
   };
 
   return (
@@ -1045,6 +1102,22 @@ const App = () => {
                   )}
                 </div>
               ))}
+              {isAiLoading && (
+                <div style={{
+                  alignSelf: 'flex-start',
+                  background: 'var(--bg-glass-strong)',
+                  padding: '0.75rem 1rem',
+                  borderRadius: '12px',
+                  borderBottomLeftRadius: '2px',
+                  maxWidth: '85%',
+                  lineHeight: '1.5',
+                  border: '1px solid var(--border-glass)',
+                  fontStyle: 'italic',
+                  color: 'var(--text-dim)'
+                }}>
+                  Thinking...
+                </div>
+              )}
             </div>
             
             <form onSubmit={handleChatSubmit} style={{display: 'flex', gap: '0.5rem', marginTop: 'auto'}}>
